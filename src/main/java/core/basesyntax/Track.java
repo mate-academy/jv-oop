@@ -4,13 +4,11 @@ public class Track extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println("Track has started work");
+        System.out.println("Track has started");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Track has finished work");
-
+        System.out.println("Track has stopped");
     }
 }
-
