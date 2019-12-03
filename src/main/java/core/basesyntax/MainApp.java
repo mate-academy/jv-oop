@@ -25,17 +25,15 @@ public class MainApp {
         machines.add(excavator);
 
         for (Machine m :
-            machines) {
+                machines) {
             m.doWork();
         }
 
         System.out.println();
 
         for (Machine m :
-            machines) {
+                machines) {
             m.stopWork();
         }
     }
-
-
 }
