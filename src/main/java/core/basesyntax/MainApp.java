@@ -12,5 +12,57 @@ package core.basesyntax;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 public class MainApp {
+    public abstract static class Machine {
+        public abstract void doWork();
 
+        public abstract void stopWork();
+    }
+
+    static class Track extends Machine {
+        @Override
+        public void doWork() {
+            System.out.println("Track has started");
+        }
+
+        @Override
+        public void stopWork() {
+            System.out.println("Track has stopped");
+        }
+    }
+
+    static class Bulldozer extends Machine {
+        @Override
+        public void doWork() {
+            System.out.println("Bulldozer has started");
+        }
+
+        @Override
+        public void stopWork() {
+            System.out.println("Bulldozer has stopped");
+        }
+    }
+
+    static class Excavator extends Machine {
+        @Override
+        public void doWork() {
+            System.out.println("Excavator has started");
+        }
+
+        @Override
+        public void stopWork() {
+            System.out.println("Excavator has stopped");
+        }
+    }
+
+    public static void main(String[] args) {
+        Machine ford = new Track();
+        Machine johnDeere = new Bulldozer();
+        Machine caterpillar = new Excavator();
+        ford.doWork();
+        johnDeere.doWork();
+        caterpillar.doWork();
+        ford.stopWork();
+        johnDeere.stopWork();
+        caterpillar.stopWork();
+    }
 }
