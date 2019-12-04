@@ -17,18 +17,12 @@ public class MainApp {
         Machine[] machines = new Machine[3];
         machines[0] = new Bulldozer();
         machines[1] = new Excavator();
-        machines[2] = new Bulldozer();
-
-        for (Machine machine :
-                machines) {
+        machines[2] = new Track();
+        for (Machine machine : machines) {
             machine.doWork();
         }
-
-        for (Machine machine :
-                machines) {
+        for (Machine machine : machines) {
             machine.stopWork();
         }
-
     }
-
 }
