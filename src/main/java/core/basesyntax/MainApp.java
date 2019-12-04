@@ -13,15 +13,15 @@ public class MainApp {
      * - Отправить все машини на работу и остановить работу всех машин.
      */
     public static void main(String[] args) {
-        Excavator excavator = new Excavator();
+        Machine excavator = new Excavator();
         //Excavator
         excavator.doWork();
         excavator.stopWork();
-        Bulldozer bulldozer = new Bulldozer();
+        Machine bulldozer = new Bulldozer();
         //Bulldozer
         bulldozer.doWork();
         bulldozer.stopWork();
-        Track     track = new Track();
+        Machine track = new Track();
         //Track
         track.doWork();
         track.stopWork();
