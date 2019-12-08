@@ -14,16 +14,15 @@ package core.basesyntax;
 public class MainApp {
     public static void main(String[] args) {
         Machine truck1 = new Track();
-        Machine bulldozer2 = new Bulldozer();
-        Machine exacavator3 = new Excavator();
-        Machine[] vechicle = new Machine[]{ truck1, bulldozer2, exacavator3};
-        for (Machine v:vechicle) {
-            v.doWork();
+        Machine bulldozer = new Bulldozer();
+        Machine exacavator = new Excavator();
+        Machine[] vehicles = new Machine[]{ truck1, bulldozer, exacavator};
+        for (Machine machine:vehicles) {
+            machine.doWork();
         }
         System.out.println("Three hours later...");
-        for (Machine v:vechicle) {
-            v.stopWork();
+        for (Machine machine:vehicles) {
+            machine.stopWork();
         }
     }
 }
-
