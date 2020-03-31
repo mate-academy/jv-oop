@@ -16,9 +16,7 @@ public class MainApp {
         Machine track = new Track();
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
-
         Machine[] machines = { track, bulldozer, excavator };
-
         for (Machine m: machines) {
             m.doWork();
         }
