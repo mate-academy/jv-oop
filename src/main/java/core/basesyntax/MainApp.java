@@ -1,5 +1,8 @@
 package core.basesyntax;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * - Создать класс Machine с методами public abstract void doWork()
  * и public abstract void stopWork().
@@ -11,6 +14,17 @@ package core.basesyntax;
  * - В классе Main создать добавить по одному екземпляру каждого класса.
  * - Отправить все машини на работу и остановить работу всех машин.
  */
+
 public class MainApp {
 
+    public static void main(String[] args) {
+        List<Machine> machines = new ArrayList<>();
+        machines.add(new Track());
+        machines.add(new Excavator());
+        machines.add(new Bulldozer());
+        for (Machine x : machines) {
+            x.doWork();
+            x.stopWork();
+        }
+    }
 }
