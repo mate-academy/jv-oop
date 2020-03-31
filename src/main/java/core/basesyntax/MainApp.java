@@ -22,11 +22,5 @@ public class MainApp {
         bulldozer.stopWork();
         excavator.stopWork();
         track.stopWork();
-
     }
-
-
-
-
-
 }
