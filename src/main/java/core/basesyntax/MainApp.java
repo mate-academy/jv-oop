@@ -14,9 +14,9 @@ package core.basesyntax;
 public class MainApp {
     public static void main(String[] args) {
 
-        Excavator exc = new Excavator();
-        Bulldozer bul = new Bulldozer();
-        Track trk = new Track();
+        Machine exc = new Excavator();
+        Machine bul = new Bulldozer();
+        Machine trk = new Track();
 
         exc.doWork();
         bul.doWork();
