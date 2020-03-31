@@ -12,5 +12,15 @@ package core.basesyntax;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 public class MainApp {
-
+    public static void main(String[] args) {
+        Track track1 = new Track("Volvo", 1934, "green");
+        track1.doWork();
+        track1.stopWork();
+        Excavator excavator1 = new Excavator("BMW", 1966, "red");
+        excavator1.doWork();
+        excavator1.stopWork();
+        Bulldozer bulldozer1 = new Bulldozer("Mercedes", 1999, "black");
+        bulldozer1.doWork();
+        bulldozer1.stopWork();
+    }
 }
