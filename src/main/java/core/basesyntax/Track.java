@@ -1,8 +1,6 @@
 package core.basesyntax;
 
 public class Track extends Machine {
-    public Track() {
-    }
 
     @Override
     public void doWork() {
