@@ -2,10 +2,6 @@ package core.basesyntax;
 
 public class Track extends Machine {
 
-    String name;
-    int year;
-    String colour;
-
     public Track(String name, int year, String colour) {
         super(name, year);
     }

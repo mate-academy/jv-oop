@@ -1,8 +1,8 @@
 package core.basesyntax;
 
 public abstract class Machine {
-    String name;
-    int year;
+    private String name;
+    private int year;
 
     public Machine(String name, int year) {
         this.name = name;

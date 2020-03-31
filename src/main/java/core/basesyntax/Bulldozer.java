@@ -1,9 +1,6 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    String name;
-    int year;
-    String colour;
 
     public Bulldozer(String name,int year,String colour) {
         super(name,year);

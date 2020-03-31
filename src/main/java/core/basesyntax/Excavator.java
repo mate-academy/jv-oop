@@ -2,10 +2,6 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
 
-    String name;
-    int year;
-    String colour;
-
     public Excavator(String name, int year, String colour) {
         super(name, year);
     }
