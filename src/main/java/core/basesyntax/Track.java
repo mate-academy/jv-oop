@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Track {
+public class Track extends Machine {
     public void doWork() {
         System.out.println("Track is working!!!");
     }
