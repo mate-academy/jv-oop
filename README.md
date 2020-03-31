@@ -1,7 +1,7 @@
 # jv-oop
 
-- Создать класс Machine с методами _public abstract void doWork()_ и _public abstract void stopWork()_. 
-- Создать классы Track, Bulldozer, Excavator которые унаследуют Machine. 
+- Создать класс core.basesyntax.Machine с методами _public abstract void doWork()_ и _public abstract void stopWork()_.
+- Создать классы Track, Bulldozer, Excavator которые унаследуют core.basesyntax.Machine.
 - Переопределить метод doWork() и вывести в консоль строку с сообщением что та или иная машина начала свою работу.
 - Переопределить метод stopWork() и вывести в консоль строку с сообщением что та или иная машина начала прекратила свою работу.
 - В классе Main создать добавить по одному екземпляру каждого класса.
