@@ -16,14 +16,11 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         Machine track = new Track();
         Machine excavator = new Excavator();
-
         bulldozer.doWork();
         track.doWork();
         excavator.doWork();
-
         bulldozer.stopWork();
         track.stopWork();
         excavator.stopWork();
     }
-
 }
