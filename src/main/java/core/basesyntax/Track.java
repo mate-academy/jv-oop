@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Track extends Machine {
-    public void setTrackOne(Machine trackOne) {
+    public Track() {
     }
 
     @Override

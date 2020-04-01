@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    public void setBulldozerOne(Machine bulldozerOne) {
+    public Bulldozer() {
     }
 
     @Override
