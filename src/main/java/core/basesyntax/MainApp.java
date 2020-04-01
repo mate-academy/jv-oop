@@ -1,5 +1,7 @@
 package core.basesyntax;
 
+import java.util.LinkedList;
+
 /**
  * - Создать класс Machine с методами public abstract void doWork()
  * и public abstract void stopWork().
@@ -14,14 +16,15 @@ package core.basesyntax;
 public class MainApp {
     public static void main(String[] args) {
         Machine excavator = new Excavator();
-        excavator.doWork();
-        excavator.stopWork();
         Machine bulldozer = new Bulldozer();
-        bulldozer.doWork();
-        bulldozer.stopWork();
         Machine track = new Track();
-        track.doWork();
-        track.stopWork();
+        LinkedList<Machine> machines = new LinkedList<>();
+        machines.add(excavator);
+        machines.add(bulldozer);
+        machines.add(track);
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
+        }
     }
-
 }
