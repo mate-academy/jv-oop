@@ -1,11 +1,6 @@
 package core.basesyntax;
 
 public class Excavator extends Machine {
-
-    public Excavator(String name, int year, String colour) {
-        super(name, year);
-    }
-
     @Override
     public void doWork() {
         System.out.println("Excavator started its work");
