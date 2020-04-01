@@ -15,18 +15,14 @@ import java.util.List;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 public class MainApp {
-
     public static void main(String[] args) {
-
         List<Machine> machines = new ArrayList<>();
         machines.add(new Track());
         machines.add(new Bulldozer());
         machines.add(new Excavator());
-
         for (Machine machine : machines) {
             machine.doWork();
         }
-
         for (Machine machine : machines) {
             machine.stopWork();
         }
