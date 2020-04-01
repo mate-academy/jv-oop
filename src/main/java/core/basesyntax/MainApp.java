@@ -13,14 +13,14 @@ package core.basesyntax;
  */
 public class MainApp {
     public static void main(String[] args) {
-        Machine kamaz = new Track();
-        Machine cat = new Bulldozer();
-        Machine jcb = new Excavator();
-        kamaz.doWork();
-        cat.doWork();
-        jcb.doWork();
-        kamaz.stopWork();
-        cat.stopWork();
-        jcb.stopWork();
+        Machine track = new Track();
+        Machine bulldozer = new Bulldozer();
+        Machine excavator = new Excavator();
+        track.doWork();
+        bulldozer.doWork();
+        excavator.doWork();
+        track.stopWork();
+        bulldozer.stopWork();
+        excavator.stopWork();
     }
 }
