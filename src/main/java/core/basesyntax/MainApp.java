@@ -15,13 +15,13 @@ public class MainApp {
 
     public static void main(String[] args) {
         Machine track = new Track();
-        track.doWork();
-        track.stopWork();
         Machine bulldozer = new Bulldozer();
-        bulldozer.doWork();
-        bulldozer.stopWork();
         Machine excavator = new Excavator();
+        track.doWork();
+        bulldozer.doWork();
         excavator.doWork();
+        track.stopWork();
+        bulldozer.stopWork();
         excavator.stopWork();
     }
 }
