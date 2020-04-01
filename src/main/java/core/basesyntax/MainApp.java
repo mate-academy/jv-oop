@@ -17,11 +17,15 @@ public class MainApp {
         Machine track = new Track();
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
-        track.doWork();
-        bulldozer.doWork();
-        excavator.doWork();
-        track.stopWork();
-        bulldozer.stopWork();
-        excavator.stopWork();
+
+        Machine[] arr = {track, bulldozer, excavator};
+
+        for (Machine m : arr) {
+            m.doWork();
+        }
+
+        for (Machine m : arr) {
+            m.stopWork();
+        }
     }
 }
