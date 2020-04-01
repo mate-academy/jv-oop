@@ -1,9 +1,9 @@
 package core.basesyntax;
 
 /**
- * - Создать класс core.basesyntax.Machine с методами public abstract void doWork()
+ * - Создать класс Machine с методами public abstract void doWork()
  * и public abstract void stopWork().
- * - Создать классы Track, Bulldozer, Excavator которые унаследуют core.basesyntax.Machine.
+ * - Создать классы Track, Bulldozer, Excavator которые унаследуют Machine.
  * - Переопределить метод doWork() и вывести в консоль строку с сообщением что та или иная
  * машина начала свою работу.
  * - Переопределить метод stopWork() и вывести в консоль строку с сообщением что та или иная
