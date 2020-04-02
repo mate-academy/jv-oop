@@ -11,7 +11,7 @@ package core.basesyntax;
  * - В классе Main создать добавить по одному екземпляру каждого класса.
  * - Отправить все машини на работу и остановить работу всех машин.
  */
-public class MainApp extends Machine {
+public class MainApp {
     public static void main(String[] args) {
         Machine track = new Track();
         Machine excavator = new Excavator();
