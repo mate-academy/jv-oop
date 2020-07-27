@@ -12,10 +12,14 @@ package core.basesyntax;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 abstract class Machine {
+
     public abstract void doWork();
+
     public abstract void stopWork();
+
 }
-class Track extends Machine{
+
+class Track extends Machine {
 
     @Override
     public void doWork() {
@@ -27,7 +31,8 @@ class Track extends Machine{
         System.out.println("The track stopped working");
     }
 }
-class Bulldozer extends Machine{
+
+class Bulldozer extends Machine {
 
     @Override
     public void doWork() {
@@ -39,7 +44,8 @@ class Bulldozer extends Machine{
         System.out.println("The bulldozer stopped working");
     }
 }
-class Excavator extends Machine{
+
+class Excavator extends Machine {
 
     @Override
     public void doWork() {
@@ -51,11 +57,13 @@ class Excavator extends Machine{
         System.out.println("The excavator stopped working");
     }
 }
+
 public class MainApp {
+
     public static void main(String[] args) {
-        Track track = new Track();
-        Bulldozer bulldozer = new Bulldozer();
-        Excavator excavator = new Excavator();
+        Machine track = new Track();
+        Machine bulldozer = new Bulldozer();
+        Machine excavator = new Excavator();
         track.doWork();
         bulldozer.doWork();
         excavator.doWork();
