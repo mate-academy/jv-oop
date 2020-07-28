@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public abstract class Machine {
 
-    String machineTitle;
+    protected String machineTitle;
 
     public Machine(String machineTitle) {
         this.machineTitle = machineTitle;
