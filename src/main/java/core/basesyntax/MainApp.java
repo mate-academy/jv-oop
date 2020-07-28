@@ -13,4 +13,18 @@ package core.basesyntax;
  */
 public class MainApp {
 
+    public static void main(String[] args){
+        Bulldozer bulldozer = new Bulldozer();
+        Track track = new Track();
+        Excavator excavator = new Excavator();
+
+        bulldozer.doWork();
+        bulldozer.stopWork();
+
+        track.doWork();
+        track.stopWork();
+
+        excavator.doWork();
+        excavator.stopWork();
+    }
 }
