@@ -6,11 +6,6 @@ public class Buldozer extends Machine {
         super(brand, yearOfProduction, carMileage);
     }
 
-    void test(){
-        brand = "Mercedes";
-        yearOfProduction = 1965;
-        carMileage = 1213;
-    }
     @Override
     void doWork() {
         System.out.println("Buldozer starts working");
