@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    protected String machineName = "Bulldozer";
+    private String machineName = "Bulldozer";
 
     @Override
     public void doWork() {
