@@ -17,20 +17,13 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
 
-        doWork(excavator);
-        doWork(bulldozer);
-        doWork(truck);
+        excavator.doWork();
+        bulldozer.doWork();
+        truck.doWork();
 
-        stopWork(excavator);
-        stopWork(bulldozer);
-        stopWork(truck);
+        excavator.stopWork();
+        bulldozer.stopWork();
+        truck.stopWork();
     }
 
-    public static void doWork(Machine machine) {
-        machine.doWork();
-    }
-
-    public static void stopWork(Machine machine) {
-        machine.stopWork();
-    }
 }
