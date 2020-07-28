@@ -3,6 +3,7 @@ package core.basesyntax;
 import core.basesyntax.machines.Bulldozer;
 import core.basesyntax.machines.Excavator;
 import core.basesyntax.machines.Track;
+import core.basesyntax.model.Machine;
 
 /**
  * - Создать класс Machine с методами public abstract void doWork()
@@ -17,9 +18,9 @@ import core.basesyntax.machines.Track;
  */
 public class MainApp {
     public static void main(String[] args) {
-        Track myTrack = new Track();
-        Bulldozer myBulldozer = new Bulldozer();
-        Excavator myExcavator = new Excavator();
+        Machine myTrack = new Track();
+        Machine myBulldozer = new Bulldozer();
+        Machine myExcavator = new Excavator();
 
         myTrack.doWork();
         myBulldozer.doWork();
