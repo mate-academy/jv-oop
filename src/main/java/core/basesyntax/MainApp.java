@@ -17,12 +17,11 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         Machine track = new Track();
         Machine namedTrack = new Track();
-        namedTrack.getName("F1 track");
+        namedTrack.setName("F1 track");
         Machine[] park = {excavator, bulldozer, track, namedTrack};
         for (Machine machine : park) {
             machine.doWork();
             machine.stopWork();
-            //Надеюсь, не принципиально, что бы все работали одновременно.
         }
     }
 }

@@ -14,7 +14,7 @@ public class Track extends Machine {
     }
 
     @Override
-    public void getName(String name) {
+    public void setName(String name) {
         machineName = name;
     }
 }
