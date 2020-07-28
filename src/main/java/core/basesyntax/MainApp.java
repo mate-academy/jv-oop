@@ -12,7 +12,6 @@ package core.basesyntax;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 public class MainApp {
-
         public static void main(String [] args) {
         Machine trackMachine = new Track();
         trackMachine.doWork();
