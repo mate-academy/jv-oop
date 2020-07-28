@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import javax.crypto.Mac;
-
 /**
  * - Создать класс Machine с методами public abstract void doWork()
  * и public abstract void stopWork().
