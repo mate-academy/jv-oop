@@ -1,7 +1,6 @@
 package core.basesyntax;
 
-class Track extends Machine {
-
+public class Track extends Machine {
     @Override
     public void doWork() {
         System.out.println("Track start working");
@@ -11,5 +10,4 @@ class Track extends Machine {
     public void stopWork() {
         System.out.println("Track stop working");
     }
-
 }
