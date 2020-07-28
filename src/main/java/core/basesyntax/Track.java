@@ -11,5 +11,4 @@ public class Track extends Machine {
     public void stopWork() {
         System.out.println("Track stop working");
     }
-
 }
