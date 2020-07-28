@@ -1,5 +1,6 @@
 package core.basesyntax;
 
+
 /**
  * - Создать класс Machine с методами public abstract void doWork()
  * и public abstract void stopWork().
@@ -12,5 +13,17 @@ package core.basesyntax;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 public class MainApp {
-
+    public void mainApp() {
+        Machine excavator = new Excavator();
+        Machine bulldozer = new Bulldozer();
+        Machine track = new Track();
+        Machine namedTrack = new Track();
+        namedTrack.getName("F1 track");
+        Machine[] park = {excavator, bulldozer, track, namedTrack};
+        for (Machine machine : park) {
+            machine.doWork();
+            machine.stopWork();
+            //Надеюсь, не принципиально, что бы все работали одновременно.
+        }
+    }
 }
