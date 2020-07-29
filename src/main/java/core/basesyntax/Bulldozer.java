@@ -2,11 +2,7 @@ package core.basesyntax;
 
 public class Bulldozer extends Machine {
 
-    int ladleCapacity;
-
-    public Bulldozer(int enginePower, int tankVolume, boolean isFixed, int ladleCapacity) {
-        super(enginePower, tankVolume, isFixed);
-        this.ladleCapacity = ladleCapacity;
+    public Bulldozer() {
     }
 
     @Override

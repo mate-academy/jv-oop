@@ -2,14 +2,7 @@ package core.basesyntax;
 
 public abstract class Machine {
 
-    int enginePower;
-    int tankVolume;
-    boolean isFixed;
-
-    public Machine(int enginePower, int tankVolume, boolean isFixed) {
-        this.enginePower = enginePower;
-        this.tankVolume = tankVolume;
-        this.isFixed = isFixed;
+    public Machine() {
     }
 
     public abstract void doWork();

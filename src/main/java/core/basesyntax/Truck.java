@@ -2,11 +2,7 @@ package core.basesyntax;
 
 public class Truck extends Machine {
 
-    int remainingCapacity;
-
-    public Truck(int enginePower, int tankVolume, boolean isFixed, int remainingCapacity) {
-        super(enginePower, tankVolume, isFixed);
-        this.remainingCapacity = remainingCapacity;
+    public Truck() {
     }
 
     @Override

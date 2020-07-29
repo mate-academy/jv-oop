@@ -2,11 +2,7 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
 
-    boolean hasCaterpillar;
-
-    public Excavator(int enginePower, int tankVolume, boolean isFixed, boolean hasCaterpillar) {
-        super(enginePower, tankVolume, isFixed);
-        this.hasCaterpillar = hasCaterpillar;
+  public Excavator() {
     }
 
     @Override
