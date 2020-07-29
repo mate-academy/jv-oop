@@ -19,12 +19,12 @@ public class MainApp {
 
         Machine[] arrayOfMachine = {track, bulldozer, excavator};
 
-        for (Machine amachine : arrayOfMachine) {
-            amachine.doWork();
+        for (Machine machine : arrayOfMachine) {
+            machine.doWork();
         }
 
-        for (Machine amachine : arrayOfMachine) {
-            amachine.stopWork();
+        for (Machine machine : arrayOfMachine) {
+            machine.stopWork();
         }
     }
 }
