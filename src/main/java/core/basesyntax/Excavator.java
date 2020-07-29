@@ -8,11 +8,11 @@ public class Excavator extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(this.machineTitle + " is working!");
+        System.out.println(this.getMachineTitle() + " is working!");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(this.machineTitle + " is doing nothing!");
+        System.out.println(this.getMachineTitle() + " is doing nothing!");
     }
 }
