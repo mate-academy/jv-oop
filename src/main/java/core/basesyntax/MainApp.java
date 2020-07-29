@@ -22,11 +22,8 @@ public class MainApp {
             machine.doWork();
         }
 
-        Machine[] machine = new Machine[]{excavator, bulldozer, track};
         for (Machine machine1 : machines) {
             machine1.stopWork();
         }
-
     }
-
 }
