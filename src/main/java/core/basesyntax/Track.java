@@ -8,11 +8,11 @@ public class Track extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(this.getMachineTitle() + " is working!");
+        System.out.println(getMachineTitle() + " is working!");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(this.getMachineTitle() + " is doing nothing!");
+        System.out.println(getMachineTitle() + " is doing nothing!");
     }
 }
