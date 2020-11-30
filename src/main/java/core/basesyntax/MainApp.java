@@ -9,16 +9,22 @@ public class MainApp {
         Machine[] machinesWork = new Machine[] {bulldozer, excavator, truck};
         Machine[] machinesStop = new Machine[] {bulldozer, excavator, truck};
 
-        for(Machine machine : machinesWork) {work(machine);}
+        for (Machine machine : machinesWork) {
+            work(machine);
+        }
+
         System.out.println();
-        for(Machine machine : machinesStop) {stop(machine);}
+
+        for (Machine machine : machinesStop) {
+            stop(machine);
+        }
     }
 
-    public static void work (Machine machine) {
+    public static void work(Machine machine) {
         machine.doWork();
     }
 
-    public static void stop (Machine machine) {
+    public static void stop(Machine machine) {
         machine.stopWork();
     }
 }
