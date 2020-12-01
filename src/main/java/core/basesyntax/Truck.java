@@ -11,6 +11,6 @@ public class Truck extends Machine {
     @Override
     public void stopWork() {
         this.setActive(false);
-        System.out.println("Having some break! Chill!");
+        System.out.println("The truck is having some break! Chill!");
     }
 }
