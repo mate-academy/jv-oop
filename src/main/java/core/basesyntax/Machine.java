@@ -15,6 +15,6 @@ public abstract class Machine {
     }
 
     public void setActive(boolean active) {
-        isActive = active;
+        this.isActive = active;
     }
 }
