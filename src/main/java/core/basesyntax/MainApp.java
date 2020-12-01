@@ -19,7 +19,7 @@ public class MainApp {
         System.out.println();
 
         for (Machine machine : machines) {
-            if(machine.isActive()) {
+            if (machine.isActive()) {
                 machine.stopWork();
             }
         }
