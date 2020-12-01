@@ -9,12 +9,12 @@ public class MainApp {
 
         Machine[] machinesArr = new Machine[]{truck,bulldozer,excavator};
 
-        for (Machine machine/element : machinesArr) {
-            machineStart.doWork();
+        for (int i = 0; i < machinesArr.length; i++) {
+            machinesArr[i].doWork();
         }
 
-        for (Machine machineStop : machinesArr) {
-            machineStop.stopWork();
+        for (int i = 0; i < machinesArr.length; i++) {
+            machinesArr[i].stopWork();
         }
 
     }
