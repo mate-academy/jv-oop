@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public abstract class Machine {
 
-    private boolean isActive = false;
+    private boolean isActive;
 
     public abstract void doWork();
 
