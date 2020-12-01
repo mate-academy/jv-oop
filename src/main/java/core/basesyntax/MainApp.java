@@ -13,6 +13,12 @@ public class MainApp {
         System.out.println();
 
         for (Machine machine : machines) {
+            machine.isActive();
+        }
+
+        System.out.println();
+
+        for (Machine machine : machines) {
             machine.stopWork();
         }
 
