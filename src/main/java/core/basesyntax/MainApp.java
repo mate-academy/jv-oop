@@ -19,7 +19,9 @@ public class MainApp {
         System.out.println();
 
         for (Machine machine : machines) {
-            machine.stopWork();
+            if(machine.isActive()) {
+                machine.stopWork();
+            }
         }
 
     }
