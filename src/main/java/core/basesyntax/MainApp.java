@@ -6,25 +6,15 @@ public class MainApp {
         Machine excavator = new Excavator();
         Machine truck = new Truck();
 
-        Machine[] machinesWork = new Machine[] {bulldozer, excavator, truck};
-        Machine[] machinesStop = new Machine[] {bulldozer, excavator, truck};
+        Machine[] machines = new Machine[] {bulldozer, excavator, truck};
 
-        for (Machine machine : machinesWork) {
-            work(machine);
-        }
-
-        System.out.println();
-
-        for (Machine machine : machinesStop) {
-            stop(machine);
+        for (Machine machine : machines) {
+            workAndStop(machine);
         }
     }
 
-    public static void work(Machine machine) {
+    public static void workAndStop(Machine machine) {
         machine.doWork();
-    }
-
-    public static void stop(Machine machine) {
         machine.stopWork();
     }
 }
