@@ -3,13 +3,12 @@ package core.basesyntax;
 public class Main {
     public static void main(String[] agrs) {
         Machine excavator = new Excavator();
-        excavator.doWork();
-        excavator.stopWork();
         Machine bulldozer = new Bulldozer();
-        bulldozer.doWork();
-        bulldozer.stopWork();
         Machine truck = new Truck();
-        truck.doWork();
-        truck.stopWork();
+        Machine[] machines = new Machine[] {excavator, bulldozer, truck};
+        for (int i = 0; i < machines.length; i++) {
+            machines[i].doWork();
+            machines[i].stopWork();
+        }
     }
 }
