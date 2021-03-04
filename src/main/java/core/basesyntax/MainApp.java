@@ -1,17 +1,14 @@
 package core.basesyntax;
 
+import javax.crypto.Mac;
+
 public class MainApp {
     public static void main(String[] args) {
-        Machine bulldozer = new Bulldozer();
-        bulldozer.doWork();
-        bulldozer.stopWork();
+        Machine[] machineList = new Machine[]{new Bulldozer(), new Truck(), new Excavator()};
 
-        Machine truck = new Truck();
-        truck.doWork();
-        truck.stopWork();
-
-        Machine excavator = new Excavator();
-        excavator.doWork();
-        excavator.stopWork();
+        for (Machine machine : machineList) {
+            machine.doWork();
+            machine.stopWork();
+        }
     }
 }
