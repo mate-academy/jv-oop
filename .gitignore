@@ -1,7 +1,0 @@
-.idea/*
-*.iml
-target/*
-src/test*
-*.xml
-*.yml
-*.gitignore
