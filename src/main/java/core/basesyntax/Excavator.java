@@ -2,10 +2,6 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
 
-    protected Excavator() {
-
-    }
-
     @Override
     public void doWork() {
         System.out.println("The excavator starts to do something...");

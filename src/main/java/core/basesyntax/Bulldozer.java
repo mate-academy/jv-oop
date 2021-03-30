@@ -2,10 +2,6 @@ package core.basesyntax;
 
 public class Bulldozer extends Machine {
 
-    protected Bulldozer() {
-
-    }
-
     @Override
     public void doWork() {
         System.out.println("The bulldozer starts to do something...");

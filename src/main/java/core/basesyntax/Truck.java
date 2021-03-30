@@ -2,10 +2,6 @@ package core.basesyntax;
 
 public class Truck extends Machine {
 
-    protected Truck() {
-
-    }
-
     @Override
     public void doWork() {
         System.out.println("The truck starts to do something...");
