@@ -8,7 +8,7 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         bulldozer.doWork();
         bulldozer.stopWork();
-        Machine track = new Track();
+        Machine track = new Truck();
         track.doWork();
         track.stopWork();
     }
