@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Truck extends  Machine{
+public class Truck extends Machine {
     @Override
     public void doWork() {
         System.out.println("A truck starts working");
@@ -8,6 +8,6 @@ public class Truck extends  Machine{
 
     @Override
     public void stopWork() {
-        System.out.println("A truck stop working");
+        System.out.println("A truck stops working");
     }
 }
