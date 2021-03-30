@@ -9,9 +9,9 @@ public class MainApp {
         truck.doWork();
         bulldozer.doWork();
         excavator.doWork();
-        truck.stopedWorked();
-        bulldozer.stopedWorked();
-        excavator.stopedWorked();
+        truck.stopWork();
+        bulldozer.stopWork();
+        excavator.stopWork();
     }
 
 }
