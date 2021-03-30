@@ -7,7 +7,7 @@ public class Excavator extends Machine {
     }
 
     @Override
-    public void stopWorked() {
+    public void stopedWorked() {
         System.out.println("Excavator stopped!");
     }
 }
