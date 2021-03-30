@@ -4,20 +4,19 @@ public class MainApp {
     public static void main(String[] args) {
 
         Machine bulldozer = new Bulldozer();
-          bulldozer.doWork();
+        bulldozer.doWork();
 
         Machine track = new Track();
-          track.doWork();
+        track.doWork();
 
         Machine excavator = new Excavator();
-          excavator.doWork();
+        excavator.doWork();
 
-          bulldozer.stopWork();
+        bulldozer.stopWork();
 
-          track.stopWork();
+        track.stopWork();
 
-          excavator.stopWork();
-
+        excavator.stopWork();
 
     }
 
