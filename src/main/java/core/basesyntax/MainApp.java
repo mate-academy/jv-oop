@@ -2,19 +2,19 @@ package core.basesyntax;
 
 public class MainApp {
     public static void main(String[] args) {
-        Truck machine1 = new Truck();
-        machine1.setName("Мишаня");
-        Excavator machine2 = new Excavator();
-        machine2.setName("Ванёк");
-        Bulldozer machine3 = new Bulldozer();
-        machine3.setName("Лёник");
+        Machine truck = new Truck();
+        truck.setName("Мишаня");
+        Machine excavator = new Excavator();
+        excavator.setName("Ванёк");
+        Machine bulldozer = new Bulldozer();
+        bulldozer.setName("Лёник");
 
-        machine1.doWork();
-        machine2.doWork();
-        machine3.doWork();
+        truck.doWork();
+        excavator.doWork();
+        bulldozer.doWork();
 
-        machine1.stopWork();
-        machine2.stopWork();
-        machine3.stopWork();
+        truck.stopWork();
+        excavator.stopWork();
+        bulldozer.stopWork();
     }
 }

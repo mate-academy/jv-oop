@@ -1,17 +1,6 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
-
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
     @Override
     public void doWork() {
         System.out.println("Я - БУЛЬДОЗЕР, МЕНЯ ЗОВУТ " + getName() + " И Я ПРИСТУПАЮ К РАБОТЕ!\n"
