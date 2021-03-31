@@ -2,24 +2,21 @@ package core.basesyntax;
 
 public class MainApp {
     public static void main(String[] args) {
+        Machine truck = new Truck();
+        Machine bulldozer = new Bulldozer();
+        Machine excavator = new Excavator();
 
-        Machine truck001 = new Truck();
-        Machine bulldozer001 = new Bulldozer();
-        Machine excavator001 = new Excavator();
+        truck.setName("\"TeslaCyberTrack\"");
+        bulldozer.setName("\"Caterpillar\"");
+        excavator.setName("\"Bagger228\"");
 
-        truck001.setName("\"TeslaCyberTrack\"");
-        bulldozer001.setName("\"Caterpillar\"");
-        excavator001.setName("\"Bagger228\"");
+        truck.doWork();
+        bulldozer.doWork();
+        excavator.doWork();
 
-        truck001.doWork();
-        bulldozer001.doWork();
-        excavator001.doWork();
-
-        System.out.println(); //Blank line between starters and stoppers
-
-        truck001.stopWork();
-        bulldozer001.stopWork();
-        excavator001.stopWork();
+        truck.stopWork();
+        bulldozer.stopWork();
+        excavator.stopWork();
     }
 
 }
