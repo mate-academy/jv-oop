@@ -2,16 +2,16 @@ package core.basesyntax;
 
 public class MainApp {
     public static void main(String[] args) {
-      Truck Alfa = new Truck();
-      Bulldozer Beta = new Bulldozer();
-      Excavator Gamma = new Excavator();
+        Truck alfa = new Truck();
+        Bulldozer beta = new Bulldozer();
+        Excavator gamma = new Excavator();
 
-      Alfa.doWork();
-      Beta.doWork();
-      Gamma.doWork();
+        alfa.doWork();
+        beta.doWork();
+        gamma.doWork();
 
-      Alfa.stopWork();
-      Beta.stopWork();
-      Gamma.stopWork();
+        alfa.stopWork();
+        beta.stopWork();
+        gamma.stopWork();
     }
 }
