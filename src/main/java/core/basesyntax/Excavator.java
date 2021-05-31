@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
     @Override
-    public String doWork(){
+    public String doWork() {
         return "Excavator started its work";
     }
 

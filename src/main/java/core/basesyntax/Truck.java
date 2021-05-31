@@ -1,8 +1,8 @@
 package core.basesyntax;
 
-public class Truck extends Machine{
+public class Truck extends Machine {
     @Override
-    public String doWork(){
+    public String doWork() {
         return "Truck started its work";
     }
 
