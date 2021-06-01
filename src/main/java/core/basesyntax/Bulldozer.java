@@ -3,11 +3,11 @@ package core.basesyntax;
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
-        System.out.println("брбрбрбрбрбрбрбрбрбр");
+        System.out.println("Hello");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("брбрбрббр, вирубаюсь");
+        System.out.println("Goodnight");
     }
 }
