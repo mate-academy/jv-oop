@@ -1,4 +1,6 @@
-public class Truck extends Machine{
+package core.basesyntax;
+
+public class Truck extends Machine {
     @Override
     public void doWork() {
         System.out.println("I'm a funny truck. I'm starting to work!");

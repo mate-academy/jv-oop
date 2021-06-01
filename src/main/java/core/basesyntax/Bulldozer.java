@@ -1,4 +1,6 @@
-public class Bulldozer extends Machine{
+package core.basesyntax;
+
+public class Bulldozer extends Machine {
     @Override
     public void doWork() {
         System.out.println("I'm a bossy bulldozer. I lead everyone!");

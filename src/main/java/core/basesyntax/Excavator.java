@@ -1,4 +1,6 @@
-public class Excavator extends Machine{
+package core.basesyntax;
+
+public class Excavator extends Machine {
     @Override
     public void doWork() {
         System.out.println("Oh, no. Another working day(");
