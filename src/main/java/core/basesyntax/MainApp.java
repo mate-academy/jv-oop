@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 public class MainApp {
     public static void main(String[] args) {
         Machine firstCare = new Excavator();
@@ -13,7 +14,5 @@ public class MainApp {
         System.out.println(firstCare.stopWork());
         System.out.println(secondCare.stopWork());
         System.out.println(thirdCare.stopWork());
-
     }
-
 }
