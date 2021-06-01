@@ -2,19 +2,19 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
     public Excavator(String model, String fuel, int year, int countWheels) {
-        model = getModel();
-        fuel = getFuel();
-        year = getYear();
-        countWheels = getCountWheels();
+        this.setModel(model);
+        this.setFuel(fuel);
+        this.setYear(year);
+        this.setCountWheels(countWheels);
     }
 
     @Override
     public void doWork() {
-        System.out.println("This Excavator started work");
+        System.out.println("This EXCAVATOR " + getModel() + " started work");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("This Excavator stopped work!");
+        System.out.println("This EXCAVATOR " + getModel() + " stopped work!");
     }
 }
