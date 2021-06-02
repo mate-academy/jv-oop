@@ -6,6 +6,13 @@ public abstract class Machine {
     private int year;
     private int countWheels;
 
+    public Machine (String model, String fuel, int year, int countWheels) {
+        this.setModel(model);
+        this.setFuel(fuel);
+        this.setYear(year);
+        this.setCountWheels(countWheels);
+    }
+
     public void setModel(String model) {
         this.model = model;
     }

@@ -2,10 +2,7 @@ package core.basesyntax;
 
 public class Truck extends Machine {
     public Truck(String model, String fuel, int year, int countWheels) {
-        this.setModel(model);
-        this.setFuel(fuel);
-        this.setYear(year);
-        this.setCountWheels(countWheels);
+        super(model, fuel, year, countWheels);
     }
 
     @Override

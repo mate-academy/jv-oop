@@ -2,10 +2,7 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
     public Excavator(String model, String fuel, int year, int countWheels) {
-        this.setModel(model);
-        this.setFuel(fuel);
-        this.setYear(year);
-        this.setCountWheels(countWheels);
+        super(model, fuel, year, countWheels);
     }
 
     @Override
