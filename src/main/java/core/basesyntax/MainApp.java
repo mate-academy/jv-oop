@@ -11,13 +11,11 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
 
-        System.out.println("START:");
         truck.doWork();
         bulldozer.doWork();
         excavator.doWork();
 
         System.out.println();
-        System.out.println("STOP:");
         truck.stopWork();
         bulldozer.stopWork();
         excavator.stopWork();
