@@ -3,11 +3,11 @@ package core.basesyntax;
 public class MainApp {
     public static void main(String[] args) {
         Excavator excavator = new Excavator();
-        excavator.model = "Cat";
+        excavator.setModel("CAT");
         Bulldozer bulldozer = new Bulldozer();
-        bulldozer.model = "John Deere";
+        bulldozer.setModel("John Deere");
         Truck truck = new Truck();
-        truck.model = "Ford";
+        truck.setModel("Ford");
 
         bulldozer.doWork();
         excavator.doWork();

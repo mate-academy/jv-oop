@@ -1,7 +1,15 @@
 package core.basesyntax;
 
 public abstract class Machine {
-    public String model;
+    private String model;
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getModel() {
+        return model;
+    }
 
     public abstract void doWork();
 
