@@ -5,16 +5,14 @@ public class MainApp {
         Machine excavator = new Excavator();
         excavator.doWork();
         excavator.stopWork();
-        System.out.println();
 
         Machine bulldozer = new Bulldozer();
         bulldozer.doWork();
         bulldozer.stopWork();
-        System.out.println();
 
         Machine truck = new Truck();
         truck.doWork();
         truck.stopWork();
-        System.out.println();
+
     }
 }
