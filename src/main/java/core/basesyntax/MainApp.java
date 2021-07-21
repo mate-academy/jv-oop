@@ -13,6 +13,5 @@ public class MainApp {
         Machine truck = new Truck();
         truck.doWork();
         truck.stopWork();
-
     }
 }
