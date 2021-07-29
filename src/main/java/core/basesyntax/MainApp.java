@@ -9,8 +9,8 @@ public class MainApp {
           graider.doWork();
           graider.stopWork();
         Excavator CAT = new Excavator();
-        CAT.doWork();
-        CAT.stopWork();
+          CAT.doWork();
+          CAT.stopWork();
     }
 
 
