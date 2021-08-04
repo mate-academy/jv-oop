@@ -1,7 +1,15 @@
 package core.basesyntax;
 
 public class MainApp {
-    public int matchResult(int result1, int result2, int bet1, int bet2) {
-        return ((result1 == bet1 && result2 == bet2) ? 2 : ((result1 > result2 && bet1 > bet2) ? 1 : ((result1 < result2 && bet1 < bet2) ? 1 : ((result1 == result2 && bet1 == bet2) ? 1 : 0))));
+    public static void main(String[] args) {
+        Machine excavator = new Excavator();
+        Machine truck = new Truck();
+        Machine bulldozer = new Bulldozer();
+        excavator.doWork();
+        truck.doWork();
+        bulldozer.doWork();
+        excavator.stopWork();
+        truck.stopWork();
+        bulldozer.stopWork();
     }
 }
