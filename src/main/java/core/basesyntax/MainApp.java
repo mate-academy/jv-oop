@@ -11,7 +11,7 @@ public class MainApp {
             name.doWork();
         }
         for (Machine name : machines) {
-            name.doWork();
+            name.stopWork();
         }
     }
 }
