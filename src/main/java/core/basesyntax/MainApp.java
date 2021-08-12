@@ -8,7 +8,7 @@ import core.garage.Truck;
 public class MainApp {
     public static void main(String[] args) {
         Machine truckMan = new Truck();
-        Machine bulldozerCaterpillar =new Bulldozer();
+        Machine bulldozerCaterpillar = new Bulldozer();
         Machine excavatorKomatsu = new Excavator();
 
         truckMan.doWork();
