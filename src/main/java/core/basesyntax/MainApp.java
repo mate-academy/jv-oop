@@ -11,10 +11,8 @@ public class MainApp {
         track.doWork();
         excavator.doWork();
         bulldozer.doWork();
-
         track.stopWork();
         excavator.stopWork();
         bulldozer.stopWork();
     }
-
 }
