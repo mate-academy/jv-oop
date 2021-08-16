@@ -1,7 +1,6 @@
 package vehicles;
 
 public class Bulldozer extends Machine {
-
     @Override
     public void doWork() {
         System.out.println("Bulldozer has started its working");
