@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="MainApp" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="core.basesyntax.MainApp" />
-    <module name="oop-example" />
-    <method v="2">
-      <option name="Make" enabled="true" />
-    </method>
-  </configuration>
-</component>
