@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public class Track extends Machine {
-
     @Override
     public void doWork() {
         System.out.println("The track starts to work.");
