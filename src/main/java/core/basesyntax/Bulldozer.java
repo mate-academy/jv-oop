@@ -1,10 +1,6 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
 
     @Override
     public void doWork() {
