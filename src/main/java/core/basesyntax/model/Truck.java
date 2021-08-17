@@ -1,10 +1,12 @@
-package core.basesyntax;
+package core.basesyntax.model;
+
+import core.basesyntax.model.Machine;
 
 public class Truck extends Machine {
 
     @Override
     public void doWork() {
-        super.doWork();
+        System.out.println("Truck started working");
     }
 
     @Override

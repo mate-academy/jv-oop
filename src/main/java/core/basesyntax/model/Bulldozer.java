@@ -1,10 +1,10 @@
-package core.basesyntax;
+package core.basesyntax.model;
 
 public class Bulldozer extends Machine {
 
     @Override
     public void doWork() {
-        super.doWork();
+        System.out.println("Bulldozer started working");
     }
 
     @Override

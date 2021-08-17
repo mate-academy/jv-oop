@@ -1,11 +1,9 @@
-package core.basesyntax;
+package core.basesyntax.model;
 
 import org.w3c.dom.ls.LSOutput;
 
 public abstract class Machine {
-    public void doWork() {
-        System.out.println("started working");;
-    }
+    public abstract void doWork();
 
     public abstract void stopWork();
 }

@@ -1,10 +1,10 @@
-package core.basesyntax;
+package core.basesyntax.model;
 
 public class Excavator extends Machine {
 
     @Override
     public void doWork() {
-        super.doWork();
+        System.out.println("Excavator started working");
     }
 
     @Override
