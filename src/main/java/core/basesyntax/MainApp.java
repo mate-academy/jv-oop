@@ -7,16 +7,13 @@ import core.basesyntax.models.Truck;
 
 public class MainApp {
     public static void main(String[] args) {
-        Machine truck1 = new Truck();
-        truck1.setSerialNumber("T1");
-
-        Machine bulldozer1 = new Bulldozer();
-        bulldozer1.setSerialNumber("B1");
-
-        Machine excavator1 = new Excavator();
-        excavator1.setSerialNumber("E1");
-
-        Machine[] machines = new Machine[] {truck1, bulldozer1, excavator1};
+        Machine firstTruck = new Truck();
+        firstTruck.setSerialNumber("T1");
+        Machine firstBulldozer = new Bulldozer();
+        firstBulldozer.setSerialNumber("B1");
+        Machine firstExcavator = new Excavator();
+        firstExcavator.setSerialNumber("E1");
+        Machine[] machines = new Machine[] {firstTruck, firstBulldozer, firstExcavator};
 
         for (Machine machine : machines) {
             machine.doWork();
