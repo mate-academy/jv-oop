@@ -5,10 +5,10 @@ public class MainApp {
         Excavator excavator = new Excavator("Excavator");
         Bulldozer bulldozer = new Bulldozer("Bulldozer");
         Truck truck = new Truck("Truck");
-        truck.stopWork();
+        truck.doWork();
         excavator.doWork();
         bulldozer.doWork();
-        truck.doWork();
+        truck.stopWork();
         excavator.stopWork();
         bulldozer.stopWork();
     }
