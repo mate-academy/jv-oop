@@ -13,10 +13,10 @@ public class MainApp {
 
             }
         };
-        
-        Excavator excavator = new Excavator();
-        Bulldozer bulldozer = new Bulldozer();
-        Truck truck = new Truck();
+
+        Machine excavator = new Excavator();
+        Machine bulldozer = new Bulldozer();
+        Machine truck = new Truck();
 
         excavator.doWork();
         bulldozer.doWork();
