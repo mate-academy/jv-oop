@@ -8,13 +8,12 @@ import vehicles.Truck;
 public class MainApp {
     public static void main(String[] args) {
         Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
-
-        for (Machine veihcle : machines) {
-            veihcle.doWork();
+        for (Machine vehicle : machines) {
+            vehicle.doWork();
         }
         System.out.println();
-        for (Machine veihcle : machines) {
-            veihcle.stopWork();
+        for (Machine vehicle : machines) {
+            vehicle.stopWork();
         }
     }
 }
