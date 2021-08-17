@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public class Truck extends Machine {
-
     public Truck(String name) {
         super(name);
     }
