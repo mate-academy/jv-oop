@@ -9,5 +9,3 @@ public class Bulldozer extends Machine {
         System.out.println("bulldozer finished its work");
     }
 }
-
-
