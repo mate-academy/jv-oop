@@ -1,5 +1,10 @@
 package core.basesyntax;
 
+import core.basesyntax.model.Bulldozer;
+import core.basesyntax.model.Excavator;
+import core.basesyntax.model.Machine;
+import core.basesyntax.model.Track;
+
 /**
  * - Создать класс Machine с методами public abstract void doWork()
  * и public abstract void stopWork().
@@ -12,5 +17,18 @@ package core.basesyntax;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 public class MainApp {
+    public static void main(String[] args) {
+        Machine bulldozer = new Bulldozer();
+        Machine excavator = new Excavator();
+        Machine track = new Track();
+
+        bulldozer.doWork();
+        excavator.doWork();
+        track.doWork();
+
+        bulldozer.stopWork();
+        excavator.stopWork();
+        track.stopWork();
+    }
 
 }
