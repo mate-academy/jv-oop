@@ -1,5 +1,18 @@
 package core.basesyntax;
 
-public class MainApp {
+import core.basesyntax.machines.Bulldozer;
+import core.basesyntax.machines.Excavator;
+import core.basesyntax.machines.Machine;
+import core.basesyntax.machines.Truck;
 
+public class MainApp {
+    public static void main(String[] args) {
+        Machine[] arrOfMachines = {new Bulldozer(), new Excavator(), new Truck()};
+        for (Machine machine : arrOfMachines) {
+            machine.doWork();
+        }
+        for (Machine machine : arrOfMachines) {
+            machine.stopWork();
+        }
+    }
 }
