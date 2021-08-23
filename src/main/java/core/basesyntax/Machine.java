@@ -1,6 +1,7 @@
 package core.basesyntax;
 
 public abstract class Machine {
+
     private String name;
 
     public void setName(String name) {
