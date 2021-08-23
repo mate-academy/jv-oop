@@ -16,8 +16,5 @@ public class MainApp {
         excavator.setName("Caterpillar");
         excavator.doWork();
         excavator.stopWork();
-
     }
-
-
 }
