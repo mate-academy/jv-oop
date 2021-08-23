@@ -14,5 +14,4 @@ public class MainApp {
         truck.doWork();
         truck.stopWork();
     }
-
 }
