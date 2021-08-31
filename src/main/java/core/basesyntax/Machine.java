@@ -4,5 +4,5 @@ public abstract class Machine {
 
     public abstract void doWork();
 
-    public abstract String stopWork();
+    public abstract void stopWork();
 }

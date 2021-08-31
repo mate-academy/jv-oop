@@ -8,8 +8,8 @@ public class MainApp {
         excavator.doWork();
         bulldozer.doWork();
         truck.doWork();
-        System.out.println(excavator.stopWork());
-        System.out.println(bulldozer.stopWork());
-        System.out.println(truck.stopWork());
+        excavator.stopWork();
+        bulldozer.stopWork();
+        truck.stopWork();
     }
 }
