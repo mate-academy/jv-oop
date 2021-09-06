@@ -10,7 +10,6 @@ public class MainApp {
         excavator.doWork();
         bulldozer.doWork();
 
-
         truck.stopWork();
         bulldozer.stopWork();
         excavator.stopWork();
