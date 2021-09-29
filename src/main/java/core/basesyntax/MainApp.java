@@ -14,4 +14,3 @@ public class MainApp {
         excavator.stopWork();
     }
 }
-
