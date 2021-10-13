@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class Main {
     public static void main(String[] args) {
-        Truck truck = new Truck();
+        Machine truck = new Truck();
         Bulldozer bulldozer = new Bulldozer();
         Excavator excavator = new Excavator();
 
