@@ -1,10 +1,8 @@
-package main.java.core.basesyntax;
+package core.basesyntax;
 
-abstract class Machine {
+public abstract class Machine {
+    abstract void doWork();
 
-    abstract public void doWork();
-
-    abstract public void stopWork();
+    abstract void stopWork();
 
 }
-
