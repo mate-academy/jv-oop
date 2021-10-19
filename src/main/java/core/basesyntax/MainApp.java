@@ -18,3 +18,4 @@ public class MainApp {
         machines.forEach(machine -> machine.stopWork());
     }
 }
+
