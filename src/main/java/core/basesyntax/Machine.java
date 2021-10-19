@@ -1,10 +1,10 @@
 package main.java.core.basesyntax;
 
-interface Machine {
+abstract class Machine {
 
-    void doWork();
+    abstract public void doWork();
 
-    void stopWork();
+    abstract public void stopWork();
 
 }
 
