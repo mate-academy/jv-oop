@@ -1,7 +1,6 @@
 package main.java.core.basesyntax;
 
-class Excavator extends Machine {
-
+public class Excavator implements Machine {
     @Override
     public void doWork() {
         System.out.println("The excavator is starting");

@@ -1,7 +1,6 @@
 package main.java.core.basesyntax;
 
-class Truck extends Machine {
-
+public class Truck implements Machine {
     @Override
     public void doWork() {
         System.out.println("The truck is starting");
