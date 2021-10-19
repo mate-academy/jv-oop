@@ -12,5 +12,4 @@ public class MainApp {
         bulldozer.doWork();
         bulldozer.stopWork();
     }
-
 }
