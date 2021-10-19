@@ -1,17 +1,21 @@
 package core.basesyntax;
 
+import java.util.ArrayList;
+
 public class MainApp {
     public static void main(String[] args) {
         Machine truck = new Truck();
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
 
-        truck.doWork();
-        bulldozer.doWork();
-        excavator.doWork();
+        ArrayList<Machine> machines = new ArrayList<>();
+        machines.add(truck);
+        machines.add(bulldozer);
+        machines.add(excavator);
 
-        truck.stopWork();
-        bulldozer.stopWork();
-        excavator.stopWork();
+        for (Machine m : machines) {
+            m.doWork();
+            m.stopWork();
+        }
     }
 }
