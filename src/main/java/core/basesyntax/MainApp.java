@@ -1,12 +1,20 @@
 package main.java.core.basesyntax;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainApp {
     public static void main(String[] args) {
-        new Truck();
-        new Buldozer();
-        new Excavator();
+        Machine truck = new Truck();
+        Machine buldozer = new Buldozer();
+        Machine excavator = new Excavator();
 
-        Machine.startAllMachines();
-        Machine.stopAllMachines();
+        List<Machine> machines = new ArrayList<>();
+        machines.add(truck);
+        machines.add(buldozer);
+        machines.add(excavator);
+
+        machines.forEach(machine -> machine.doWork());
+        machines.forEach(machine -> machine.stopWork());
     }
 }
