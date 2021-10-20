@@ -7,10 +7,10 @@ public class MainApp {
         Machine truck = new Truck();
         Machine[] machines = new Machine[] {bulldozer, excavator, truck};
 
-        for (Machine thisMachine : machines) {
+        for (Machine machine : machines) {
             thisMachine.doWork();
         }
-        for (Machine thisMachine : machines) {
+        for (Machine machine : machines) {
             thisMachine.stopWork();
         }
     }
