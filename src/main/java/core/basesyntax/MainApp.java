@@ -7,19 +7,14 @@ import core.basesyntax.samples.Truck;
 
 public class MainApp {
     public static void main(String[] args) {
-        Machine truck = new Truck();
-        Machine bulldozer = new Bulldozer();
-        Machine excavator = new Excavator();
+        Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
 
-        truck.setTypeOfMmachine("Truck");
-        bulldozer.setTypeOfMmachine("Bulldozer");
-        excavator.setTypeOfMmachine("Excavator");
+        for (Machine type : machines) {
+            type.doWork();
+        }
 
-        truck.doWork();
-        bulldozer.doWork();
-        excavator.doWork();
-        truck.stopWork();
-        bulldozer.stopWork();
-        excavator.stopWork();
+        for (Machine type : machines) {
+            type.stopWork();
+        }
     }
 }
