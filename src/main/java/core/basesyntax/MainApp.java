@@ -6,7 +6,6 @@ import core.basesyntax.models.Machine;
 import core.basesyntax.models.Truck;
 
 public class MainApp {
-
     public static void main(String[] args) {
         Machine[] machines = new Machine[3];
         machines[0] = new Excavator();
