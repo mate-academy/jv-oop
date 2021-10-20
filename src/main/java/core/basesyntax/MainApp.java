@@ -6,17 +6,16 @@ import core.basesyntax.models.Machine;
 import core.basesyntax.models.Truck;
 
 public class MainApp {
-    private static Machine excavator = new Excavator();
-    private static Machine bulldozer = new Bulldozer();
-    private static Machine truck = new Truck();
 
     public static void main(String[] args) {
-        excavator.doWork();
-        bulldozer.doWork();
-        truck.doWork();
+        Machine[] machines = new Machine[3];
+        machines[0] = new Excavator();
+        machines[1] = new Bulldozer();
+        machines[2] = new Truck();
 
-        excavator.stopWork();
-        bulldozer.stopWork();
-        truck.stopWork();
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
+        }
     }
 }
