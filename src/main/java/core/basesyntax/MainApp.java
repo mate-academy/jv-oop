@@ -16,6 +16,5 @@ public class MainApp {
         for (Machine machine : techniques) {
             machine.stopWork();
         }
-
     }
 }
