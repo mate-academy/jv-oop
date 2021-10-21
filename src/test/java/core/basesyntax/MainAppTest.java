@@ -14,5 +14,4 @@ public class MainAppTest {
             machine.stopWork();
         }
     }
-
 }
