@@ -8,9 +8,9 @@ public class MainApp {
 
         Machine[] machines = new Machine[]{truck, bulldozer, excavator};
 
-        for (Machine m : machines) {
-            m.doWork();
-            m.stopWork();
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
