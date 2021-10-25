@@ -10,4 +10,3 @@ public class Truck extends Machine {
         System.out.println("Truck stopped its work");
     }
 }
-
