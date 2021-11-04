@@ -1,18 +1,20 @@
 package core.basesyntax;
 
     public class Machine {
-    public String name;
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getName() {
-        return name;
-    }
-    public void doWork() {
-    }
-    public void stopWork() {
-    }
-    }
+        public String name;
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return name;
+        }
+        public void doWork() {
+        }
+        public void stopWork() {
+        }
+        }
     class Excavator extends Machine {
     @Override
     public void doWork() {
