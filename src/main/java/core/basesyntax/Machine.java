@@ -9,7 +9,6 @@ package core.basesyntax;
         return name;
     }
     public void doWork() {
-
     }
     public void stopWork() {
     }
