@@ -12,10 +12,10 @@ public class MainApp {
         bulldozer.stopWork();
         bulldozer.setName("Bulldozer");
 
-
         Machine excavator = new Excavator();
         excavator.doWork();
         excavator.stopWork();
         excavator.setName("Excavator");
+
     }
 }
