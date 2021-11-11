@@ -12,8 +12,6 @@ public abstract class Machine {
         this.name = name;
     }
 
-
-
     public abstract void doWork();
 
     public abstract void stopWork();
