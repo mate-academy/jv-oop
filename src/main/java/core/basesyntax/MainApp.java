@@ -6,9 +6,9 @@ public class MainApp {
         Machine truck = new Truck();
         Machine excavator = new Excavator();
         Machine bulldozer = new Bulldozer();
-        truck.name = "Megatruck";
-        excavator.name = "Excavator315";
-        bulldozer.name = "Buller";
+        truck.setName("Megatruck");
+        excavator.setName("Excavator315");
+        bulldozer.setName("Buller");
 
         truck.doWork();
         excavator.doWork();
