@@ -11,6 +11,5 @@ public class Bulldozer extends Mashine {
     public void stopWork() {
         System.out.println("Bulldozer stopped its work");
     }
-
 }
 

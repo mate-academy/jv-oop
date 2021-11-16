@@ -5,3 +5,4 @@ public abstract class Mashine {
     public abstract void stopWork();
 }
 
+
