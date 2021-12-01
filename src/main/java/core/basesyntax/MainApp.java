@@ -3,17 +3,17 @@ package core.basesyntax;
 public class MainApp {
 
     public static void main(String[] args) {
-        Machine machine1 = new Excavator();
-        Machine machine2 = new Bulldozer();
-        Machine machine3 = new Truck();
+        Machine excavator = new Excavator();
+        Machine bulldozer = new Bulldozer();
+        Machine truck = new Truck();
 
-        machine1.doWork();
-        machine2.doWork();
-        machine3.doWork();
+        excavator.doWork();
+        bulldozer.doWork();
+        truck.doWork();
 
-        machine1.stopWork();
-        machine2.stopWork();
-        machine3.stopWork();
+        excavator.stopWork();
+        bulldozer.stopWork();
+        truck.stopWork();
 
     }
 
