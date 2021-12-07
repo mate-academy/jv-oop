@@ -3,9 +3,9 @@ package core.basesyntax;
 public class MainAppTest {
 
     public static void main(String[] args) {
-        Machine truck = new Truck();
-        Machine bulldozer = new Bulldozer();
-        Machine excavator = new Excavator();
+        MainApp truck = new Truck();
+        MainApp bulldozer = new Bulldozer();
+        MainApp excavator = new Excavator();
 
         truck.doWork();
         truck.stopWork();
