@@ -7,13 +7,13 @@ public class MainApp {
             value.doWork();
             value.stopWork();
         }
-        /*Machine excavator = new Excavator();
+        /*Machine excavator = new Machine();
         excavator.doWork();
         excavator.stopWork();
-        Machine bulldozer = new Bulldozer();
+        Machine bulldozer = new Machine();
         bulldozer.doWork();
         bulldozer.stopWork();
-        Machine truck = new Truck();
+        Machine truck = new Machine();
         truck.doWork();
         truck.stopWork();*/
     }
