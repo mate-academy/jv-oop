@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public abstract class Machine {
-    // --Commented out by Inspection (26//
+
     private String name;
 
     public String getName() {
