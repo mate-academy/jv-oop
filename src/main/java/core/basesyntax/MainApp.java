@@ -14,5 +14,4 @@ public class MainApp {
             machines[i].stopWork();
         }
     }
-
 }
