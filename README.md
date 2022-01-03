@@ -1,9 +1,10 @@
 # jv-oop
 
-- Создать класс Machine с методами _public abstract void doWork()_ и _public abstract void stopWork()_. 
-- Создать классы Track, Bulldozer, Excavator которые унаследуют Machine. 
-- Переопределить метод doWork() и вывести в консоль строку с сообщением что та или иная машина начала свою работу.
-- Переопределить метод stopWork() и вывести в консоль строку с сообщением что та или иная машина начала прекратила свою работу.
-- В классе Main создать добавить по одному екземпляру каждого класса.
-- Отправить все машини на работу и остановить работу всех машин.
+- Create class Machine containing methods `public abstract void doWork()` and `public abstract void stopWork()`.  
+- Create classes `Truck`, `Bulldozer`, `Excavator` that will inherit from `Machine`.
+- In those classes override `doWork()`, so it will print message that certain machine started its work.
+- Override `stopWork()` as well. It should print messages that certain machine stopped its work.
+- In `Main` class create an object of each class.
+- Start work of all machines and then stop them.
 
+#### [Try to avoid these common mistakes, while solving task](https://mate-academy.github.io/jv-program-common-mistakes/java-core/oop/oop)
