@@ -4,11 +4,11 @@ public class Truck extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(getName() + " start working");
+        System.out.println(getClass().getSimpleName() + " start working");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(getName() + " stop working");
+        System.out.println(getClass().getSimpleName() + " stop working");
     }
 }
