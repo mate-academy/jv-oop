@@ -6,13 +6,12 @@ public class MainApp {
         Machine truck = new Truck();
         Machine excavator = new Excavator();
 
-        bulldozer.doWork();
-        truck.doWork();
-        excavator.doWork();
-
-        System.out.println();
-        bulldozer.stopWork();
-        truck.stopWork();
-        excavator.stopWork();
+        Machine[] machines = new Machine[] {bulldozer, truck, excavator};
+        for (int i = 0; i < machines.length; i++) {
+            machines[i].doWork();
+        }
+        for (int i = 0; i < machines.length; i++) {
+            machines[i].stopWork();
+        }
     }
 }
