@@ -5,6 +5,7 @@ public class Bulldoser extends Machine {
     public void doWork() {
         System.out.println("Bulldoser start work!");
     }
+
     @Override
     public void stopWork() {
         System.out.println("Bulldoser stop work!");

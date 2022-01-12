@@ -11,7 +11,7 @@ public class MainApp {
         bulldoser.stopWork();
         truck.stopWork();
         excavator.stopWork();
-        }
-
     }
+
+}
 
