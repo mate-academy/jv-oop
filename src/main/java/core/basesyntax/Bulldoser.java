@@ -1,6 +1,6 @@
-package core.basesyntax;
+package core.basesyntax
 
-public class Bulldoser extends Machine{
+public class Bulldoser extends Machine {
     @Override
     public void doWork() {
         System.out.println("Bulldoser start work!");
