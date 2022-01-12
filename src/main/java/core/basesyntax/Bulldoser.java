@@ -1,4 +1,4 @@
-package core.basesyntax
+package core.basesyntax;
 
 public class Bulldoser extends Machine {
     @Override
