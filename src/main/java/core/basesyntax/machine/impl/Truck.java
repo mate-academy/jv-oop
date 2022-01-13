@@ -1,4 +1,5 @@
 package core.basesyntax.machine.impl;
+
 import core.basesyntax.machine.Machine;
 
 public class Truck extends Machine {
