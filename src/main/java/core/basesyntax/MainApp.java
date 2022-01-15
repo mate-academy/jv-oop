@@ -1,5 +1,9 @@
 package core.basesyntax;
 
+import classes.Bulldozer;
+import classes.Excavator;
+import classes.Truck;
+
 public class MainApp {
     public static void main(String[] args) {
         Bulldozer bulldozer = new Bulldozer();
@@ -14,3 +18,4 @@ public class MainApp {
         truck.stopWork();
     }
 }
+
