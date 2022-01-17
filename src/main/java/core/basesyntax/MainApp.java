@@ -5,11 +5,9 @@ public class MainApp {
         Bulldozer bulldozer = new Bulldozer();
         Excavator excavator = new Excavator();
         Truck truck = new Truck();
-
         bulldozer.doWork();
         excavator.doWork();
         truck.doWork();
-
         bulldozer.stopWork();
         excavator.stopWork();
         truck.stopWork();
