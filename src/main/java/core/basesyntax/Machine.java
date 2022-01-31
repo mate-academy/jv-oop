@@ -5,6 +5,8 @@ public abstract class Machine {
     private String model;
     private int yearOfManufacture;
     private String color;
+    public Machine(){
+    }
     public abstract void doWork();
     public abstract void stopWork();
     public String getBrand(){

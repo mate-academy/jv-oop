@@ -14,7 +14,6 @@ public class MainApp {
         jcb.doWork();
         cat.doWork();
         daf.doWork();
-        System.out.println("-----------------------------------------------");
         jcb.stopWork();
         cat.stopWork();
         daf.stopWork();
