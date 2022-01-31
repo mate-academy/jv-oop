@@ -5,32 +5,32 @@ public abstract class Machine {
     private String model;
     private int yearOfManufacture;
     private String color;
-    public Machine(){
+    public Machine() {
     }
     public abstract void doWork();
     public abstract void stopWork();
-    public String getBrand(){
+    public String getBrand() {
         return brand;
     }
-    public String getModel(){
+    public String getModel() {
         return model;
     }
-    public String getColor(){
+    public String getColor() {
         return color;
     }
-    public int getYearOfManufacture(){
+    public int getYearOfManufacture() {
         return yearOfManufacture;
     }
-    public void setBrand(String brandMachine){
+    public void setBrand(String brandMachine) {
        this.brand = brandMachine;
     }
-    public void setModel(String modelMachine){
+    public void setModel(String modelMachine) {
         this.model = modelMachine;
     }
-    public void setColor(String colorMachine){
+    public void setColor(String colorMachine) {
         this.color = colorMachine;
     }
-    public void setYearOfManufacture(int yearOfManufactureMachine){
+    public void setYearOfManufacture(int yearOfManufactureMachine) {
         this.yearOfManufacture = yearOfManufactureMachine;
     }
 }
