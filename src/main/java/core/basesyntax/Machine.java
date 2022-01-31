@@ -6,10 +6,6 @@ public abstract class Machine {
     private int yearOfManufacture;
     private String color;
 
-    public Machine(){
-
-    }
-
     public abstract void doWork();
 
     public abstract void stopWork();
