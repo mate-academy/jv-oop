@@ -6,12 +6,8 @@ public class Bulldozer extends Machine {
     public Bulldozer() {
     }
 
-    public Bulldozer(String bladeType) {
-        this.bladeType = bladeType;
-    }
-
-    public Bulldozer(String brandMachine, String modelMachine, String bladeType) {
-        super(brandMachine, modelMachine);
+    public Bulldozer(String brand, String model, String bladeType) {
+        super(brand, model);
         this.bladeType = bladeType;
     }
 
