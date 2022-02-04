@@ -26,8 +26,4 @@ public class Bulldozer extends Machine {
     public String getBladeType() {
         return bladeType;
     }
-
-    public void setBladeType(String bladeType) {
-        this.bladeType = bladeType;
-    }
 }

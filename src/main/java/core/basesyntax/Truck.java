@@ -6,10 +6,6 @@ public class Truck extends Machine {
     public Truck() {
     }
 
-    public Truck(int capasity) {
-        this.capasity = capasity;
-    }
-
     public Truck(String brandMachine, String modelMachine, int capasity) {
         super(brandMachine, modelMachine);
         this.capasity = capasity;
@@ -30,10 +26,6 @@ public class Truck extends Machine {
 
     public int getCapasity() {
         return capasity;
-    }
-
-    public void setCapasity(int capasity) {
-        this.capasity = capasity;
     }
 }
 

@@ -20,14 +20,6 @@ public abstract class Machine {
         return model;
     }
 
-    public void setBrand(String brandMachine) {
-        this.brand = brandMachine;
-    }
-
-    public void setModel(String modelMachine) {
-        this.model = modelMachine;
-    }
-
     public abstract void doWork();
 
     public abstract void stopWork();

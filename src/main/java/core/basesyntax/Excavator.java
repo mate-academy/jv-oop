@@ -6,10 +6,6 @@ public class Excavator extends Machine {
     public Excavator() {
     }
 
-    public Excavator(int bucketVolume) {
-        this.bucketVolume = bucketVolume;
-    }
-
     public Excavator(String brandMachine, String modelMachine, int bucketVolume) {
         super(brandMachine, modelMachine);
         this.bucketVolume = bucketVolume;
@@ -30,9 +26,5 @@ public class Excavator extends Machine {
 
     public int getBucketVolume() {
         return bucketVolume;
-    }
-
-    public void setBucketVolume(int bucketVolume) {
-        this.bucketVolume = bucketVolume;
     }
 }
