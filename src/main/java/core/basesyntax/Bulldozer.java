@@ -1,2 +1,4 @@
-package core.basesyntax;public class Bulldozer {
+package core.basesyntax;
+
+public class Bulldozer extends Machine{
 }

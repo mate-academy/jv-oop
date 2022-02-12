@@ -1,2 +1,4 @@
-package core.basesyntax;public class Truck {
+package core.basesyntax;
+
+public class Truck extends Machine{
 }
