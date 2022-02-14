@@ -16,7 +16,5 @@ public class MainApp {
         cyberTruck.stopWork();
         buldCatD3.stopWork();
         excCat320D.stopWork();
-
     }
-
 }
