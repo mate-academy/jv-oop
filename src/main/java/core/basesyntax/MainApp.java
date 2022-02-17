@@ -12,5 +12,4 @@ public class MainApp {
         truck.stopWork();
         bulldozer.stopWork();
     }
-
 }
