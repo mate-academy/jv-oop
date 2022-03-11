@@ -5,14 +5,10 @@ public class MainApp {
         Machine truck = new Truck();
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
-        Machine[] arrayMachine = {truck, bulldozer, excavator};
-        for (Machine help : arrayMachine) {
-            printInfo(help);
+        Machine[] machines = {truck, bulldozer, excavator};
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
         }
-    }
-
-    public static void printInfo(Machine machine) {
-        machine.doWork();
-        machine.stopWork();
     }
 }
