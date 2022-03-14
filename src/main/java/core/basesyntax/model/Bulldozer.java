@@ -1,11 +1,5 @@
 package core.basesyntax.model;
 
-/**
- * @version 1.0
- * @autor shd
- * @created by 27/02/2022 - 17:03
- * @project oop-example
- */
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
