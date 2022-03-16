@@ -6,13 +6,13 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
 
-        Machine[] arr = {truck, bulldozer, excavator};
+        Machine[] arrayMachine = {truck, bulldozer, excavator};
 
-        for (Machine machine: arr) {
+        for (Machine machine: arrayMachine) {
             machine.doWork();
         }
 
-        for (Machine machine: arr) {
+        for (Machine machine: arrayMachine) {
             machine.stopWork();
         }
     }
