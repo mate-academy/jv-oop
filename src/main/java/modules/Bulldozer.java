@@ -4,7 +4,7 @@ import core.basesyntax.Machine;
 
 public class Bulldozer extends Machine {
     @Override
-    public  void doWork() {
+    public void doWork() {
         System.out.println("Bulldozer starts working");
     }
 
