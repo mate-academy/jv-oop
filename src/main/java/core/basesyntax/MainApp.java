@@ -10,6 +10,6 @@ public class MainApp {
         statusExcavator.stopWork();
         Machine statusTruck = new Truck();
         statusTruck.doWork();
-        statusTruck.stopWork();
+        statusTruck.stopWork(); ''
     }
 }
