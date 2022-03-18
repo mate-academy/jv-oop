@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class MainApp {
+public class MainApp {1
     public static void main(String[] args) {
         Machine statusBulldozer = new Bulldozer();
         statusBulldozer.doWork();
