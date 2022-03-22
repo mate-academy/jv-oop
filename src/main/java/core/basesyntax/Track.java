@@ -2,11 +2,12 @@ package core.basesyntax;
 
 public class Track extends Machine {
     @Override
-    public String goWork() {
-        return "Track started work";
+    public void goWork() {
+        System.out.println("Track started work");
     }
+
     @Override
-    public String stopWork() {
-        return "Track stopped work";
+    public void stopWork() {
+        System.out.println("Track stopped work");
     }
 }
