@@ -16,8 +16,5 @@ public class MainApp {
         zil.stopWork();
         gazon.stopWork();
 
-
-
     }
-
 }
