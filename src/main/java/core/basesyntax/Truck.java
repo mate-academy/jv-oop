@@ -1,10 +1,8 @@
 package core.basesyntax;
 
 public class Truck extends Machine {
-    private String name;
-
     public Truck(String name) {
-        this.name = name;
+        super.name = name;
     }
 
     public void doWork() {

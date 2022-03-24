@@ -1,10 +1,8 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    private String name;
-
     public Bulldozer(String name) {
-        this.name = name;
+        super.name = name;
     }
 
     public void doWork() {
