@@ -6,12 +6,11 @@ public class MainAppTest {
         Bulldozer bulldozer = new Bulldozer();
         Excavator excavator = new Excavator();
 
-        truck.doWork();
-        bulldozer.doWork();
-        excavator.doWork();
+        Machine[] machines = {truck, bulldozer, excavator};
 
-        truck.stopWork();
-        bulldozer.stopWork();
-        excavator.stopWork();
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
+        }
     }
 }
