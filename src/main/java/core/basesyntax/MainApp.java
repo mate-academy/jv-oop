@@ -7,16 +7,16 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         Machine truck = new Truck();
 
-        Machine[] machine = new Machine[3];
-        machine[0] = excavator;
-        machine[1] = bulldozer;
-        machine[2] = truck;
+        Machine[] machines = new Machine[3];
+        machines[0] = excavator;
+        machines[1] = bulldozer;
+        machines[2] = truck;
 
-        for (Machine value : machine) {
-            value.doWork();
+        for (Machine machine : machines) {
+            machine.doWork();
         }
-        for (Machine each : machine) {
-            each.stopWork();
+        for (Machine machine : machines) {
+            machine.stopWork();
         }
     }
 }
