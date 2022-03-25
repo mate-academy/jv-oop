@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class Bulldozer extends Machine {
     public Bulldozer(String name) {
-        setName(name);
+        super(name);
     }
 
     public void doWork() {

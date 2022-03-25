@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
     public Excavator(String name) {
-        setName(name);
+        super(name);
     }
 
     public void doWork() {

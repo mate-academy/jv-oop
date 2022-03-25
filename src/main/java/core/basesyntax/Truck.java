@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class Truck extends Machine {
     public Truck(String name) {
-        setName(name);
+        super(name);
     }
 
     public void doWork() {
