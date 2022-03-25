@@ -10,6 +10,7 @@ public class MainApp {
 
         doWork(machines);
     }
+
     public static void doWork(Machine[] machines) {
         for (Machine machine : machines) {
             machine.doWork();
