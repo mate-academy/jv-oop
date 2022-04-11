@@ -1,15 +1,13 @@
 package core.basesyntax;
 
-import java.sql.SQLOutput;
-
 public class Truck  extends  Machine{
     @Override
-    public void doWork() {
+    public void doWork(){
         System.out.println("Truck has started his work");
     }
 
     @Override
-    public void stopWork() {
+    public void stopWork(){
         System.out.println("Truck has stopped his work");
     }
 }
