@@ -1,4 +1,4 @@
-package task1;
+package core.basesyntax;
 
 public class Excavator extends Machine{
 
