@@ -6,7 +6,7 @@ public class Excavator extends Machine {
         System.out.println("Excavator started its work");
     }
 
-    public  void stopWork() {
+    public void stopWork() {
         System.out.println("Excavator stopped its working");
     }
 }
