@@ -1,2 +1,10 @@
-language: node_js
-node_js: node
+{
+  "language": "node_js",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "node_js": [
+    "node"
+  ]
+}
