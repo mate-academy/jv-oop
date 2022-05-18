@@ -6,9 +6,9 @@ public class Main {
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
         Machine [] arrayOfMachines = {truck,bulldozer,excavator};
-        for (int i = 0; i < arrayOfMachines.length; i++) {
-            arrayOfMachines[i].doWork();
-            arrayOfMachines[i].stopWork();
+        for (Machine machine : arrayOfMachines) {
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
