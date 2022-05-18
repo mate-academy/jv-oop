@@ -1,7 +1,6 @@
 package oop.base;
 
 public class Bulldozer extends Machine {
-
     @Override
     public void doWork() {
         System.out.println("This Bulldozer started work!");
