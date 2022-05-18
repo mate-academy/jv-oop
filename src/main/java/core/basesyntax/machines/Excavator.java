@@ -9,6 +9,7 @@ public class Excavator extends Machine {
         if (isWorking()) {
             System.out.println("Excavator with ID:" + getMachineID() + "\n Is already"
                      + " digging something");
+            return;
         }
         System.out.println("Excavator with ID:" + getMachineID() + "\n Is now digging");
         setWorking(true);
@@ -18,6 +19,7 @@ public class Excavator extends Machine {
         if (!isWorking()) {
             System.out.println("Excavator with ID:" + getMachineID() + "\n The engine"
                     + " is not started");
+            return;
         }
         System.out.println("Excavator with ID:" + getMachineID() + "\n Stopped the engine");
         setWorking(false);

@@ -10,6 +10,7 @@ public class Truck extends Machine {
         if (isWorking()) {
             System.out.println("Truck with ID:" + getMachineID() + "\n Is already"
                     + " towing a container");
+            return;
         }
         System.out.println("Truck with ID:" + getMachineID() + "\n Is now towing"
                 + " a container");
@@ -20,6 +21,7 @@ public class Truck extends Machine {
         if (!isWorking()) {
             System.out.println("Truck with ID:" + getMachineID() + "\n The engine"
                     + " is not started");
+            return;
         }
         System.out.println("Truck with ID:" + getMachineID() + "\n Stopped the engine");
         setWorking(false);
