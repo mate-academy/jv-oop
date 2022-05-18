@@ -1,5 +1,4 @@
 package core.basesyntax;
 
-public class MainApp {
-
+public class Machine {
 }
