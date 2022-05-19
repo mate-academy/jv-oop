@@ -2,16 +2,26 @@ package core.basesyntax.machines;
 
 public abstract class Machine {
     private boolean isWorking;
-    private int machineID;
+    private int machineId;
 
-    protected int getMachineID() {
-        return machineID;
+    public Machine(int id) {
+        try {
+            setMachineId(id);
+        } catch (Exception e) {
+            System.out.println("Wrong ID");
+        }
     }
 
-    protected void setMachineID(int machineID) {
-        if (machineID > 0) {
-            this.machineID = machineID;
+    protected int getMachineId() {
+        return machineId;
+    }
+
+    protected void setMachineId(int machineId) throws Exception {
+        if (machineId > 0) {
+            this.machineId = machineId;
+            return;
         }
+        throw new Exception("Id should be not less than 0");
     }
 
     protected boolean isWorking() {
