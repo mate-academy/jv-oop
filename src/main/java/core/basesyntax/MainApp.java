@@ -2,17 +2,13 @@ package core.basesyntax;
 
 public class MainApp {
     public static void main(String [] args) {
-        System.out.println("------------------");
-        Truck truck = new Truck();
-        truck.doWork();
-        Bulldozer bulldozer = new Bulldozer();
-        bulldozer.doWork();
-        Excavator excavator = new Excavator();
-        excavator.doWork();
-        System.out.println("-------------------");
-        excavator.stopWork();
-        truck.stopWork();
-        bulldozer.stopWork();
-        System.out.println("-------------------");
+        Machine[] machines = new Machine[3];
+        machines[0] = new Truck();
+        machines[1] = new Excavator();
+        machines[2] = new Bulldozer();
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
+        }
     }
 }
