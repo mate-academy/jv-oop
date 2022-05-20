@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import core.basesyntax.Machine;
-
 public class Excavator extends Machine {
     @Override
     public void doWork() {
