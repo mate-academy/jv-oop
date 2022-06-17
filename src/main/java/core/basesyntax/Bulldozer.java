@@ -6,6 +6,7 @@ public class Bulldozer extends Machine {
         setTypeMachine("The bulldozer");
         super.doWork();
     }
+
     @Override
     public void stopWork() {
         setTypeMachine("The bulldozer");

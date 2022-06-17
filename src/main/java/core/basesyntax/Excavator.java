@@ -6,6 +6,7 @@ public class Excavator extends Machine {
         setTypeMachine("The excavator");
         super.doWork();
     }
+
     @Override
     public void stopWork() {
         setTypeMachine("The excavator");

@@ -6,6 +6,7 @@ public class Truck extends Machine {
         setTypeMachine("The truck");
         super.doWork();
     }
+
     @Override
     public void stopWork() {
         setTypeMachine("The truck");
