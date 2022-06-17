@@ -2,16 +2,24 @@ package core.basesyntax;
 
 public abstract class Machine {
 
-    String typeMachine = "";
+    private String typeMachine = "";
+
+    public String getTypeMachine() {
+        return typeMachine;
+    }
+
+    public void setTypeMachine(String typeMachine) {
+        this.typeMachine = typeMachine;
+    }
 
     public void doWork() {
-        String Message_doWork = " started its work.";
-        System.out.println(typeMachine + Message_doWork);
+        String messageDoWork = " started its work.";
+        System.out.println(typeMachine + messageDoWork);
     }
 
     public void stopWork() {
-        String Message_stopWork = " stopped its work.";
-        System.out.println(typeMachine + Message_stopWork);
+        String messageStopWork = " stopped its work.";
+        System.out.println(typeMachine + messageStopWork);
     }
 
 }

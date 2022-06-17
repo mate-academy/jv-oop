@@ -1,16 +1,16 @@
 package core.basesyntax;
 
-public class Excavator extends Machine{
+public class Excavator extends Machine {
 
     @Override
     public void doWork() {
-        typeMachine = "The excavator";
+        setTypeMachine("The excavator");
         super.doWork();
     }
 
     @Override
     public void stopWork() {
-        typeMachine = "The excavator";
+        setTypeMachine("The excavator");
         super.stopWork();
     }
 
