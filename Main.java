@@ -3,11 +3,10 @@ public class Main {
         Machine truck = new Truck();
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
-
         Machine[] machines = {truck, bulldozer, excavator};
-        for(Machine unit: machines) {
-            unit.doWork();
-            unit.stopWork();
+        for(Machine machine: machines) {
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
