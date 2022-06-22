@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class MainApp {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Truck truck = new Truck();
         Bulldozer bulldozer = new Bulldozer();
         Excavator excavator = new Excavator();
@@ -11,6 +11,7 @@ public class MainApp {
         for (Machine machine : machines) {
             machine.doWork();
         }
+
         for (Machine machine : machines) {
             machine.stopWork();
         }
