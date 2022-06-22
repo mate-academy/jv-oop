@@ -1,45 +1,19 @@
 package core.basesyntax;
 
 public class MainApp {
-    private Truck truck;
-
-    private Bulldozer bulldozer;
-
-    private Excavator excavator;
-
-    public Truck getTruck() {
-        return truck;
-    }
-
-    public void setTruck(Truck truck) {
-        this.truck = truck;
-    }
-
-    public Bulldozer getBulldozer() {
-        return bulldozer;
-    }
-
-    public void setBulldozer(Bulldozer bulldozer) {
-        this.bulldozer = bulldozer;
-    }
-
-    public Excavator getExcavator() {
-        return excavator;
-    }
-
-    public void setExcavator(Excavator excavator) {
-        this.excavator = excavator;
-    }
-
     public void main(String[] args) {
-        truck.doWork();
-        truck.stopWork();
+        Truck truck = new Truck();
+        Bulldozer bulldozer = new Bulldozer();
+        Excavator excavator = new Excavator();
 
-        bulldozer.doWork();
-        bulldozer.stopWork();
+    Machine[] machines = new Machine[] {truck, bulldozer, excavator};
 
-        excavator.doWork();
-        excavator.stopWork();
+        for (Machine machine : machines) {
+            machine.doWork();
+        }
+        for (Machine machine : machines) {
+            machine.stopWork();
+        }
     }
 }
 
