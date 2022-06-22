@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public abstract class Machine {
-
     public void doWork() {
         System.out.println("The Machine started its work.");
     }
