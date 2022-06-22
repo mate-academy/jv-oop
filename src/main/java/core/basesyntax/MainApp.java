@@ -5,10 +5,10 @@ public class MainApp {
         Machine truck = new Truck();
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
-        Machine[] machine = new Machine[]{truck, bulldozer, excavator};
-        for (Machine transport : machine) {
-            transport.doWork();
-            transport.stopWork();
+        Machine[] machines = new Machine[]{truck, bulldozer, excavator};
+        for (Machine mashines : machines) {
+            mashines.doWork();
+            mashines.stopWork();
         }
     }
 }
