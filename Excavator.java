@@ -1,4 +1,5 @@
 public class Excavator extends Machine {
+    
     public void doWork() {
         System.out.println("The excavator has started to work!");
     }
