@@ -9,15 +9,11 @@ public class MainApp {
         machine1[1] = bulldozer;
         Machine excavator = new Excavator();
         machine1[2] = excavator;
-
         for (int i = 0; i < 3; i++) {
             machine1[i].doWork();
         }
         for (int i = 0; i < 3; i++) {
             machine1[i].stopWork();
-
         }
     }
-
-
 }
