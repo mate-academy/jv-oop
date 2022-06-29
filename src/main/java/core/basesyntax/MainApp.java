@@ -8,7 +8,6 @@ public class MainApp {
         Machine truck = new Truck();
         truck.setName("Trucker");
 
-
         Machine bulldozer = new Bulldozer();
         bulldozer.setName("Bulldozer");
 

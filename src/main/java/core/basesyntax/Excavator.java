@@ -5,6 +5,7 @@ public class Excavator extends Machine {
     public void doWork() {
         System.out.println(getName() + " start working!");
     }
+
     @Override
     public void stopWork() {
         System.out.println(getName() + " stop working!");
