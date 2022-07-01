@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public abstract class Machine {
-    private boolean work;
     private String name;
 
     public String getName() {
