@@ -8,5 +8,6 @@ public class Excavator extends Machine {
 
     @Override
     public void stopWork() {
-        System.out.println("The trench has been dug. Let's stop work."); }
+        System.out.println("The trench has been dug. Let's stop work.");
+    }
 }

@@ -8,5 +8,6 @@ public class Bulldozer extends Machine {
 
     @Override
     public void stopWork() {
-        System.out.println("The soil is submerged. Break."); }
+        System.out.println("The soil is submerged. Break.");
     }
+}
