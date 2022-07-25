@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public class Excavator extends Machine {
-
     @Override
     public void doWork() {
         System.out.println("Excavator started its work");
@@ -11,5 +10,4 @@ public class Excavator extends Machine {
     public void stopWork() {
         System.out.println("Excavator stopped its work");
     }
-
 }
