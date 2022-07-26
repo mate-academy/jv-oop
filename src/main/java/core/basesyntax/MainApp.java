@@ -1,9 +1,9 @@
 package core.basesyntax;
 
-import Machines.Bulldozer;
-import Machines.Excavator;
-import Machines.Machine;
-import Machines.Truck;
+import machines.Bulldozer;
+import machines.Excavator;
+import machines.Machine;
+import machines.Truck;
 
 public class MainApp {
 
@@ -12,7 +12,7 @@ public class MainApp {
         Bulldozer bulldozer = new Bulldozer();
         Excavator excavator = new Excavator();
         Machine[] machine = {truck, bulldozer, excavator};
-        for (int i = 0; i < machine.length; i++){
+        for (int i = 0; i < machine.length; i++) {
             machine[i].doWork();
             machine[i].stopWork();
         }
