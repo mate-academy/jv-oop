@@ -3,18 +3,18 @@ package core.basesyntax;
 /**
  * The class describe a powerful machine for transporting goods by road.
  */
-public class Truck extends Machine{
+public class Truck extends Machine {
     //This is the template for the first part of the message.
-    private final static String NAME = "Truck";
+    private final String name = "Truck";
 
     //METHODS
     @Override
     public void doWork() {
-        System.out.println(NAME + MESSAGE_DO_WORK);
+        System.out.println(name + messageDoWork);
     }
 
     @Override
     public void stopWork() {
-        System.out.println(NAME + MESSAGE_STOP_WORK);
+        System.out.println(name + messageStopWork);
     }
 }
