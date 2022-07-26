@@ -6,6 +6,7 @@ class Truck extends Machine {
     public void doWork() {
         System.out.println("Truck is working");
     }
+
     @Override
 
     public void stopWork() {
