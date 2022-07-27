@@ -1,6 +1,5 @@
 package core.basesyntax;
 
-
 public class Truck extends Machine {
     private final String name = "Truck";
 
