@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class MainApp {
+public class Main {
     public static void main(String[] args) {
         Machine[] machines = new Machine[] {new Bulldozer(), new Excavator(), new Truck()};
         for (Machine machine: machines) {
