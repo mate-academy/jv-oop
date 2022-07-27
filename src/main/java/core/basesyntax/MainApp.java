@@ -11,8 +11,8 @@ public class MainApp {
         Machine truck = new Truck();
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
-        Machine[] machine = {truck, bulldozer, excavator};
-        for (Machine machine1 : machine) {
+        Machine[] machines = {truck, bulldozer, excavator};
+        for (Machine machine : machines) {
             machine1.doWork();
             machine1.stopWork();
         }
