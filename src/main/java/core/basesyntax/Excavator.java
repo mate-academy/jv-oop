@@ -1,14 +1,13 @@
 package core.basesyntax;
 
 public class Excavator extends Machine {
-
     @Override
     public void doWork() {
-        System.out.println("Machine starts work hard!");
+        System.out.println("Excavator starts work hard!");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Machine stops working!");
+        System.out.println("Excavator stops working!");
     }
 }
