@@ -9,11 +9,13 @@ public class MainApp {
         printStartMessages(machines);
         printStopMessages(machines);
     }
+
     public static void printStartMessages(Machine[] machines) {
         for (Machine machine : machines) {
             machine.doWork();
         }
     }
+
     public static void printStopMessages(Machine[] machines) {
         for (Machine machine : machines) {
             machine.stopWork();
