@@ -3,10 +3,10 @@ package core.basesyntax;
 public class MainApp {
 
     public static void main(String[] args) {
-        Machine Truck = new Truck();
-        Machine Bulldozer = new Bulldozer();
-        Machine Excavator = new Excavator();
-        Machine [] cars = new Machine[] {Truck, Bulldozer, Excavator};
+        Machine truck = new Truck();
+        Machine bulldozer = new Bulldozer();
+        Machine excavator = new Excavator();
+        Machine [] cars = new Machine[]{truck, bulldozer, excavator};
         for (Machine car : cars) {
             if (car != null) {
                 car.doWork();
