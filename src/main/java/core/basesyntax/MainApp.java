@@ -8,8 +8,8 @@ public class MainApp {
         Machine excavator = new Excavator();
         Machine [] cars = new Machine[]{truck, bulldozer, excavator};
         for (Machine car : cars) {
-                car.doWork();
-                car.stopWork();
+            car.doWork();
+            car.stopWork();
 
         }
     }
