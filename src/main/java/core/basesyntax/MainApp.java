@@ -10,6 +10,7 @@ public class MainApp {
         for (Machine car : cars) {
             car.doWork();
             car.stopWork();
+
         }
     }
 }
