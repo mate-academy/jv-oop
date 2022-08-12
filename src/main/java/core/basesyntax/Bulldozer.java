@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Bulldozer extends Machine{
+public class Bulldozer extends Machine {
     public Bulldozer(String name) {
         super(name);
     }

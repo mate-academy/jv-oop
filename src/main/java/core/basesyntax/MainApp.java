@@ -7,7 +7,7 @@ public class MainApp {
         machines[1] = new Bulldozer("Bulldozer");
         machines[2] = new Excavator("Excavator");
 
-        for(Machine machine : machines){
+        for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
         }
