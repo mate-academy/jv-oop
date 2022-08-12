@@ -8,8 +8,6 @@ public class Bulldozer extends Machine {
 
     @Override
     public void stopWork() {
-        super.stopWork();
         System.out.println("Bulldozer stopped its work.");
-
     }
 }
