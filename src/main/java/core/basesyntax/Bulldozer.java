@@ -5,6 +5,7 @@ package core.basesyntax;
  * @link https://github.com/dogmax296
  */
 public class Bulldozer extends Machine {
+
     @Override
     public void doWork() {
         System.out.println("Bulldozer is started its work!");
@@ -14,4 +15,5 @@ public class Bulldozer extends Machine {
     public void stopWork() {
         System.out.println("Bulldozer stopped its work!");
     }
+
 }
