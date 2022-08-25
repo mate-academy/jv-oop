@@ -7,10 +7,9 @@ public class Main {
 
         Machine[] machines = {bulldozer, truck, excavator};
 
-        for (int i = 0; i < machines.length; i++) {
-            machines[i].doWork();
-            machines[i].stopWork();
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
         }
-
     }
 }
