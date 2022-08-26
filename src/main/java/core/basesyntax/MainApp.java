@@ -7,7 +7,5 @@ public class MainApp {
             unit.doWork();
             unit.stopWork();
         }
-
     }
-
 }
