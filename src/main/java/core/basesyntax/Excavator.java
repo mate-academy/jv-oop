@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Excavator extends Machine{
+public class Excavator extends Machine {
     private String name;
 
     @Override
