@@ -16,6 +16,7 @@ public class Bulldozer extends Machine {
     public void doWork() {
         System.out.println("A bulldozer " + this.name + " started its work");
     }
+
     public void stopWork() {
         System.out.println("A bulldozer " + this.name + " stopped its work");
     }
