@@ -10,7 +10,7 @@ public class MainApp {
         Machine[] machines = new Machine[3];
         machines[0] = truck1;
         machines[1] = bulldozer1;
-        machines[2] =excavator1;
+        machines[2] = excavator1;
 
         for (Machine a : machines) {
             a.doWork();
