@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public class MainApp {
-
     public static void main(String[] args) {
         Machine truct = new Truck();
         Machine bulldozer = new Bulldozer();
@@ -11,7 +10,6 @@ public class MainApp {
             printInfo(machine);
         }
     }
-
     public static void printInfo(Machine machine) {
         machine.doWork();
         machine.stopWork();
