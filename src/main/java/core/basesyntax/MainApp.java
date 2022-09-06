@@ -7,12 +7,8 @@ public class MainApp {
         Machine excavator = new Excavator();
         Machine[] machines = new Machine[] {truct,bulldozer,excavator};
         for (Machine machine:machines) {
-            printInfo(machine);
+            machine.doWork();
+            machine.stopWork();
         }
-    }
-
-    public static void printInfo(Machine machine) {
-        machine.doWork();
-        machine.stopWork();
     }
 }
