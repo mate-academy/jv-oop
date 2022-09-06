@@ -11,5 +11,4 @@ public class Truck extends core.basesyntax.Machine {
     public void stopWork() {
         System.out.println("Machine Truck stopped its work");
     }
-
 }
