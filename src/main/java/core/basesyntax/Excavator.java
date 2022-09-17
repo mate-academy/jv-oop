@@ -12,3 +12,4 @@ public class Excavator extends Machine {
         System.out.println("The excavator has stoped working");
     }
 }
+
