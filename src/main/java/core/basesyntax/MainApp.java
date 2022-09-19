@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 public class MainApp {
   public static void main (String[] args ) {
     Machine bulldozer1 = new Bulldozer("650M");
