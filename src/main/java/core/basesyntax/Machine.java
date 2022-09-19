@@ -4,12 +4,12 @@ public abstract class Machine {
 
     private String model;
 
-    public String getModel() {
-        return model;
-    }
-
     public Machine(String model) {
         this.model = model;
+    }
+
+    public String getModel() {
+        return model;
     }
 
     public abstract void doWork();
