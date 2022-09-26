@@ -10,7 +10,5 @@ public class Main {
             machine.doWork();
             machine.stopWork();
         }
-
     }
-
 }
