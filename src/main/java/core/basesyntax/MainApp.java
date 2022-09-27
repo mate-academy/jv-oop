@@ -7,6 +7,5 @@ public class MainApp {
             car.doWork();
             car.stopWork();
         }
-
     }
 }
