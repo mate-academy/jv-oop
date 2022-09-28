@@ -3,11 +3,11 @@ package core.basesyntax;
 public class Truck extends Machine {
     @Override
     public void doWork() {
-        System.out.println("certain machine started its work");
+        System.out.println("Tuck started its work");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("certain machine stopped its work");
+        System.out.println("Truck stopped its work");
     }
 }
