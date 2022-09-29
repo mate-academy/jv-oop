@@ -1,4 +1,4 @@
-package core.basesyntax.Machines;
+package core.basesyntax.machines;
 
 public class Truck extends Machine {
 
@@ -8,7 +8,7 @@ public class Truck extends Machine {
     }
 
     @Override
-    public  void stopWork() {
+    public void stopWork() {
         System.out.println("Truck stopped work");
     }
 }
