@@ -13,6 +13,8 @@ public class MainApp {
         Machine[] all = new Machine[]{excavator,bulldozer,truck};
         for (Machine a : all) {
             a.doWork();
+        }
+        for (Machine a : all) {
             a.stopWork();
         }
     }
