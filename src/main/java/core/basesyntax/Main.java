@@ -7,17 +7,8 @@ class Main {
         Machine excavator = new Excavator();
         Machine [] machines = new Machine[] {truck, bulldozer, excavator};
         for (Machine machine : machines) {
-            doWork(machine);
-            stopWork(machine);
+            machine.doWork();
+            machine.stopWork();
         }
     }
-
-    public static void doWork(Machine machine) {
-        System.out.println(machine.doWork());
-    }
-
-    public static void stopWork(Machine machine) {
-        System.out.println(machine.stopWork());
-    }
 }
-

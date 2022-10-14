@@ -2,12 +2,12 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
     @Override
-    public String doWork() {
-        return "Excavator is working";
+    public void doWork() {
+        System.out.println("Excavator is working");
     }
 
     @Override
-    public String stopWork() {
-        return "Excavator stopped working";
+    public void stopWork() {
+        System.out.println("Excavator is not working");
     }
 }
