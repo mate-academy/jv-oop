@@ -11,9 +11,11 @@ class MainApp {
             stopWork(machine);
         }
     }
+
     public static void doWork(Machine machine) {
         System.out.println(machine.doWork());
     }
+
     public static void stopWork(Machine machine) {
         System.out.println(machine.stopWork());
     }

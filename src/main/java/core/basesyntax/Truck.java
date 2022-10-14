@@ -5,6 +5,7 @@ public class Truck extends Machine {
     public String doWork() {
         return "Truck is working";
     }
+
     @Override
     public String stopWork() {
         return "Truck stopped working";
