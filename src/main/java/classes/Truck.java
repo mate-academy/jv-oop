@@ -21,11 +21,11 @@ public class Truck extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(brand + "! " + "Let`s deliver some cargo!");
+        System.out.println(getBrand() + "! " + "Let`s deliver some cargo!");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(brand + "! " + "That's enough, time to rest!");
+        System.out.println(getBrand() + "! " + "That's enough, time to rest!");
     }
 }

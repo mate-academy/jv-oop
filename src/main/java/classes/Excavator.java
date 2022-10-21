@@ -1,6 +1,8 @@
 package classes;
 
 public class Excavator extends Machine {
+    private double bucketVolume;
+
     public Excavator() {
     }
 
@@ -12,27 +14,26 @@ public class Excavator extends Machine {
         super(motorPower);
     }
 
-    public double getBucketVolume() {
-        return bucketVolume;
-    }
-    public void setBucketVolume(double bucketVolume) {
-        this.bucketVolume = bucketVolume;
-    }
-
-    private double bucketVolume;
-
     public Excavator(String brand, int motorPower, double bucketVolume) {
         super(brand, motorPower);
         this.bucketVolume = bucketVolume;
     }
 
+    public void setBucketVolume(double bucketVolume) {
+        this.bucketVolume = bucketVolume;
+    }
+
+    public double getBucketVolume() {
+        return bucketVolume;
+    }
+
     @Override
     public void doWork() {
-        System.out.println(brand + "! " + "Start digging!");
+        System.out.println(getBrand() + "! " + "Start digging!");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(brand + "! " + "Job is done!");
+        System.out.println(getBrand() + "! " + "Job is done!");
     }
 }

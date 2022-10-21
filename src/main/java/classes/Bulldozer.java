@@ -1,12 +1,9 @@
 package classes;
 
 public class Bulldozer extends Machine {
-    public Bulldozer() {
-    }
+    private int operatingWeight;
 
-    public Bulldozer(String brand, int motorPower, int operatingWeight) {
-        super(brand, motorPower);
-        this.operatingWeight = operatingWeight;
+    public Bulldozer() {
     }
 
     public Bulldozer(String brand) {
@@ -17,7 +14,11 @@ public class Bulldozer extends Machine {
         super(motorPower);
     }
 
-    private int operatingWeight;
+    public Bulldozer(String brand, int motorPower, int operatingWeight) {
+        super(brand, motorPower);
+        this.operatingWeight = operatingWeight;
+    }
+
     public int getOperatingWeight() {
         return operatingWeight;
     }
@@ -28,11 +29,11 @@ public class Bulldozer extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(brand + "! " + "Time to make some work!");
+        System.out.println(getBrand() + "! " + "Time to make some work!");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(brand + "! " + "Stop Machine!");
+        System.out.println(getBrand() + "! " + "Stop Machine!");
     }
 }

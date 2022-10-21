@@ -1,10 +1,10 @@
 package classes;
 
 public abstract class Machine {
-    String brand;
-    int motorPower;
+    private String brand;
+    private int motorPower;
 
-    public Machine() {  // constructor 1
+    public Machine() { // constructor 1
     }
 
     public Machine(String brand) { // constructor 2
