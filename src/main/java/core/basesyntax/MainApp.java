@@ -6,7 +6,7 @@ public class MainApp {
                 new Bulldozer(),
                 new Excavator()};
 
-        for (Machine machine: autoPark) { // calling method doWork
+        for (Machine machine: autoPark) { //calling method`s doWork and stopWork
             machine.doWork();
             machine.stopWork();
         }
