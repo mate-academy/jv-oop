@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Truck extends Machine { //class Truck extended from abstract Machine
+public class Truck extends Machine {
 
     @Override
     public void doWork() { //overridden from abstract method to print Truck's start
