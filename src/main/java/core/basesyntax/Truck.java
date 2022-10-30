@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public class Truck extends Machine {
-
     @Override
     public void doWork() { //overridden from abstract method to print Truck's start
         System.out.println("Truck starts working");
