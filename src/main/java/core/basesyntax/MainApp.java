@@ -5,7 +5,6 @@ public class MainApp {
 
         Machine[] machines = new Machine[3];
         machines[0] = new Bulldozer();
-
         machines[1] = new Truck();
         machines[2] = new Excavator();
 
