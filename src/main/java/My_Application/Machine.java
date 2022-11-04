@@ -1,3 +1,5 @@
+package My_Application;
+
 public abstract class Machine {
     public abstract void doWork();
 
