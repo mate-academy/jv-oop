@@ -8,6 +8,6 @@ public class Excavator extends Machine {
 
     @Override
     public void stopWork() {
-        System.out.println("stop");
+        System.out.println("stop"); //kjhvjgh
     }
 }
