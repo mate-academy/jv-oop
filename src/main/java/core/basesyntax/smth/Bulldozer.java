@@ -3,7 +3,7 @@ package core.basesyntax.smth;
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
-        System.out.println("Bulldozer stopped working!");
+        System.out.println("Bulldozer started working!");
     }
 
     @Override
