@@ -1,12 +1,8 @@
 package core.basesyntax;
 
-public class Machine {
+public abstract class Machine {
 
-    public String doWork() {
-        return "I'm doing my work";
-    }
+    public abstract void doWork();
 
-    public String stopWork() {
-        return "I have stopped my work";
-    }
+    public abstract void stopWork();
 }
