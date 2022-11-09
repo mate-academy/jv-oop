@@ -7,5 +7,5 @@ public class Main {
             machines.doWork();
             machines.stopWork();
         }
-}
     }
+}
