@@ -2,6 +2,10 @@ package core.basesyntax;
 
 public class MainApp {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        Machine[] machines = new Machine[]{new Truck(), new Excavator(), new Bulldozer()};
+        for (int i = 0; i < machines.length; i++) {
+            machines[i].doWork();
+            machines[i].stopWork();
+        }
     }
 }
