@@ -5,8 +5,9 @@ public class Bulldozer extends Machine {
     public void doWork() {
         System.out.println("core.basesyntax.Bulldozer started its work");
     }
+
     @Override
-    public  void stopWork() {
+    public void stopWork() {
         System.out.println("core.basesyntax.Bulldozer stopped its work");
     }
 }
