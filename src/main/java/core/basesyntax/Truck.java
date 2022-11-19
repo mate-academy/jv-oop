@@ -3,10 +3,11 @@ package core.basesyntax;
 public class Truck extends Machine {
     @Override
     public String stopWork() {
-    return "The truck has finished working";
+        return "The truck has finished working";
     }
+
     @Override
     public String doWork() {
-    return "The truck started to work";
-  }
+        return "The truck started to work";
+    }
 }
