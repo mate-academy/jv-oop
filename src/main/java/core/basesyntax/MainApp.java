@@ -1,6 +1,7 @@
 
 package core.basesyntax;
 
+
 public class MainApp {
 
     public static void mainApp(String[] args) {
