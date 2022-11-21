@@ -8,7 +8,6 @@ public class Bulldozer extends Machine {
         this.bulldozerName = bulldozerName;
     }
 
-
     @Override
     public void doWork() {
         System.out.println(bulldozerName + " started working");
