@@ -3,14 +3,15 @@ package core.basesyntax;
 public class Truck extends Machine {
     private String truckName;
 
+    public Truck(String truckName) {
+        this.truckName = truckName;
+    }
+
     public String getTruckName() {
         return truckName;
     }
 
     public void setTruckName(String truckName) {
-        this.truckName = truckName;
-    }
-    public Truck(String truckName) {
         this.truckName = truckName;
     }
 
