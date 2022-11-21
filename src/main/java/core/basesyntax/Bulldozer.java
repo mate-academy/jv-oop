@@ -8,13 +8,6 @@ public class Bulldozer extends Machine {
         this.bulldozerName = bulldozerName;
     }
 
-    public String getBulldozerName() {
-        return bulldozerName;
-    }
-
-    public void setBulldozerName(String bulldozerName) {
-        this.bulldozerName = bulldozerName;
-    }
 
     @Override
     public void doWork() {

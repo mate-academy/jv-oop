@@ -8,14 +8,6 @@ public class Excavator extends Machine {
         this.excavatorName = excavatorName;
     }
 
-    public String getExcavatorName() {
-        return excavatorName;
-    }
-
-    public void setExcavatorName(String excavatorName) {
-        this.excavatorName = excavatorName;
-    }
-
     @Override
     public void doWork() {
         System.out.println(excavatorName + " started working");

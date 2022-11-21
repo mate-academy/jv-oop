@@ -7,14 +7,6 @@ public class Truck extends Machine {
         this.truckName = truckName;
     }
 
-    public String getTruckName() {
-        return truckName;
-    }
-
-    public void setTruckName(String truckName) {
-        this.truckName = truckName;
-    }
-
     @Override
     public void doWork() {
         System.out.println(truckName + " started working");
