@@ -5,7 +5,7 @@ public class MainApp {
         Machine truck = new Truck();
         Machine excavator = new Excavator();
         Machine bulldozer = new Bulldozer();
-        Machine machinery[] = new Machine[]{truck, excavator, bulldozer};
+        Machine[] machinery = new Machine[]{truck, excavator, bulldozer};
         int count = 0;
         while (count < machinery.length) {
             machinery[count].doWork();
