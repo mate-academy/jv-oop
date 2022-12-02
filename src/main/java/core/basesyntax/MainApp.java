@@ -12,6 +12,5 @@ public static void main(String[] args) {
         machine.doWork();
         machine.stopWork();
     }
-
 }
 }
