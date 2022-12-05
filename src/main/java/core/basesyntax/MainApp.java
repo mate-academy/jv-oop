@@ -6,7 +6,7 @@ public class MainApp {
         array[0] = new Truck();
         array[1] = new Bulldozer();
         array[2] = new Excavator();
-        for(Machine machine: array) {
+        for (Machine machine: array) {
             machine.doWork();
             machine.stopWork();
         }
