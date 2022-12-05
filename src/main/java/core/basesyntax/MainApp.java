@@ -1,4 +1,5 @@
 package core.basesyntax;
+//add comments
 
 public class MainApp {
     public static void main(String[] args) {
