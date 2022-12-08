@@ -10,5 +10,6 @@ public class MainApp {
             machine.doWork();
             machine.stopWork();
         }
+
     }
 }
