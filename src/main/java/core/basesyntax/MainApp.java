@@ -7,10 +7,10 @@ public class MainApp {
     }
 
     public static void main(String[] args) {
-        Machine machine1 = new Truck();
-        Machine machine2 = new Excavator();
-        Machine machine3 = new Bulldozer();
-        Machine[] machines = new Machine[]{machine1, machine2, machine3};
+        Machine truck = new Truck();
+        Machine excavator = new Excavator();
+        Machine bulldozer = new Bulldozer();
+        Machine[] machines = new Machine[]{truck, excavator, bulldozer};
         for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
