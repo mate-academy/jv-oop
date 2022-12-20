@@ -1,6 +1,5 @@
-package HomeWork;
-
-public class Truck extends Machine{
+package core.basesyntax;
+public class Excavator extends Machine{
     @Override
     public void doWork() {
         System.out.println("Machine started its work");
