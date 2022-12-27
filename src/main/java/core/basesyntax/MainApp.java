@@ -6,14 +6,7 @@ public class MainApp {
 
         for (Machine machine : machines) {
             machine.doWork();
-
-            Thread.sleep(1000);
-
             machine.stopWork();
-
-            Thread.sleep(1000);
         }
-
     }
-
 }
