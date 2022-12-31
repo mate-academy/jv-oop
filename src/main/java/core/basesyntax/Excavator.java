@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Excavator extends Mashine{
+public class Excavator extends Mashine {
     @Override
     public void doWork() {
         System.out.println("Excavator started to work");
