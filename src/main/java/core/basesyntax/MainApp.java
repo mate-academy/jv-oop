@@ -7,8 +7,7 @@ public class MainApp {
         Machine volvoE = new Excavator();
         Machine[] technics = {volvoT, volvoB, volvoE};
 
-        for (Machine tech : technics
-        ) {
+        for (Machine tech : technics) {
             tech.doWork();
             tech.stopWork();
         }
