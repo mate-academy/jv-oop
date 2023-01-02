@@ -7,5 +7,6 @@ public class MainApp {
             if(i < workGroup.length) workGroup[i].doWork();
             else workGroup[i - workGroup.length].stopWork();
         }
+        System.out.println("Work is done");
     }
 }
