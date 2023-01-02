@@ -11,5 +11,6 @@ public class MainApp {
             }
         }
         System.out.println("Work is done");
+        System.out.println("Edited for a new pull request");
     }
 }
