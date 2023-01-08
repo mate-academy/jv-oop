@@ -6,6 +6,7 @@ abstract class Machine {
 
     // abstract methods
     public abstract void doWork();
+    
     public abstract void stopWork();
 
 }
@@ -51,8 +52,8 @@ class Excavator extends Machine {
 
 public class MainApp {
 
-    public static void main(String args[]) {
-        Machine machs[] = {
+    public static void main(String []args) {
+        Machine []machs = {
             new Truck(),
             new Bulldozer(),
             new Excavator()
