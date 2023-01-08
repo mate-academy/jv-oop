@@ -1,9 +1,10 @@
 package core.basesyntax;
 
-// abstract class
+    // abstract class
+
 abstract class Machine {
 
-// abstract methods
+    // abstract methods
     public abstract void doWork();
     public abstract void stopWork();
 }
@@ -49,7 +50,7 @@ class Excavator extends Machine {
 
 public class MainApp {
     public static void main(String args[]) {
-        Machine []machs = {
+        Machine [] machs = {
             new Truck(),
             new Bulldozer(),
             new Excavator()
