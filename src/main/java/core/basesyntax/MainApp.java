@@ -9,10 +9,9 @@ public class MainApp {
         machines[1] = new Excavator();
         machines[2] = new Truck();
 
-        for (Machine each : machines) {
-            each.doWork();
-            each.stopWork();
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
         }
-
     }
 }
