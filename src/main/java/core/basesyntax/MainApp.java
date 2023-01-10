@@ -1,3 +1,4 @@
+package core.basesyntax;
 // abstract class
 public class MainApp {
 
