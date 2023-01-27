@@ -1,4 +1,3 @@
-
 package core.basesyntax;
 
 public class MainApp {
@@ -8,8 +7,8 @@ public class MainApp {
         Machine excavator = new Excavator();
         Machine[] machines = {truck, bulldozer, excavator};
         for (int i = 0; i < machines.length; i++) {
-           machines[i].doWork();
-           machines[i].stopWork();
+            machines[i].doWork();
+            machines[i].stopWork();
         }
     }
 }
