@@ -7,9 +7,9 @@ public class MainApp {
                 new Excavator(),
                 new Truck()
         };
-        for (Machine broom: machines) {
-            broom.doWork();
-            broom.stopWork();
+        for (Machine machine: machines) {
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
