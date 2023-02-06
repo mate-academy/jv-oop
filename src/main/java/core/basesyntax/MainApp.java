@@ -7,7 +7,6 @@ public class MainApp {
     abstract class Machine {
         // abstract methods
         public abstract void doWork();
-        
         public abstract void stopWork();
     }
 
@@ -48,10 +47,8 @@ public class MainApp {
     }
 
     public static void main(String[] args) {
-
         MainApp mo = new MainApp();
         MainApp.Machine[] machs = new MainApp.Machine[3];
-
         machs[0] = mo.new Truck();
         machs[1] = mo.new Bulldozer();
         machs[2] = mo.new Excavator();
@@ -60,5 +57,4 @@ public class MainApp {
             m.stopWork();
         }
     }
-
 }
