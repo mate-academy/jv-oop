@@ -12,11 +12,9 @@ public class MainApp {
                 new Bulldozer(),
                 new Excavator()
         };
-
         for (Machine vehicle : machines) {
             vehicle.doWork();
             vehicle.stopWork();
         }
-
     }
 }
