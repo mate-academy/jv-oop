@@ -1,4 +1,5 @@
 package machines;
+
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
