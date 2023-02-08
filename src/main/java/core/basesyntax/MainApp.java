@@ -1,9 +1,9 @@
 package core.basesyntax;
 
-import core.basesyntax.classes.Bulldozer;
-import core.basesyntax.classes.Excavator;
-import core.basesyntax.classes.Machine;
-import core.basesyntax.classes.Truck;
+import core.basesyntax.model.Bulldozer;
+import core.basesyntax.model.Excavator;
+import core.basesyntax.model.Machine;
+import core.basesyntax.model.Truck;
 
 public class MainApp {
     public static void main(String[] args) {

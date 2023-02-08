@@ -1,4 +1,4 @@
-package core.basesyntax.classes;
+package core.basesyntax.model;
 
 public class Truck extends Machine {
     @Override

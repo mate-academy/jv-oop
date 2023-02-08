@@ -1,4 +1,4 @@
-package core.basesyntax.classes;
+package core.basesyntax.model;
 
 public class Bulldozer extends Machine {
     @Override
