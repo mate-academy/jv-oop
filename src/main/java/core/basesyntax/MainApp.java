@@ -7,7 +7,5 @@ public class MainApp {
             vehicles[i].doWork();
             vehicles[i].stopWork();
         }
-
     }
-
 }
