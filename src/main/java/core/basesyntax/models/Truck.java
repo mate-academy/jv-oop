@@ -1,5 +1,4 @@
 package core.basesyntax.models;
-
 public class Truck extends Machine {
     @Override
     public void doWork() {
