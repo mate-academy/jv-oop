@@ -1,4 +1,4 @@
 package core.basesyntax;
 
-public class Bulldozer {
+public class Bulldozer extends Machine {
 }
