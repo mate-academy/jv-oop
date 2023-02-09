@@ -1,5 +1,5 @@
-abstract class Machine {
-    abstract void doWork();
+public abstract class Machine {
+    public abstract void doWork();
 
-    abstract void stopWork();
+    public abstract void stopWork();
 }
