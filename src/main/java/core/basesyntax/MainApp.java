@@ -7,7 +7,7 @@ import mashines.Truck;
 public class MainApp {
     public static void main(String[] args) {
         Mashine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
-        for (Mashine mashine: machines) {
+        for (Mashine mashine : machines) {
             mashine.doWork();
             mashine.doStop();
         }
