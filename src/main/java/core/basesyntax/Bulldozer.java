@@ -1,2 +1,13 @@
-package core.basesyntax;public class Bulldozer {
+package core.basesyntax;
+
+public class Bulldozer extends Machine {
+    @Override
+    public void doWork() {
+        System.out.println("Kamatsu: " + getPositiveStatus());
+    }
+
+    @Override
+    public void stopWork() {
+
+    }
 }
