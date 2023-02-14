@@ -2,9 +2,8 @@ package core.basesyntax;
 
 public class Truck extends Machine {
     @Override
-    public boolean doWork() {
+    public void doWork() {
         System.out.println("Truck started working");
-        return false;
     }
 
     public void stopWork() {

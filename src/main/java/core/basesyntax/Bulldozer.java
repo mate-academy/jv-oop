@@ -1,12 +1,9 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-
     @Override
-
-    public boolean doWork() {
+ public void doWork() {
         System.out.println("Bulldozer started working");
-        return false;
     }
 
     public void stopWork() {
