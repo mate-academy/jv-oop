@@ -10,7 +10,6 @@ public class MainApp {
         for (int i = 0; i < apparatuses.length; i++) {
             apparatuses[i].doWork();
             apparatuses[i].stopWork();
-            //Where should be implementation of classes ?
         }
     }
 }
