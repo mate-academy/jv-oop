@@ -7,5 +7,7 @@ public class Bulldozer extends Machine {
     }
 
     @Override
-    public void stopWork() { System.out.println("Kamatsu: " + getNegativeStatus()); }
+    public void stopWork() {
+        System.out.println("Kamatsu: " + getNegativeStatus());
+    }
 }
