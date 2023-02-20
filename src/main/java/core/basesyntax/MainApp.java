@@ -1,8 +1,6 @@
 package core.basesyntax;
 
 public class MainApp {
-
-
     Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
 
     {
