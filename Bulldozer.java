@@ -1,0 +1,18 @@
+package org.example;
+
+public class Bulldozer extends Machine {
+
+    @Override
+    public void doWork() {
+
+            System.out.println("Bulldozeer started its work.");
+
+    }
+
+    @Override
+    public void stopWork() {
+
+            System.out.println("Bulldozer stopped its work.");
+
+    }
+}
