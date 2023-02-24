@@ -1,15 +1,21 @@
 package core.basesyntax;
 
+import java.util.Arrays;
+
 public class MainApp {
     public static void main(String[] args) {
-        Excavator excavator = new Excavator();
-        Bulldozer bulldozer = new Bulldozer();
-        Truck truck = new Truck();
-        excavator.doWork();
-        bulldozer.doWork();
-        truck.doWork();
-        excavator.stopWork();
-        bulldozer.stopWork();
-        truck.stopWork();
+        Machine excavator = new Excavator();
+        Machine bulldozer = new Bulldozer();
+        Machine truck = new Truck();
+
+        Machine[] machines = new Machine[3];
+        machines[0] = excavator;
+        machines[1] = bulldozer;
+        machines[2] = truck;
+
+        for (Machine machine: machines) {
+            machine.doWork();
+            machine.stopWork();
+        }
     }
 }
