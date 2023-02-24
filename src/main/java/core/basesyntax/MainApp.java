@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import java.util.Arrays;
-
 public class MainApp {
     public static void main(String[] args) {
         Machine excavator = new Excavator();
