@@ -1,10 +1,8 @@
 package core.basesyntax;
-
 abstract class Machine {
     public abstract void doWork();
     public abstract void stopWork();
 }
-
 class Truck extends Machine {
     public void doWork() {
         System.out.println("Truck started working");
@@ -13,7 +11,6 @@ class Truck extends Machine {
         System.out.println("Truck stopped working");
     }
 }
-
 class Bulldozer extends Machine {
     public void doWork() {
         System.out.println("Bulldozer started working");
@@ -22,7 +19,6 @@ class Bulldozer extends Machine {
         System.out.println("Bulldozer stopped working");
     }
 }
-
 class Excavator extends Machine {
     public void doWork() {
         System.out.println("Excavator started working");
@@ -34,7 +30,6 @@ class Excavator extends Machine {
 public class MainApp {
     public static void main(String[] args) {
         Machine[] machines = { new Truck(), new Bulldozer(), new Excavator() };
-
         for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
