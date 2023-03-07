@@ -1,11 +1,11 @@
 package core.basesyntax;
 
-public class Excavator extends Machine{
+public class Excavator extends Machine {
     public String doWork() {
-        return "Excavator is start working";
+        return "Excavator starts work";
     }
 
     public String stopWork() {
-        return "Excavator is stop working";
+        return "Excavator ends work";
     }
 }
