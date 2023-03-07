@@ -14,8 +14,8 @@ public class MainApp {
     }
 
     public static void getResult(Machine machine) {
-        System.out.println(machine.doWork());
-        System.out.println(machine.stopWork());
+        machine.doWork();
+        machine.stopWork();
     }
 
 }
