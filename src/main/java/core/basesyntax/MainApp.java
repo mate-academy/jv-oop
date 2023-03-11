@@ -10,7 +10,7 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         bulldozer.setName("Bulldozer");
 
-        Machine excavator = new Excavator();
+        Machine excavator = new Excavator ();
         excavator.setName("Excavator");
 
         Machine [] machines = new Machine[] {truck, bulldozer, excavator};
