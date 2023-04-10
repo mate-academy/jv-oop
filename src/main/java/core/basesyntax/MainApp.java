@@ -1,11 +1,8 @@
 package core.basesyntax;
-
-import zd.machinery.Bulldozer;
-import zd.machinery.Excavator;
 import zd.machinery.Machine;
 import zd.machinery.Truck;
-
-import javax.crypto.Mac;
+import zd.machinery.Bulldozer;
+import zd.machinery.Excavator;
 
 public class MainApp {
     public static void main(String[] args) {
