@@ -1,8 +1,9 @@
 package core.basesyntax;
-import zd.machinery.Machine;
-import zd.machinery.Truck;
+
 import zd.machinery.Bulldozer;
 import zd.machinery.Excavator;
+import zd.machinery.Machine;
+import zd.machinery.Truck;
 
 public class MainApp {
     public static void main(String[] args) {
