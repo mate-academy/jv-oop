@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-public class MainApp {
-    public void makeMachins() {
+public class Main {
+    public static void main(String[] args) {
         Machin[] machins = {new Truck(), new Bulldozer(), new Excavator()};
         for (Machin machin : machins) {
             machin.doWork();
