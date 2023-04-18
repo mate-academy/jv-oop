@@ -1,16 +1,13 @@
 package core.basesyntax.machines;
 
-import static core.basesyntax.providers.SampleProvider.getDoWorkSample;
-import static core.basesyntax.providers.SampleProvider.getStopWorkSample;
-
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
-        System.out.println(getDoWorkSample("Bulldozer"));
+        System.out.println(("Bulldozer started doing its work"));
     }
 
     @Override
     public void stopWork() {
-        System.out.println(getStopWorkSample("Bulldozer"));
+        System.out.println(("Bulldozer stopped doing its work"));
     }
 }
