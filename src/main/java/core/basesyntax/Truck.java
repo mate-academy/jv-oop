@@ -8,3 +8,4 @@ public class Truck extends Machine {
         System.out.println("Truck has stopped working");
     }
 }
+
