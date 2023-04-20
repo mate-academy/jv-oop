@@ -7,3 +7,41 @@ public class MainAppMachine {
         }
     }
 }
+
+public abstract class Machine {
+    public abstract void doWork();
+    public abstract void stopWork();
+}
+
+public class Truck extends Machine {
+    @Override
+    public void doWork() {
+        System.out.println("Truck starts its work");
+    }
+    @Override
+    public void stopWork() {
+        System.out.println("Truck stops its work");
+    }
+}
+
+public class Bulldozer extends Machine {
+    @Override
+    public void doWork() {
+        System.out.println("Bulldozer starts its work");
+    }
+    @Override
+    public void stopWork() {
+        System.out.println("Bulldozer stops its work");
+    }
+}
+
+public class Excavator extends Machine {
+    @Override
+    public void doWork() {
+        System.out.println("Excavator starts its work");
+    }
+    @Override
+    public void stopWork() {
+        System.out.println("Excavator stops its work");
+    }
+}
