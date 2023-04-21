@@ -10,4 +10,9 @@ public class MainApp {
         }
         return machines;
     }
+
+    public static void main(String[] args) {
+        MainApp app = new MainApp();
+        Machine[] machines = app.getMachines();
+    }
 }
