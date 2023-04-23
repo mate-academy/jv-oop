@@ -1,5 +1,3 @@
-package JavaCoreOOPBasic;
-
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {

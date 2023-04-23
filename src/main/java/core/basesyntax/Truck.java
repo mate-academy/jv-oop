@@ -1,5 +1,3 @@
-package JavaCoreOOPBasic;
-
 public class Truck extends Machine {
     @Override
     public void doWork() {
