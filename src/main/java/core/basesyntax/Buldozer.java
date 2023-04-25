@@ -8,4 +8,6 @@ public class Buldozer extends Machine {
     public void stopWork() {
         System.out.println("Buldozer is stopped");
     }
+
+    Test
 }
