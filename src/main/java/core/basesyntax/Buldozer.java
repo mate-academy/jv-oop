@@ -10,4 +10,5 @@ public class Buldozer extends Machine {
     }
 
     Test
+    Test2
 }
