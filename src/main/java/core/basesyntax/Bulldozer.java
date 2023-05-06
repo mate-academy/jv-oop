@@ -1,7 +1,8 @@
 package core.basesyntax;
 
-public class Bulldozer extends Machine{
+public class Bulldozer extends Machine {
     private final String machineName;
+
     public Bulldozer(String machineName) {
         this.machineName = machineName;
     }

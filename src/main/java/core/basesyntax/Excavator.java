@@ -1,7 +1,8 @@
 package core.basesyntax;
 
-public class Excavator extends Machine{
+public class Excavator extends Machine {
     private final String machineName;
+
     public Excavator(String machineName) {
         this.machineName = machineName;
     }

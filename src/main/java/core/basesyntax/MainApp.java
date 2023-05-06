@@ -4,8 +4,8 @@ public class MainApp {
     public static void main(String[] args) {
         Machine[] machines = {
                 new Excavator("Excavator"),
-                new Excavator("Bulldozer"),
-                new Excavator("Truck")
+                new Bulldozer("Bulldozer"),
+                new Truck("Truck")
         };
 
         for (Machine machine : machines) {
