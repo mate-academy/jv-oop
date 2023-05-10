@@ -16,5 +16,4 @@ public class MainApp {
             type.stopWork();
         }
     }
-
 }
