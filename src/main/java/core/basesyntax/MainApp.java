@@ -7,10 +7,10 @@ public class MainApp {
                 new Bulldozer(),
                 new Truck()
         };
-        for(Machine machine : machines){
+        for (Machine machine : machines) {
             machine.doWork();
         }
-        for(Machine machine : machines){
+        for (Machine machine : machines) {
             machine.stopWork();
         }
     }
