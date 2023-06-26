@@ -10,14 +10,14 @@ public class MainApp {
         doAndStopWorkForEachMachine();
     }
 
-    static void doAndStopWorkForEachMachine() {
-        for (Machine machine: buildEach()) {
+    private static void doAndStopWorkForEachMachine() {
+        for (Machine machine : buildMachines()) {
             machine.doWork();
             machine.stopWork();
         }
     }
 
-    static Machine[] buildEach() {
+    private static Machine[] buildMachines() {
         return new Machine[]{new Truck(), new Bulldozer(), new Excavator()};
     }
 }
