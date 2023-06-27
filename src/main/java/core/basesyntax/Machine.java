@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-public abstract class Machine {
-    public abstract void doWork();
+public interface Machine {
+    void doWork();
 
-    public abstract void stopWork();
+    void stopWork();
 }
