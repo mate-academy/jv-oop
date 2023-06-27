@@ -2,6 +2,7 @@ package core.basesyntax;
 
 public class Truck extends Machine {
     private final String name;
+
     public Truck(String name) {
         this.name = name;
     }
