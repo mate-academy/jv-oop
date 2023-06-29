@@ -6,8 +6,7 @@ public class MainApp {
         Machine excavator = new Excavator();
         Machine truck = new Truck();
         Machine[] machines = new Machine[] {bulldozer, excavator, truck};
-        for (int i = 0; i < machines.length; i++) {
-            Machine machine = machines[i];
+        for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
         }
