@@ -31,7 +31,7 @@ message should indicate what type of `Machine` is working right now `Truck`, `Bu
 Cat fluffy = new Cat();
 Dog oscar = new Dog();
 ```
-This example is bad because it won't allow us to use polymorphism in our code.
+This example is bad cause it won't allow us to use polymorphism in our code.
 Our reference is now bonded to specific implementation, but it is always better to depend on the abstraction.
 Let's see how we can improve it:
 * Improved example:
