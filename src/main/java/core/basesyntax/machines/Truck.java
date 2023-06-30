@@ -1,7 +1,5 @@
 package core.basesyntax.machines;
 
-import core.basesyntax.machines.Machine;
-
 public class Truck extends Machine {
     @Override
     public void doWork() {
