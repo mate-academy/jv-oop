@@ -1,12 +1,17 @@
 package core.basesyntax;
 
 public abstract class Machine {
-    public String machineName;
+    private String machineName;
 
-    public Machine(String machineName){
-        this.machineName = machineName;
+    public void setMachineName(String name) {
+        this.machineName = name;
+    }
+
+    public String getMachineName() {
+        return machineName;
     }
 
     public abstract void doWork();
+
     public abstract void stopWork();
 }
