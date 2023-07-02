@@ -1,10 +1,5 @@
 package core.basesyntax;
 
-import homeWork.Bulldozer;
-import homeWork.Excavator;
-import homeWork.Machine;
-import homeWork.Truck;
-
 public class MainApp {
     public static void main(String[] args) {
 
@@ -14,8 +9,8 @@ public class MainApp {
 
         Machine[] machines = new Machine[]{excavator, bulldozer, truck};
         for (Machine machine : machines) {
-        machine.doWork();
-        machine.stopWork();
+            machine.doWork();
+            machine.stopWork();
 
         }
     }

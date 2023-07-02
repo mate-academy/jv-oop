@@ -1,6 +1,4 @@
-package homeWork;
-
-import homeWork.Machine;
+package core.basesyntax;
 
 public class Truck extends Machine {
     @Override
