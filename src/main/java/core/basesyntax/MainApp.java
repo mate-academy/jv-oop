@@ -9,6 +9,7 @@ public class MainApp {
         machines[1] = new Bulldozer();
         machines[2] = new Excavator();
         for(Machine mc : machines) {
+
             mc.doWork();
             mc.stopWork();
             System.out.println();
