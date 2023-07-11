@@ -2,14 +2,12 @@ package core.basesyntax;
 
 public class Truck extends Machine {
     @Override
-    public char doWork() {
+    public void doWork() {
         System.out.println("Truck started its work");
-        return 0;
     }
 
     @Override
-    public char stopWork() {
+    public void stopWork() {
         System.out.println("Truck stopped its work");
-        return 0;
     }
 }
