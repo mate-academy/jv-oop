@@ -10,9 +10,9 @@ public class MainApp {
 
         Machine[] array = {truck, bulldozer, excavator};
 
-        for(int i = 0; i < array.length; i++) {
-            array[i].doWork();
-            array[i].stopWork();
+        for (Machine machine : array) {
+            machine.doWork();
+            machine.stopWork();
             System.out.println("----------------");
         }
 
