@@ -12,3 +12,4 @@ public class Truck extends Machine {
 
     }
 }
+
