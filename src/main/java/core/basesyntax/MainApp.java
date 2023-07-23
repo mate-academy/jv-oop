@@ -11,14 +11,11 @@ public class MainApp {
         Machine[] array = {truck, bulldozer, excavator};
 
         for(int i = 0; i < array.length; i++) {
-
             array[i].doWork();
             array[i].stopWork();
             System.out.println("----------------");
         }
 
-
     }
-
 
 }
