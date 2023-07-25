@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 class Buldozer extends  Machine {
     @Override
     public void doWork() {
