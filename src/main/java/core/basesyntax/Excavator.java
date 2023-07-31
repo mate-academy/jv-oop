@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package core.basesyntax;
 
 public class Excavator extends Machine {
@@ -36,4 +35,4 @@ public class Excavator extends Machine {
         System.out.println("Excavator stop work");
     }
 }
->>>>>>> origin/master
+
