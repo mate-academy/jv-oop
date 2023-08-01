@@ -12,6 +12,5 @@ public class MainApp {
     for (Machine machine : machineArray) {
       machine.stopWork();
     }
-
   }
 }
