@@ -1,13 +1,12 @@
 package core.basesyntax;
 
 public class MainApp {
-    Machine[] machine = {new Bulldozer(), new Excavator(), new Truck()};
+    Machine[] machines = {new Bulldozer(), new Excavator(), new Truck()};
 
-        {
-        for (Machine i : machine)
-        {
-            i.doWork();
-            i.stopWork();
+        
+        for (Machine machine : machines) {
+                machine.doWork();
+                machine.stopWork();
         }
-    }
+    
 }
