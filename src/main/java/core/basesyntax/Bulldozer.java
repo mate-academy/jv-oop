@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 package core.basesyntax;
 
-public class Bulldozer extends Machine{
+public class Bulldozer extends Machine {
     @Override
     public void doWork() {
         System.out.println("Bulldozer start work");
@@ -12,18 +11,6 @@ public class Bulldozer extends Machine{
         System.out.println("Bulldozer stop work");
     }
 }
-=======
-package core.basesyntax;
 
-public class Bulldozer extends Machine{
-    @Override
-    public void doWork() {
-        System.out.println("Bulldozer start work");
-    }
 
-    @Override
-    public void stopWork() {
-        System.out.println("Bulldozer stop work");
-    }
-}
->>>>>>> origin/master
+
