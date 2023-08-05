@@ -14,13 +14,5 @@ public class MainApp {
         for (Machine machine : machines) {
             machine.stopWork();
         }
-//        bulldozer.doWork();
-//        truck.doWork();
-//        excavator.doWork();
-//        bulldozer.stopWork();
-//        truck.stopWork();
-//        excavator.stopWork();
-//
-
     }
 }
