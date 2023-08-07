@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import javax.crypto.Mac;
-
 public class MainApp {
     public void doWork () {
         Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
