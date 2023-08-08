@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Buildozer extends Machine{
+public class Buildozer extends Machine {
     @Override
     public void doWork() {
         System.out.println("Buildozer started work.");
