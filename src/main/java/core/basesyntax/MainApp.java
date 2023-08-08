@@ -1,7 +1,6 @@
 package core.basesyntax;
 
 public class MainApp {
-
     public static void machinesWork() {
         Machine[] machines = new Machine[3];
         machines[0] = new Truck();
@@ -13,4 +12,3 @@ public class MainApp {
         }
     }
 }
-
