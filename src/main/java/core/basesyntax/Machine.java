@@ -1,11 +1,7 @@
 package core.basesyntax;
 
-public class Machine {
-    public String doWork() {
-        return " started its work.";
-    }
+public abstract class Machine {
+    public abstract String doWork();
 
-    public String stopWork() {
-        return " stopped its work.";
-    }
+    public abstract String stopWork();
 }
