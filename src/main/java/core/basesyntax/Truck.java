@@ -4,11 +4,11 @@ public class Truck extends Machine {
 
     public void doWork() {
 
-        System.out.println("core.basesyntax.Truck started its work");
+        System.out.println("Truck started its work");
     }
 
     public void stopWork() {
-        System.out.println("core.basesyntax.Truck stoped its work");
+        System.out.println("Truck stoped its work");
     }
 
 }
