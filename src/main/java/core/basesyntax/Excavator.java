@@ -9,5 +9,5 @@ public class Excavator extends Machine {
     @Override
     void stopWork() {
         System.out.println("Excavator stopped to work");
-}
+    }
 }
