@@ -13,6 +13,5 @@ public class MainApp {
             machinesArray[i].stopWork();
         }
     }
-
 }
 
