@@ -1,16 +1,7 @@
 package core.basesyntax;
 
-public abstract class Machine {
-    private String name;
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
+abstract class Machine {
     public abstract void doWork();
-    public abstract void doStopWork();
+    public abstract void stopWork();
 
 }
