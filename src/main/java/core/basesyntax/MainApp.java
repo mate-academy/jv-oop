@@ -10,7 +10,6 @@ public class MainApp {
         for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
-            System.out.println();
         }
     }
 }
