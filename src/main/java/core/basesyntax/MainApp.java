@@ -15,7 +15,7 @@ public class MainApp {
         machines[1] = bulldozer;
         machines[2] = truck;
 
-        for (Machine machine: machines) {
+        for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
         }
