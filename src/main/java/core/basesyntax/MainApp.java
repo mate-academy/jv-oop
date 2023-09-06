@@ -7,7 +7,7 @@ abstract class Machine {
 }
 
 class Truck extends Machine {
-    @Override
+    @Override 
     public void doWork() { 
         System.out.println("Truck started its work");
     }
