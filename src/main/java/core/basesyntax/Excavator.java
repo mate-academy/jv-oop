@@ -5,6 +5,7 @@ public class Excavator extends Machine {
     public String doWork() {
         return "Excavator - started its work!";
     }
+
     @Override
     public String stopWork() {
         return "Excavator - stop work!";
