@@ -1,13 +1,13 @@
 public class MainApp {
     public static void main(String[] args) {
-       Machine big = new Bulldozer();
-       Machine rapid = new Truck();
-       Machine important = new Excavator();
-       big.doWork();
-        big.stopWork();
-       rapid.doWork();
-       rapid.stopWork();
+        Machine important = new Excavator();
         important.doWork();
         important.stopWork();
-
-}}
+        Machine rapid = new Truck();
+        rapid.doWork();
+        rapid.stopWork();
+        Machine big = new Bulldozer();
+        big.doWork();
+        big.stopWork();
+    }
+}
