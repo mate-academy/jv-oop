@@ -1,13 +1,12 @@
 public class MainApp {
     public static void main(String[] args) {
-        Machine important = new Excavator();
-        important.doWork();
-        important.stopWork();
-        Machine rapid = new Truck();
-        rapid.doWork();
-        rapid.stopWork();
-        Machine big = new Bulldozer();
-        big.doWork();
-        big.stopWork();
+        Machine [] machines = new Machine[3];
+        machines[0] = new Truck();
+        machines[1] = new Excavator();
+        machines[2] = new Bulldozer();
+        for (int i = 0;i < machines.length;i++) {
+            machines[i].doWork();
+            machines[i].stopWork();
+        }
     }
 }
