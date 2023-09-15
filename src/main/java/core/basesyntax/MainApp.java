@@ -5,6 +5,7 @@ public class MainApp {
         Machine[] machines = {new Bulldozer(), new Excavator(), new Truck()};
         printMethodsInLoop(machines);
     }
+
     public static void printMethodsInLoop(Machine[] machines){
         for (Machine machine : machines){
             machine.doWork();
