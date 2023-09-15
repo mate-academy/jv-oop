@@ -6,7 +6,7 @@ public class MainApp {
         printMethodsInLoop(machines);
     }
 
-    public static void printMethodsInLoop(Machine[] machines){
+    public static void printMethodsInLoop (Machine[] machines) {
         for (Machine machine : machines){
             machine.doWork();
             machine.stopWork();
