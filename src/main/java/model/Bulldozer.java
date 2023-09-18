@@ -1,6 +1,6 @@
 package model;
 
-public class Bulldozer extends Machine{
+public class Bulldozer extends Machine {
     @Override
     public void doWork() {
         System.out.println("Bulldozer is started to work");
