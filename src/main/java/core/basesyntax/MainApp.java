@@ -1,8 +1,5 @@
 package core.basesyntax;
 
-import core.basesyntax.Truck;
-import core.basesyntax.Bulldozer;
-import core.basesyntax.Excavator;
 public class MainApp {
     public static void main(String[] args) {
         Machine truck = new Truck();
