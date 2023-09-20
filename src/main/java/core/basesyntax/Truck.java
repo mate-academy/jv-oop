@@ -1,11 +1,10 @@
 package core.basesyntax;
 
-public class Truck extends Machine{
+public class Truck extends Machine {
 
     @Override
     public void doWork() {
         System.out.println("This Truck do work");
-
     }
 
     @Override

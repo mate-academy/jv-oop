@@ -13,4 +13,3 @@ public class MainApp {
         }
     }
 }
-    //В классе MainApp создайте массив Machine с Truck, Bulldozer и Excavator и вызовите методы doWork() и stopWork() в цикле
