@@ -9,7 +9,7 @@ public class MainApp {
     private Machine truck = new Truck();
     private Machine bulldozer = new Bulldozer();
     private Machine excavator = new Excavator();
-    private Machine[] machines = {truck, bulldozer, excavator};
+    private Machine[] machines = new Machine[] {truck, bulldozer, excavator};
 
     public static void runMachines(Machine[] machines) {
         for (Machine machine: machines) {
