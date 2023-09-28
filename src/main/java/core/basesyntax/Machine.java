@@ -5,6 +5,13 @@ public abstract class Machine {
     private String fuel;
     private double engineCapacity;
 
+    public Machine(String model, String fuel, double engineCapacity) {
+        this.model = model;
+        this.fuel = fuel;
+        this.engineCapacity = engineCapacity;
+
+    }
+
     public String getModel() {
         return model;
     }
@@ -32,12 +39,6 @@ public abstract class Machine {
         this.engineCapacity = engineCapacity;
     }
 
-    public Machine(String model, String fuel, double engineCapacity) {
-        this.model = model;
-        this.fuel = fuel;
-        this.engineCapacity = engineCapacity;
-
-    }
     public abstract void doWork();
 
     public abstract void stopWork();

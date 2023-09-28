@@ -3,6 +3,11 @@ package core.basesyntax;
 public class Truck extends Machine {
     private int wheels;
 
+    Truck(String model, String fuel, double engineCapacity, int wheels) {
+        super(model, fuel, engineCapacity);
+        this.wheels = wheels;
+    }
+
     public int getWheels() {
         return wheels;
     }
@@ -11,11 +16,6 @@ public class Truck extends Machine {
         if (wheels <= 0) {
             System.out.println("A truck needs wheels to move.");
         }
-        this.wheels = wheels;
-    }
-
-    Truck(String model, String fuel, double engineCapacity, int wheels) {
-        super(model, fuel, engineCapacity);
         this.wheels = wheels;
     }
 
