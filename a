@@ -1,0 +1,24 @@
+* [31m60029bc[m -[33m (HEAD -> main, origin/master, origin/HEAD, master)[m change version to JDK 17 in pom.xml (#1675) [32m(3 days ago) [1;34m<Bohdan Chupika>[m
+* [31mea616af[m -[33m[m Update ci.yml to java 17 [32m(5 months ago) [1;34m<Mykyta Oleksin>[m
+* [31m0dbf4f5[m -[33m[m Create checklist.md [32m(5 months ago) [1;34m<Liliia Ponomarenko>[m
+*   [31m68b23a8[m -[33m[m Merge pull request #1176 from mate-academy/change_class_name_in_readme [32m(9 months ago) [1;34m<Dasha>[m
+[32m|[m[33m\[m  
+[32m|[m * [31m2ee36c5[m -[33m[m changed class name in readme [32m(9 months ago) [1;34m<Dasha>[m
+[32m|[m[32m/[m  
+* [31m94f3d3c[m -[33m[m changed task description (#650) [32m(1 year, 6 months ago) [1;34m<Sofia Diakonova>[m
+* [31m17bec63[m -[33m[m Update CI config [32m(1 year, 10 months ago) [1;34m<resci>[m
+* [31m95eeb7c[m -[33m[m Migrate from Travis to Github Actions [32m(1 year, 10 months ago) [1;34m<resci>[m
+* [31me3a9585[m -[33m[m Update .travis.yml [32m(2 years, 3 months ago) [1;34m<Bohdan Chupika>[m
+*   [31m93cce81[m -[33m[m Merge pull request #257 from mate-academy/fix-spelling-mistake [32m(2 years, 6 months ago) [1;34m<KseniiaMakarova>[m
+[34m|[m[35m\[m  
+[34m|[m * [31mc8e194e[m -[33m[m fixed spelling mistake [32m(2 years, 6 months ago) [1;34m<kseniia_makarova>[m
+[34m|[m[34m/[m  
+* [31me803478[m -[33m[m update travis (#141) [32m(2 years, 10 months ago) [1;34m<Sofia Diakonova>[m
+* [31m0eb6581[m -[33m[m translated description to end, added link to checklist (#140) [32m(2 years, 11 months ago) [1;34m<RomanDubovskyi>[m
+* [31m1bd489b[m -[33m[m Task description refactoring (#138) [32m(3 years, 2 months ago) [1;34m<RomanDubovskyi>[m
+* [31ma185cec[m -[33m[m Update README.md [32m(3 years, 2 months ago) [1;34m<Bohdan Chupika>[m
+* [31me08f502[m -[33m[m Update README.md [32m(3 years, 2 months ago) [1;34m<Bohdan Chupika>[m
+* [31ma98e3e8[m -[33m[m Update pom.xml [32m(3 years, 6 months ago) [1;34m<Sofia Diakonova>[m
+* [31m514027b[m -[33m[m Update pom.xml [32m(3 years, 11 months ago) [1;34m<Bohdan Chupika>[m
+* [31m0970691[m -[33m[m added hw instructions [32m(3 years, 11 months ago) [1;34m<Bohdan Chupika>[m
+* [31mc6c4d44[m -[33m[m Initial commit [32m(3 years, 11 months ago) [1;34m<Bohdan Chupika>[m
