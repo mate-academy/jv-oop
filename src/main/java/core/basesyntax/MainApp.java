@@ -7,7 +7,6 @@ public class MainApp {
             machin.doWork();
             machin.stopWork();
         }
-
     }
 }
 
