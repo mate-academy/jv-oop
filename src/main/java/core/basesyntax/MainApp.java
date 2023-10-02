@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class MainApp {
-    public static void mainApp (String[] args) {
+    public static void mainApp(String[] args) {
 
         Machine[] machines = new Machine[]
                 { new Excavator(), new Bulldozer(), new Truck() };
