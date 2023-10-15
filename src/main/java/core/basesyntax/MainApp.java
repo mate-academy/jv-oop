@@ -3,9 +3,9 @@ package core.basesyntax;
 public class MainApp {
     public static void main(String[] args) {
         Machine[] machines = {
-                new Machines.Truck(),
-                new Machines.Bulldozer(),
-                new Machines.Excavator()
+                new Truck(),
+                new Bulldozer(),
+                new Excavator()
         };
 
         for (Machine machine : machines) {
