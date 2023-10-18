@@ -23,7 +23,7 @@ public class Main {
 
 #### Write informative messages in methods.
 - Use English only and make messages informative
-- The message should indicate what type of `Machine` is working right now `Truck`, `Bulldozer` or `Excavator`.
+- The message should indicate what type of `core.basesyntax.Machine` is working right now `Truck`, `Bulldozer` or `Excavator`.
 
 #### Use abstract references instead of specific ones where possible: 
 * Bad example:
