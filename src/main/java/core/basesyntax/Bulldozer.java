@@ -11,3 +11,4 @@ abstract class Bulldozer extends Machine {
         System.out.println("Truck stopped its work");
     }
 }
+
