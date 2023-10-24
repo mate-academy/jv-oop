@@ -8,6 +8,7 @@ import core.basesyntax.machine.Truck;
 public class MainApp {
     // STUPID, USE MAIN METHOD
     private static Machine[] machines = new Machine[3];
+
     private static void initialize() {
         machines[0] = new Excavator();
         machines[1] = new Bulldozer();
