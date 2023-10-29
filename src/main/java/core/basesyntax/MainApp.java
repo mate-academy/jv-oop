@@ -6,7 +6,8 @@ import core.basesyntax.machine.Machine;
 import core.basesyntax.machine.Truck;
 
 public class MainApp {
-    private static final Machine[] machines = new Machine[3];
+    public static final int MACHINES_LEN = 3;
+    private static final Machine[] machines = new Machine[MACHINES_LEN];
 
     private static void initialize() {
         machines[0] = new Excavator();
