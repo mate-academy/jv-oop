@@ -7,9 +7,9 @@ public class MainApp {
         Machine excavator = new Excavator();
         Machine[] machines = {excavator, truck, bulldozer};
 
-        for (int i = 0; i < 3; i++) {
-            System.out.println(machines[i].doWork());
-            System.out.println(machines[i].stopWork());
+        for (Machine index : machines) {
+            index.doWork();
+            index.stopWork();
         }
     }
 }
