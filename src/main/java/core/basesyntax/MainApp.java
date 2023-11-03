@@ -3,13 +3,13 @@ package core.basesyntax;
 public class MainApp {
     
     public static void main(String[] args) {
-        final Machine[] machine = new Machine[3];
-        machine[0] = new Bulldozer();
-        machine[1] = new Excavator();
-        machine[2] = new Truck();
-        for (Machine value : machine) {
-            value.doWork();
-            value.stopWork();
+        final Machines[] machines = new Machines[3];
+        machines[0] = new Bulldozer();
+        machines[1] = new Excavator();
+        machines[2] = new Truck();
+        for (int i = 0; i < machines.length; i++) {
+            machines[i].doWork();
+            machines[i].stopWork();
         }
     }
 }
