@@ -5,5 +5,3 @@ public abstract class Machines {
 
     public abstract void stopWork();
 }
-
-
