@@ -13,5 +13,4 @@ public class MainApp {
         }
     }
 }
-//In the MainApp class create a Machine array with Truck, Bulldozer,and Excavator
-// and call methods doWork() and stopWork() in a loop.
+
