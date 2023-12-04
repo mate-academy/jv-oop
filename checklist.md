@@ -22,17 +22,17 @@ public class Main {
 ```
 
 #### Write informative messages in methods.
-Use english only and make them informative:
-message should indicate what type of `Machine` is working right now `Truck`, `Bulldozer` or `Excavator`.
+- Use English only and make messages informative
+- The message should indicate what type of `Machine` is working right now `Truck`, `Bulldozer` or `Excavator`.
 
-#### Use abstract reference instead of specific one where possible: 
+#### Use abstract references instead of specific ones where possible: 
 * Bad example:
 ```
 Cat fluffy = new Cat();
 Dog oscar = new Dog();
 ```
 This example is bad cause it won't allow us to use polymorphism in our code.
-Our reference is now bonded to specific implementation, but it is always better to depend on the abstraction.
+Our reference is now bonded to a specific implementation, but it is always better to depend on the abstraction.
 Let's see how we can improve it:
 * Improved example:
 ```
@@ -42,8 +42,8 @@ Animal oscar = new Dog();
 
 #### Depending on the case, class elements should have different access modifiers
 Remember that if you don't use any access modifiers that will apply the default one. Do we always want
-to have all elements with default access modifiers? Remind yourself about encapsulation principle and 
+to have all elements with default access modifiers? Remind yourself about the encapsulation principle and 
 when private or public should be used.
 
 #### Write informative messages when you commit code or open a PR.         
-Bad example of commit/PR message: `done`/`fixed`/`commit`/`solution`/`added homework`/`my solution` and other one-word, abstract or random messages. 
+Bad examples of commit/PR messages: `done`/`fixed`/`commit`/`solution`/`added homework`/`my solution` and other one-word, abstract or random messages. 
