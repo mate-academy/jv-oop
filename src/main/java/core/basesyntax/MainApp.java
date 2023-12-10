@@ -12,5 +12,18 @@ package core.basesyntax;
  * - Отправить все машини на работу и остановить работу всех машин.
  */
 public class MainApp {
+    Machine buldozer = new Bulldozer();
+    Machine excavator = new Excavator();
+    Machine truck = new Truck();
+
+    Machine[] machines = {buldozer, excavator, truck};
+
+    public void result(Machine[] machines) {
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
+
+        }
+    }
 
 }
