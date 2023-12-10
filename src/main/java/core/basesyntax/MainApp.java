@@ -16,7 +16,7 @@ public class MainApp {
     private Machine excavator = new Excavator();
     private Machine truck = new Truck();
 
-    Machine[] machines = {buldozer, excavator, truck};
+    private Machine[] machines = {buldozer, excavator, truck};
 
     private void result(Machine[] machines) {
         for (Machine machine : machines) {
