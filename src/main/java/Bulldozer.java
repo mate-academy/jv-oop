@@ -1,6 +1,6 @@
 public class Bulldozer extends Machine {
     public void doWork() {
-        System.out.println("Bulldozer do work");
+        System.out.println("Bulldozer do work1");
     }
 
     public void stopWork() {
