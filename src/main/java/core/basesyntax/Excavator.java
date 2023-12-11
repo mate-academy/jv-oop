@@ -2,9 +2,8 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
 
-    public Excavator(String name, boolean work) {
-        setName(name);
-        setWork(work);
+    public Excavator(String name, boolean working) {
+        super(name, working);
     }
 
     @Override

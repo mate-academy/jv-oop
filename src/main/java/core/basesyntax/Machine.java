@@ -2,7 +2,12 @@ package core.basesyntax;
 
 public abstract class Machine {
     private String name;
-    private boolean isWork;
+    private boolean isWorking;
+
+    public Machine(String name, boolean working) {
+        this.name = name;
+        this.isWorking = working;
+    }
 
     public String getName() {
         return name;
@@ -12,12 +17,12 @@ public abstract class Machine {
         this.name = name;
     }
 
-    public boolean isWork() {
-        return isWork;
+    public boolean isWorking() {
+        return isWorking;
     }
 
     public void setWork(boolean work) {
-        isWork = work;
+        isWorking = work;
     }
 
     public abstract void doWork();

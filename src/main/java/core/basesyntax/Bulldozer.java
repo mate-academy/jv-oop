@@ -2,9 +2,8 @@ package core.basesyntax;
 
 public class Bulldozer extends Machine {
 
-    public Bulldozer(String name, boolean work) {
-        setName(name);
-        setWork(work);
+    public Bulldozer(String name, boolean working) {
+        super(name, working);
     }
 
     @Override

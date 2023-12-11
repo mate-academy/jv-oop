@@ -2,9 +2,8 @@ package core.basesyntax;
 
 public class Truck extends Machine {
 
-    public Truck(String name, boolean work) {
-        setName(name);
-        setWork(work);
+    public Truck(String name, boolean working) {
+        super(name, working);
     }
 
     @Override
