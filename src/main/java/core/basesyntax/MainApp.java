@@ -11,14 +11,9 @@ public class MainApp {
         arrayMachine[1] = excavator;
         arrayMachine[2] = bulldozer;
 
-        for (Machine element : arrayMachine){
+        for (Machine element : arrayMachine) {
             element.doWork();
             element.stopWor();
         }
-
     }
-
-
-
-
 }
