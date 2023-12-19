@@ -5,7 +5,6 @@ public class MainApp {
         Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
 
         for (Machine car: machines) {
-            System.out.println("Current machine: " + car);
             car.doWork();
             car.stopWork();
             System.out.println("\n");
