@@ -9,21 +9,23 @@ public class MainApp {
         };
 
         for (String typeOfMachine : machines) {
-            switch (typeOfMachine) {
-                case "Truck" : Truck truck = new Truck();
-                              truck.doWork();
-                              truck.stopWork();
-                              break;
-                case "Bulldozer" : Bulldozer bulldozer = new Bulldozer();
-                              bulldozer.doWork();
-                              bulldozer.stopWork();
-                              break;
-                case "Excavator" : Excavator excavator = new Excavator();
-                              excavator.doWork();
-                              excavator.stopWork();
-                              break;
-                default : break;
-            }
+            Machine machine = createInstance(typeOfMachine);
+            machine.doWork();
+            machine.stopWork();
+        }
+    }
+
+    public static Machine createInstance(String typeOfMachine) {
+        switch (typeOfMachine) {
+            case "Truck":
+                return new Truck();
+            case "Bulldozer":
+                return new Bulldozer();
+            case "Excavator":
+                return new Excavator();
+            default:
+                return null;
         }
     }
 }
+
