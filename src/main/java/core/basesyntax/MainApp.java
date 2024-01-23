@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class MainApp {
 
-    public static void main() {
+    public static void doMachine() {
 
         Machine[] machines;
 
