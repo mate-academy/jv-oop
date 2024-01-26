@@ -9,7 +9,7 @@ public class MainApp {
         machines [2] = new Truck();
 
         for (Machine machine : machines) {
-            machine.stopWork();
+            machine.doWork();
             machine.stopWork();
         }
     }
