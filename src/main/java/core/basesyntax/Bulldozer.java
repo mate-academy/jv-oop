@@ -1,2 +1,13 @@
-package core.basesyntax;public class Bulldozer {
+package core.basesyntax;
+
+public class Bulldozer extends Machine {
+    @Override
+    public void doWork() {
+        System.out.println(this.getClass().getSimpleName() + " starts working.");
+    }
+
+    @Override
+    public void stopWork() {
+        System.out.println(this.getClass().getSimpleName() + " stops working.");
+    }
 }
