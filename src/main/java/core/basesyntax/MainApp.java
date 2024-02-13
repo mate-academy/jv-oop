@@ -8,10 +8,10 @@ import mate.academy.Truck;
 public class MainApp {
     public static void main(String[] args) {
 
-        Machine[] Machine = {new Truck(), new Bulldozer(), new Excavator()};
+        Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
 
         // Calling doWork() and stopWork() methods in a loop
-        for (Machine machine : Machine) {
+        for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
         }
