@@ -8,5 +8,6 @@ public class MainApp {
             machine.stopWork();
         }
     }
+    //commit comment
 }
 
