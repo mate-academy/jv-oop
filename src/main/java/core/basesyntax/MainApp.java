@@ -4,7 +4,6 @@ import core.machines.Bulldozer;
 import core.machines.Excavator;
 import core.machines.Machine;
 import core.machines.Truck;
-
 import java.util.ArrayList;
 
 public class MainApp {
