@@ -42,7 +42,6 @@ public class MainApp {
             System.out.println("Бульдозер зупинив роботу.");
         }
     }
-
     public static class Excavator extends Machine {
         @Override
         public void doWork() {
