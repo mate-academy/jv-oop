@@ -1,28 +1,28 @@
-abstract class Machine{
+abstract class Machine {
   public abstract void doWork();
   public abstract void stopWork();
  }
-class Truck extends Machine{
-    public void doWork(){
+class Truck extends Machine {
+    public void doWork() {
         System.out.println("Truck started its work.");
     }
-    public void stopWork(){
+    public void stopWork() {
         System.out.println("Truck has stopped working.");
     }
 }
-class Bulldozer extends Machine{
-    public void doWork(){
+class Bulldozer extends Machine {
+    public void doWork() {
         System.out.println("Bulldozer started its work");
     }
-    public void stopWork(){
+    public void stopWork() {
         System.out.println("Bulldozer has stopped working.");
     }
 }
 class Excavator extends Machine{
-    public void doWork(){
+    public void doWork() {
         System.out.println("Excavator started its work.");
     }
-    public void stopWork(){
+    public void stopWork() {
         System.out.println("Excavator has stopped working.");
     }
 }
