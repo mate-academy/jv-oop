@@ -7,9 +7,9 @@ public class MainApp {
     private static Machine[] machine = {truck, bulldozer, excavator};
 
     public static void main(String[] args) {
-        for (Machine machineArr : machine) {
-            machineArr.doWork();
-            machineArr.stopWork();
+        for (Machine machine : machine) {
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
