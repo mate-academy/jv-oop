@@ -5,9 +5,6 @@ public abstract class Machine {
     Machine (String name) {
         this.name=name;
     }
-    public void setName(String name) {
-        this.name=name;
-    }
     public String getName() {
         return name;
     }
