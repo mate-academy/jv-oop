@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    Bulldozer (String name) {
+    Bulldozer(String name) {
         super(name);
     }
 

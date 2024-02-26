@@ -4,7 +4,7 @@ public abstract class Machine {
     private final String name;
 
     Machine (String name) {
-        this.name=name;
+        this.name = name;
     }
 
     public String getName() {

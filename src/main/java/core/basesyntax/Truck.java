@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-public class Truck extends Machine{
-    Truck (String name) {
+public class Truck extends Machine {
+    Truck(String name) {
         super(name);
     }
 
