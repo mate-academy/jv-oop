@@ -3,7 +3,7 @@ package core.basesyntax;
 public abstract class Machine {
     private final String name;
 
-    Machine (String name) {
+    Machine(String name) {
         this.name = name;
     }
 
