@@ -1,3 +1,4 @@
+package core.basesyntax;
 class Bulldozer extends Machine {
     public void doWork() {
         System.out.println("Bulldozer started its work");
