@@ -4,6 +4,7 @@ public class Truck extends Machine{
     Truck (String name) {
         super(name);
     }
+
     @Override
     public void doWork() {
         System.out.println(getName() + " machine started its work.");
