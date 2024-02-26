@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public abstract class Machine {
-    private String name;
+    private final String name;
 
     Machine (String name) {
         this.name=name;
