@@ -6,11 +6,10 @@ public class MainApp {
     private static Machine excavator = new Excavator();
     private static Machine[] machine = {truck, bulldozer, excavator};
 
-    public static void main(String[] args) {
+    public void mainApp() {
         for (Machine machine : machine) {
             machine.doWork();
             machine.stopWork();
         }
     }
 }
-
