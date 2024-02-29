@@ -6,7 +6,7 @@ public class MainApp {
         for (Machine machine:machines) {
             machine.doWork();
         }
-// added one comment
+
         for (Machine machine:machines) {
             machine.stopWork();
         }
