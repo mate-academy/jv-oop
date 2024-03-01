@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class MainApp {
-    abstract static class Machine {
+    public abstract static class Machine {
         public abstract void doWork();
 
         public abstract void stopWork();

@@ -1,6 +1,7 @@
 package core.basesyntax;
+import core.basesyntax.MainApp.Machine;
 
-public class Excavator extends MainApp.Machine {
+public class Excavator extends Machine {
     @Override
     public void doWork() {
         System.out.println("Excavator starts working...");

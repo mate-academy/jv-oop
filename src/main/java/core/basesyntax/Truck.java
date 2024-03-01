@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 import core.basesyntax.MainApp.Machine;
 
 public class Truck extends Machine {
