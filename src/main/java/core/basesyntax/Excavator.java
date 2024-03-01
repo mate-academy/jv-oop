@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 import core.basesyntax.MainApp.Machine;
 
 public class Excavator extends Machine {
