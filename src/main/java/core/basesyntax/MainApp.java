@@ -7,7 +7,7 @@ public class MainApp {
             machine.doWork();
         }
 
-        for (Machine machine:machines) {
+        for (Machine machine : machines) {
             machine.stopWork();
         }
     }
