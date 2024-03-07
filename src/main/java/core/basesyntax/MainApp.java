@@ -8,7 +8,6 @@ public class MainApp {
         machines[1] = new Bulldozer();
         machines[2] = new Excavator();
 
-        // Вызов методов doWork() и stopWork() в цикле
         for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
