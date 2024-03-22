@@ -9,18 +9,8 @@ public class MainApp {
         machines[2] = new Truck();
 
         for (Machine machine : machines) {
-            if (machine == machines[0]) {
-                machine.doWork();
-                machine.stopWork();
-            }
-            if (machine == machines[1]) {
-                machine.doWork();
-                machine.stopWork();
-            }
-            if (machine == machines[2]) {
-                machine.doWork();
-                machine.stopWork();
-            }
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
