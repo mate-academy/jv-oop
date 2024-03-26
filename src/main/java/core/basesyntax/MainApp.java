@@ -11,7 +11,7 @@ class MainApp {
         apparatus[1] = new Bulldozer();
         apparatus[2] = new Excavator();
 
-        for(int i=0; i< apparatus.length; i++) {
+        for (int i = 0; i < apparatus.length; i++) {
             apparatus[i].doWork();
             apparatus[i].stopWork();
         }
