@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public abstract class MainApp {
+public class MainApp {
     public static void main(String[] args) {
         Machine truck = new Truck("Truck");
         Machine bulldozer = new Bulldozer("Bulldozer");
