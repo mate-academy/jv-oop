@@ -1,18 +1,18 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    private int buldozer;
+    private int number;
 
-    public Bulldozer(int buldozer) {
-        this.buldozer = buldozer;
+    public Bulldozer(int number) {
+        this.number = number;
     }
 
     public int getBulldozer() {
-        return buldozer;
+        return number;
     }
 
     public void setBulldozer() {
-        this.buldozer = buldozer;
+        this.number = number;
     }
 
     @Override

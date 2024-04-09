@@ -1,18 +1,18 @@
 package core.basesyntax;
 
 public class Excavator extends Machine {
-    private int excavator;
+    private int number;
 
-    public Excavator(int excavator) {
-        this.excavator = excavator;
+    public Excavator(int number) {
+        this.number = number;
     }
 
     public int getExcavator() {
-        return excavator;
+        return number;
     }
 
     public void setExcavator() {
-        this.excavator = excavator;
+        this.number = number;
     }
 
     @Override

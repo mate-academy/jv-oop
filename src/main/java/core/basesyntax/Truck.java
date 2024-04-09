@@ -1,18 +1,18 @@
 package core.basesyntax;
 
 public class Truck extends Machine {
-    private int truck;
+    private int number;
 
-    public Truck(int truck) {
-        this.truck = truck;
+    public Truck(int number) {
+        this.number = number;
     }
 
     public int getTruck() {
-        return truck;
+        return number;
     }
 
     public void setTruck() {
-        this.truck = truck;
+        this.number = number;
     }
 
     @Override
