@@ -6,6 +6,7 @@ public class Evacuator extends Machine {
     public void doWork() {
         System.out.println("Evacuator start work");
     }
+
     @Override
 
     public void stopWork() {
