@@ -8,11 +8,8 @@ public class MainApp {
         machines[2] = new Excavator();
 
         for (Machine machine : machines) {
-
             machine.doWork();
-
             machine.stopWork();
-
             System.out.println();
         }
     }
