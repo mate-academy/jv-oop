@@ -7,9 +7,9 @@ public class MainApp {
         Machine CAt = new Excavator();
         Machine[] array = new Machine[] {MAN, JBC, CAt};
 
-        for (int i = 0; i < array.length; i++) {
-            array[i].doWork();
-            array[i].stopWork();
+        for (Machine machine : array) {
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
