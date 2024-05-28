@@ -1,4 +1,4 @@
-package com.javacore.oop;
+package core.basesyntax;
 
 public class Bulldozer extends core.basesyntax.Machine {
     @Override
