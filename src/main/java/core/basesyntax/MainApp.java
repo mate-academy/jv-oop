@@ -4,26 +4,12 @@ public class MainApp {
 
     public static void main(String[] args) {
 
-        //Excavator excavator = new Excavator();
-        //Bulldozer bulldozer = new Bulldozer();
-        //Truck truck = new Truck();
+        Machine[] machines = {new Excavator(), new Bulldozer(), new Truck()};
 
-        Object[] object = new Object[3];
+        for (Machine machine : machines) {
 
-        object[0] = new Excavator();
-        object[1] = new Bulldozer();
-        object[2] = new Truck();
-
-        for (Object objects : object) {
-            //Excavator
-            Excavator.doWork();
-            Excavator.stopWork();
-            //Bulldozer
-            Bulldozer.doWork();
-            Bulldozer.stopWork();
-            //Truck
-            Truck.doWork();
-            Truck.stopWork();
+            machine.doWork();
+            machine.stopWork();
 
         }
 
