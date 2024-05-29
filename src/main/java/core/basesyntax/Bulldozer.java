@@ -8,7 +8,7 @@ public class Bulldozer extends Machine {
     }
 
     public static void stopWork() {
-        System.out.println("Bulldozer stopped working ");;
+        System.out.println("Bulldozer stopped working ");
 
     }
 }

@@ -14,8 +14,7 @@ public class MainApp {
         object[1] = new Bulldozer();
         object[2] = new Truck();
 
-
-        for (Object objects : object ) {
+        for (Object objects : object) {
             //Excavator
             Excavator.doWork();
             Excavator.stopWork();
@@ -29,8 +28,5 @@ public class MainApp {
         }
 
     }
-
-
-
 
 }
