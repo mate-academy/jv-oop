@@ -2,17 +2,13 @@ package core.basesyntax;
 
 public class Bulldozer extends Machine {
 
-    public Bulldozer(String nameMachine) {
-        super(nameMachine);
-    }
-
     @Override
     public void doWork() {
-        System.out.println(getNameMachine() + " start work");
+        System.out.println("Bulldozer started working");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(getNameMachine() + " stoped work");
+        System.out.println("Bulldozer stopped working");
     }
 }

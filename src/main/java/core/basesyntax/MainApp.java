@@ -4,14 +4,14 @@ public class MainApp {
 
     public static void main(String[] args) {
         Machine[] machines = new Machine[] {
-                new Bulldozer("Buldozer"),
-                new Excavator("Excavator"),
-                new Truck("Truck")
+                new Bulldozer(),
+                new Excavator(),
+                new Truck()
         };
 
-        for (int i = 0; i < machines.length; i++) {
-            machines[i].doWork();
-            machines[i].stopWork();
+        for (Machine machine : machines) {
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
