@@ -6,7 +6,7 @@ public class MainApp {
         Excavator excavator = new Excavator();
         Bulldozer bulldozer = new Bulldozer();
 
-        Machine[] machines = new Machine[]{excavator,bulldozer,truck};
+        Machine[] machines = new Machine[]{excavator, bulldozer, truck};
 
         for (Machine machine : machines) {
             machine.doWork();
