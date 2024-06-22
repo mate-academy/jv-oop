@@ -1,18 +1,23 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
+    public String getStartMessage() {
+        return "Bulldozer start working";
+    }
+
+    public String getStopMessage() {
+        return "Bulldozer stop working";
+    }
+
     @Override
     public void doWork() {
-        System.out.println(getMachineType() + " is moving earth.");
+        System.out.println(getStartMessage());
+        System.out.println("Bulldozer start working");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(getMachineType() + " has finished moving earth and is now off.");
-    }
-
-    @Override
-    public String getMachineType() {
-        return "Bulldozer";
+        System.out.println(getStopMessage());
+        System.out.println("Bulldozer stop working");
     }
 }

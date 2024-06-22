@@ -9,12 +9,7 @@ public class MainApp {
         };
 
         for (Machine machine : machines) {
-            System.out.println("\t" + machine.getMachineType());
             machine.doWork();
-        }
-
-        for (Machine machine : machines) {
-            System.out.println("\t" + machine.getMachineType());
             machine.stopWork();
         }
 
