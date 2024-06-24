@@ -11,13 +11,13 @@ public class Bulldozer extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(getStartMessage());
-        System.out.println("Bulldozer start working");
+        System.out.println(this.getClass().getName() + ": " + getStartMessage());
+
     }
 
     @Override
     public void stopWork() {
-        System.out.println(getStopMessage());
-        System.out.println("Bulldozer stop working");
+        System.out.println(this.getClass().getName() + ": " + getStopMessage());
+
     }
 }

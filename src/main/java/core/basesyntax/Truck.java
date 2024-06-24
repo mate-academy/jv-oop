@@ -11,13 +11,13 @@ public class Truck extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(getStartMessage());
-        System.out.println("Truck start working");
+        System.out.println(this.getClass().getName() + ": " + getStartMessage());
+
     }
 
     @Override
     public void stopWork() {
-        System.out.println(getStopMessage());
-        System.out.println("Truck stop working");
+        System.out.println(this.getClass().getName() + ": " + getStopMessage());
+
     }
 }
