@@ -1,4 +1,4 @@
-package core.basesyntax.Vehicles;
+package core.basesyntax.vehicles;
 
 import core.basesyntax.Machine;
 

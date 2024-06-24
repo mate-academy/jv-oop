@@ -1,4 +1,4 @@
-package core.basesyntax.Vehicles;
+package core.basesyntax.vehicles;
 
 import core.basesyntax.Machine;
 
@@ -12,6 +12,4 @@ public class Bulldozer extends Machine {
     public void stopWork() {
         System.out.println("Bulldozer stopped working");
     }
-
-
 }
