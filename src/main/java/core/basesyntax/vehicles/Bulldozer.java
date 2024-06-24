@@ -5,11 +5,11 @@ import core.basesyntax.Machine;
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
-        System.out.println("Bulldozer started working");
+        System.out.println("Bulldozer machine has started operating.");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Bulldozer stopped working");
+        System.out.println("Bulldozer machine has stopped operating.");
     }
 }
