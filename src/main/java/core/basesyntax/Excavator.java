@@ -3,9 +3,7 @@ package core.basesyntax;
 public class Excavator extends Machine {
     @Override
     public void doWork() {
-        System.out.println(this.getClass().getSimpleName()
-                + ": "
-                + "Excavator start working");
+        System.out.println("Excavator start working");
     }
 
     @Override
