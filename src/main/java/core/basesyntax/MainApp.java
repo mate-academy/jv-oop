@@ -1,9 +1,5 @@
 package core.basesyntax;
 
-abstract class Machine {
-    public abstract void doWork();
-    public abstract void stopWork();
-}
 class Truck extends Machine {
     public void doWork() {
         System.out.println("Truck is starting its work");
