@@ -6,34 +6,34 @@ abstract class Machine {
 }
 class Truck extends Machine {
     public void doWork() {
-        System.out.println("Truck start");
+        System.out.println("Truck is starting its work");
     }
     public void stopWork() {
-        System.out.println("Truck stop");
+        System.out.println("Truck has stopped working");
     }
 }
 class Bulldozer extends Machine {
     public void doWork() {
-        System.out.println("Bulldozer start");
+        System.out.println("Bulldozer is starting its work");
     }
 
     public void stopWork() {
-        System.out.println("Bulldozer stop");
+        System.out.println("Bulldozer has stopped working");
     }
 }
 class Excavator extends Machine {
     public void doWork() {
-        System.out.println("Excavator start");
+        System.out.println("Excavator is starting its work");
     }
     public void stopWork() {
-        System.out.println("Excavator stop");
+        System.out.println("Excavator has stopped working");
     }
 }
 public class MainApp {
     public static void main(String[] args) {
-        Machine[] spisoc = {new Truck(), new Bulldozer(), new Excavator()};
+        Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
 
-        for (Machine machine : spisoc) {
+        for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
         }
