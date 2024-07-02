@@ -1,6 +1,7 @@
 package core.basesyntax;
 
-class Truck extends Machine {
+public class Truck extends Machine {
+
     public void doWork() {
         System.out.println("Truck is starting its work");
     }
