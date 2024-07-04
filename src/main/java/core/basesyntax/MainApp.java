@@ -14,6 +14,5 @@ public class MainApp {
         for (int i = 0; i < buildingMachines.length; i++) {
             buildingMachines[i].stopWork();
         }
-
     }
 }
