@@ -9,8 +9,7 @@ public class MainApp {
         for (int i = 0; i < buildingMachines.length; i++) {
             buildingMachines[i].doWork();
         }
-        System.out.println("'Excavator, Bulldozer, and Truck have "
-                + "been working all day and then...\n");
+        System.out.println("Machines working all day and then...\n");
         for (int i = 0; i < buildingMachines.length; i++) {
             buildingMachines[i].stopWork();
         }
