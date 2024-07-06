@@ -5,11 +5,11 @@ import core.basesyntax.Machine;
 public class Truck extends Machine {
     @Override
     public void doWork() {
-        System.out.println("Common Truck, You can do it");
+        System.out.println("Truck is starting its work");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Ohh Truck, try again");
+        System.out.println("Truck is stopping its work");
     }
 }

@@ -5,11 +5,11 @@ import core.basesyntax.Machine;
 public class Excavator extends Machine {
     @Override
     public void doWork() {
-        System.out.println("Common Excavator, You can do it");
+        System.out.println("Excavator starts digging");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Ohh, Excavator  try again");
+        System.out.println("Excavator has stopped digging");
     }
 }
