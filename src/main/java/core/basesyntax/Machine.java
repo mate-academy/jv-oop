@@ -2,10 +2,10 @@ package core.basesyntax;
 
 public abstract class Machine {
 
-    public void doWork() {
+    public abstract void doWork() {
     }
 
-    public void stopWork() {
+    public abstract void stopWork() {
     }
 
 }
