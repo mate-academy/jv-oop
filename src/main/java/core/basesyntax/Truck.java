@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Truck extends Machine {
+public class Truck {
 
     @Override
     public void doWork() {
