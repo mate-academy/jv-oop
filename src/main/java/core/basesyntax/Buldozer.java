@@ -4,7 +4,7 @@ public class Buldozer extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println("Buldozer started working");
+        System.out.println("Machine buldozer started working");
     }
 
     @Override
