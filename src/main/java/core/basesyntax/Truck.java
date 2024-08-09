@@ -8,11 +8,11 @@ public class Truck extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println("Truck is working");
+        System.out.println("core.basesyntax.Truck is working");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Truck stopped working");
+        System.out.println("core.basesyntax.Truck stopped working");
     }
 }
