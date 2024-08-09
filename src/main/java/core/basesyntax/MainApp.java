@@ -5,9 +5,6 @@ public class MainApp {
         Machine[] machines = new Machine[] {
                 new Truck("truck"),
                 new Bulldozer("bulldozer"),
-                new Excavator("excavator"),
-                new Truck("truck"),
-                new Bulldozer("bulldozer"),
                 new Excavator("excavator")
         };
         for (int i = 0; i < machines.length; i++) {
