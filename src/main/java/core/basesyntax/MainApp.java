@@ -10,23 +10,14 @@ public class MainApp {
         Machine excavator = new Excavator();
         //tablica z obiektami
 
-        Machine[] carPark = {truck , bulldozer , excavator };
+        Machine[] carPark = {truck, bulldozer, excavator };
 
         // stworzyc petle for ktora wyswietli do i stop work
 
         for (int i = 0; i < carPark.length; i++) {
             carPark[i].doWork();
             carPark[i].stopWork();
-
-
         }
-
-
-        // stworzyc maszyny z podanych wczesniej 3 typow
-        // i sprawdzic czy wywietlaja sie wiadomosci na konsoli
-
-
-
     }
 }
 
