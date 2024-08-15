@@ -11,5 +11,6 @@ public class MainApp {
             machines[i].doWork();
             machines[i].stopWork();
         }
+        System.out.println("Done");
     }
 }
