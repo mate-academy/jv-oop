@@ -9,6 +9,6 @@ public static void Main() {
          for(int i = 0; i < machines.length; i++) {
             machines[i].doWork();
             machines[i].stopWork();
-    }
-  }
+         }
+     }
 }
