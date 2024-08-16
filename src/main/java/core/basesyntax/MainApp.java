@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class MainApp {
-    public static void Main() {
+    public static void main() {
         Machine bulldozer = new Bulldozer();
         Machine truck = new Truck();
         Machine excavator = new Excavator();
