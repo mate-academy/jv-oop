@@ -7,13 +7,9 @@ public class MainApp {
                 new Excavator(),
                 new Truck()
         };
-        // Iterate through the array and call doWork() and stopWork()
-        for (Machine machine : machines) {
-            machine.doWork();
-        }
 
         for (Machine machine : machines) {
-            machine.stopWork();
+            machine.doWork();
         }
     }
 }
