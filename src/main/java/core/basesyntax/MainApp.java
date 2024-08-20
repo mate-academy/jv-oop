@@ -1,4 +1,5 @@
 package core.basesyntax;
+
 public class MainApp {
 
     private Machine excavator = new Excavator();
