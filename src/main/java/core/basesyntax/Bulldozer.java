@@ -4,11 +4,13 @@ public class Bulldozer extends Machine {
 
     @Override
   public void doWork() {
-        System.out.println("it's a Bulldozer that works");
+        System.out.println("Bulldozer is now working");
+        System.out.println("Bulldozer is now working");
     }
 
     @Override
   public void stopWork() {
-        System.out.println("is a Bulldozer that does not work");
+        System.out.println("Bulldozer has stopped working");
+        System.out.println("Bulldozer has stopped working");
     }
 }
