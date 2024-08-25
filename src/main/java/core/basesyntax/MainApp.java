@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class MainApp {
 
-    public static void main() {
+    public static void main {
 
         Machine[] machines = new Machine[3];
         machines[0] = new Bulldozer();
