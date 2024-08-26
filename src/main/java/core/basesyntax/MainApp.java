@@ -12,6 +12,7 @@ public class MainApp {
         for (Machine allMachine : allMachines) {
             allMachine.doWork();
             allMachine.stopWork();
+
         }
     }
 
