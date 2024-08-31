@@ -1,6 +1,5 @@
 package core.basesyntax;
 
-//новий клас бульдозер
 public class Bulldozer extends Machine {
     @Override
     public void doWork() {
