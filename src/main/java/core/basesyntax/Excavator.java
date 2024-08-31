@@ -1,5 +1,6 @@
 package core.basesyntax;
 
+//new class Excavator
 public class Excavator extends Machine {
     @Override
     public void doWork() {
