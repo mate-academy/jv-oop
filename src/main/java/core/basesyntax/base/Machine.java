@@ -1,4 +1,4 @@
-package core.basesyntax.Base;
+package core.basesyntax.base;
 
 public abstract class Machine {
     public abstract void doWork();

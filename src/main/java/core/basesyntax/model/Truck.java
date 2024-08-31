@@ -1,6 +1,6 @@
-package core.basesyntax.Model;
+package core.basesyntax.model;
 
-import core.basesyntax.Base.Machine;
+import core.basesyntax.base.Machine;
 
 public class Truck extends Machine {
     @Override
