@@ -1,4 +1,4 @@
-package src.main.java.core.basesyntax;
+package core.basesyntax;
 
 public class Excavator extends Machine {
     @Override

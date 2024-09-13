@@ -1,4 +1,4 @@
-package src.main.java.core.basesyntax;
+package core.basesyntax;
 
 public abstract class Machine {
     public abstract void doWork();
