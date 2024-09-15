@@ -1,13 +1,14 @@
 package core.basesyntax;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class MainAppTest {
+import static org.junit.Assert.assertEquals;
+
+public class MainAppTest {
 
     private Bulldozer bulldozer;
     private Truck truck;
@@ -16,8 +17,8 @@ class MainAppTest {
     private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
     private final PrintStream originalSystemOut = System.out;
 
-    @BeforeEach
-    void setUp() {
+    @Before
+    public void setUp() {
         bulldozer = new Bulldozer();
         truck = new Truck();
         excavator = new Excavator();
@@ -25,37 +26,37 @@ class MainAppTest {
     }
 
     @Test
-    void bulldozerShouldWorkCorrectly() {
+    public void bulldozerShouldWorkCorrectly() {
         bulldozer.doWork();
         bulldozer.stopWork();
 
         String output = normalizeLineSeparators(outputStream.toString());
         String expectedOutput = "Bulldozer started its work\nBulldozer stopped working\n";
-        assertEquals(expectedOutput, output, "Bulldozer output should match the expected output.");
+        assertEquals("Bulldozer output should match the expected output.", expectedOutput, output);
     }
 
     @Test
-    void truckShouldWorkCorrectly() {
+    public void truckShouldWorkCorrectly() {
         truck.doWork();
         truck.stopWork();
 
         String output = normalizeLineSeparators(outputStream.toString());
         String expectedOutput = "Truck started its work\nTruck stopped working\n";
-        assertEquals(expectedOutput, output, "Truck output should match the expected output.");
+        assertEquals("Truck output should match the expected output.", expectedOutput, output);
     }
 
     @Test
-    void excavatorShouldWorkCorrectly() {
+    public void excavatorShouldWorkCorrectly() {
         excavator.doWork();
         excavator.stopWork();
 
         String output = normalizeLineSeparators(outputStream.toString());
         String expectedOutput = "Excavator started its work\nExcavator stopped working\n";
-        assertEquals(expectedOutput, output, "Excavator output should match the expected output.");
+        assertEquals("Excavator output should match the expected output.", expectedOutput, output);
     }
 
-    @AfterEach
-    void tearDown() {
+    @After
+    public void tearDown() {
         System.setOut(originalSystemOut);
     }
 
