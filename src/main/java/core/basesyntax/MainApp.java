@@ -6,11 +6,12 @@ public class MainApp {
         Machine bulldozer = new Bulldozer();
         Machine excavator = new Excavator();
         truck.doWork();
-        truck.stopWork();
         bulldozer.doWork();
-        bulldozer.stopWork();
         excavator.doWork();
+        truck.stopWork();
+        bulldozer.stopWork();
         excavator.stopWork();
-
     }
 }
+
+
