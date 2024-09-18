@@ -1,25 +1,15 @@
 package core.basesyntax;
 
 public class Bulldozer extends Machine {
-    private boolean stopWorking;
-    private boolean startWorking;
 
-    public Bulldozer(boolean startWorking, boolean stopWorking) {
-        this.startWorking = startWorking;
-        this.stopWorking = stopWorking;
-    }
-
+    @Override
     public void stopWork() {
-        if (stopWorking) {
-            System.out.println("Bulldozer is stopped working");
-        }
+        System.out.println("Bulldozer is stopped working");
     }
 
+    @Override
     public void doWork() {
-        if (startWorking) {
-            System.out.println("Bulldozer is started working");
-        }
-
+        System.out.println("Bulldozer is started working");
     }
 }
 
