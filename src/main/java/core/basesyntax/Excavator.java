@@ -10,4 +10,6 @@ public class Excavator extends Machine {
     @Override
     public void stopWork() {
     }
+
+
 }
