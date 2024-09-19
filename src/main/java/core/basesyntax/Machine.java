@@ -10,10 +10,6 @@ public abstract class Machine {
 
     public abstract void stopWork();
 
-    public String getMachine() {
-        return machine;
-    }
-
     @Override
     public String toString() {
         return machine;
