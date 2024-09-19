@@ -7,7 +7,7 @@ public class MainApp {
 
         Truck truck = new Truck("Truck");
         Bulldozer bulldozer = new Bulldozer("Bulldozer");
-        Excavator excavator = new Excavator("Excavator");
+        Excavator excavator = new Excavator(" Excavator");
 
 
         Machine[] machines = {truck, bulldozer, excavator};
