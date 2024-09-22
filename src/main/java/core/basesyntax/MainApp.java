@@ -9,7 +9,6 @@ public class MainApp {
         Machine bulldozer = new Bulldozer("Eduardo");
         Machine excavator = new Excavator("Maks");
 
-
         Machine[] machines = {truck, bulldozer, excavator};
         printTotal(machines);
         System.out.println();
