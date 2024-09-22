@@ -2,9 +2,10 @@ package core.basesyntax;
 
 public class Truck extends Machine {
 
-    public Truck (String machine){
+    public Truck(String machine) {
         super(machine);
     }
+
     @Override
     public void doWork() {
         System.out.println(machine + " started its work.");
