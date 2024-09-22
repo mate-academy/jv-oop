@@ -1,10 +1,10 @@
 package core.basesyntax;
 
 public abstract class Machine {
-    protected String machine;
+    protected String machineType;
 
-    public Machine(String machine) {
-        this.machine = machine;
+    public Machine(String machineType) {
+        this.machineType = machineType;
     }
 
     public abstract void doWork();
@@ -13,7 +13,7 @@ public abstract class Machine {
 
     @Override
     public String toString() {
-        return machine;
+        return machineType;
     }
 }
 

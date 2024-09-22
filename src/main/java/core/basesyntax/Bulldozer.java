@@ -2,22 +2,22 @@ package core.basesyntax;
 
 public class Bulldozer extends Machine {
 
-    public Bulldozer(String machine) {
-        super(machine);
+    public Bulldozer(String machineType) {
+        super(machineType);
     }
 
     @Override
     public void doWork() {
-        System.out.println("Bulldozer" + " " + machine + " " + "started its work.");
+        System.out.println("Bulldozer" + " " + machineType + " " + "started its work.");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Bulldozer" + " " + machine + " " + "stopped working.");
+        System.out.println("Bulldozer" + " " + machineType + " " + "stopped working.");
     }
 
     @Override
     public String toString() {
-        return machine;
+        return machineType;
     }
 }
