@@ -16,6 +16,7 @@ public class Excavator extends Machine {
         System.out.println("Exavator" + " " + machine + " " + "stopped working.");
 
     }
+
     @Override
     public String toString() {
         return machine;

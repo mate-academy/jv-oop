@@ -16,6 +16,7 @@ public class Truck extends Machine {
         System.out.println("Truck" + " " + machine + " " + "stopped working. ");
 
     }
+
     @Override
     public String toString() {
         return machine;
