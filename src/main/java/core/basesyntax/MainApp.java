@@ -11,7 +11,6 @@ public class MainApp {
 
         Machine[] machines = {truck, bulldozer, excavator};
         printTotal(machines);
-        System.out.println();
     }
 
     private static void printTotal(Machine[] machines) {
