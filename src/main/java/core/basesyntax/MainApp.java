@@ -35,11 +35,11 @@ public class Excavator extends Machine {
   public void stopWork() {
     System.out.println("Excavator stopped working.");
     }
-}
-    
-
-
-  
+} 
+ 
 public class MainApp {
+  public static void main(String[] args) {
+    Machine[] machines = {new Truck(), new Bulldozer(), new Excavator());
+    
 
 }
