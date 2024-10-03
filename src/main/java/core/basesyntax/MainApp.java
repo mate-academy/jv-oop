@@ -1,7 +1,5 @@
 package core.basesyntax;
 
-import java.util.Arrays;
-
 public class MainApp {
     public static void main(String[] args) {
 
@@ -9,8 +7,8 @@ public class MainApp {
        Machine bulldozer = new Bulldozer("Eduardo");
        Machine excavator = new Excavator("Maks");
 
-        Machine[] machines = {truck, bulldozer, excavator};
-        printTotal(machines);
+       Machine[] machines = {truck, bulldozer, excavator};
+       printTotal(machines);
     }
 
     private static void printTotal(Machine[] machines) {
