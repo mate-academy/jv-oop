@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class MainApp {
     public static void main(String[] args) {
 
-        Machine truck = new Truck("Mikki");
-        Machine bulldozer = new Bulldozer("Eduardo");
-        Machine excavator = new Excavator("Maks");
+       Machine truck = new Truck("Katarzyna");
+       Machine bulldozer = new Bulldozer("Eduardo");
+       Machine excavator = new Excavator("Maks");
 
         Machine[] machines = {truck, bulldozer, excavator};
         printTotal(machines);
@@ -18,6 +18,5 @@ public class MainApp {
             machine.doWork();
             machine.stopWork();
         }
-        System.out.println(Arrays.toString(machines));
     }
 }

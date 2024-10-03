@@ -1,24 +1,21 @@
 package core.basesyntax;
 
 public class Excavator extends Machine {
+    private String name;
 
-    public Excavator(String machine) {
-        super(machine);
+    public Excavator(String name) {
+        this.name = name;
     }
 
     @Override
     public void doWork() {
-        System.out.println("Excavator" + " " + machine + " " + "started its work.");
+        System.out.println("Excavator started its work.");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Excavator" + " " + machine + " " + "stopped working.");
+        System.out.println("Excavator stopped working.");
 
     }
 
-    @Override
-    public String toString() {
-        return "Excavator";
-    }
 }

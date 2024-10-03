@@ -1,24 +1,20 @@
 package core.basesyntax;
 
 public class Truck extends Machine {
+    private String name;
 
-    public Truck(String machine) {
-        super(machine);
+    public Truck(String name) {
+        this.name = name;
     }
 
     @Override
     public void doWork() {
-        System.out.println("Truck" + " " + machine + " " + "started its work.");
+        System.out.println("Truck started its work.");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Truck" + " " + machine + " " + "stopped working. ");
+        System.out.println("Truck stopped working. ");
 
-    }
-
-    @Override
-    public String toString() {
-        return "Truck";
     }
 }
