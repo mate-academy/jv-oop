@@ -1,10 +1,7 @@
 package core.basesyntax;
 
 public class Excavator extends Machine {
-    private String name;
-
-    public Excavator(String name) {
-        this.name = name;
+    public Excavator() {
     }
 
     @Override
