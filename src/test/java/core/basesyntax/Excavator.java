@@ -4,11 +4,11 @@ public class Excavator extends Machine {
 
     @Override
     public void doWork() {
-        System.out.println(getName() + " Excavator started its work.");
+        System.out.println("Excavator " + getName() + " started its work.");
     }
 
     @Override
     public void stopWork() {
-        System.out.println(getName() + " Excavator finished my work.");
+        System.out.println("Excavator " + getName() + " has stopped working.");
     }
 }
