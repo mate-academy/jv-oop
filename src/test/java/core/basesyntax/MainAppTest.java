@@ -17,10 +17,6 @@ public class MainAppTest {
         for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
-
-
         }
-
     }
-
 }
