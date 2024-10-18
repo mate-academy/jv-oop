@@ -11,6 +11,4 @@ public class MainApp {
             m.stopWork();
         }
     }
-
-
 }
