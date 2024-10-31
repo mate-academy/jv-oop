@@ -1,4 +1,4 @@
-class Buldozer extends Machine {
+class Bulldozer extends Machine {
     public void doWork() {
         System.out.println("The Buldozer started working.");
     }
