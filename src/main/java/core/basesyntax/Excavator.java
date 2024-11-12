@@ -7,6 +7,6 @@ public void doWork() {
 }
 @Override
 public void stopWork() {
-    System.out.println("Excavator stoped work");
+    System.out.println("Excavator stopped work");
 }
 }

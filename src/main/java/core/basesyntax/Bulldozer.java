@@ -7,7 +7,7 @@ public void doWork() {
 }
 @Override
 public void stopWork() {
-    System.out.println("Bulldozer stoped work");
+    System.out.println("Bulldozer stopped work");
 }
 }
 
