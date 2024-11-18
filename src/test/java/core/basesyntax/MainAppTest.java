@@ -1,8 +1,11 @@
 package core.basesyntax;
 
 public class MainAppTest {
+
+    private static final int MACHINE_COUNT = 3;
+
     public static void main(String[] args) {
-        final int MACHINE_COUNT = 3;
+
         Machine[] machines = new Machine[MACHINE_COUNT];
         machines[0] = new Truck();
         machines[1] = new Bulldozer();
