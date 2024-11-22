@@ -6,11 +6,10 @@ public class Excavator extends Machine {
     public void doWork() {
         System.out.println("I'm excavator and I started working");
     }
+
     @Override
     public void stopWork() {
         System.out.println("Excavator finished working");
     }
-
-
 }
 
