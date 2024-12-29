@@ -1,15 +1,18 @@
 package core.basesyntax;
 
 public class MainApp {
-    Truck truck = new Truck();
-    Bulldozer bulldozer = new Bulldozer();
-    Excavator excavator = new Excavator();
-    Machine[] machines = new Machine[]{truck, bulldozer, excavator};
+    static Truck truck = new Truck();
+    static Bulldozer bulldozer = new Bulldozer();
+    static Excavator excavator = new Excavator();
+    static Machine[] machines = new Machine[]{truck, bulldozer, excavator};
 
-    public void values() {
-        for (Machine values : machines){
+    public static void printValues() {
+        for (Machine values : machines) {
             values.doWork();
             values.stopWork();
         }
+    }
+    public static void main(String[] args) {
+        printValues();
     }
 }
