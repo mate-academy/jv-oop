@@ -8,7 +8,7 @@ public class MainApp {
                 new Excavator()
         };
 
-        for(Machine machine : machines) {
+        for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
         }
