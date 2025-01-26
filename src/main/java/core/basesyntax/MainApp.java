@@ -7,8 +7,8 @@ public class MainApp {
         Machine aexcavator = new Excavator();
         Machine[] amachine = {atruck, abulldozer, aexcavator};
         for (core.basesyntax.Machine machine : amachine) {
-            System.out.println(machine.doWork());
-            System.out.println(machine.stopWork());
+            machine.doWork();
+            machine.stopWork();
         }
     }
 }
