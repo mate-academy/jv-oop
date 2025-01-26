@@ -2,12 +2,12 @@ package core.basesyntax;
 
 public class Excavator extends Machine {
     public void doWork() {
-        System.out.println("The Excavator,started its work.");
+        System.out.println("The Excavator started its work.");
 
     }
 
     public void stopWork() {
-        System.out.println("The Excavator,stopped working.");
+        System.out.println("The Excavator stopped working.");
 
     }
 }
