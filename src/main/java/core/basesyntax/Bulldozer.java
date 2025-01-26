@@ -2,10 +2,10 @@ package core.basesyntax;
 
 public class Bulldozer extends Machine {
     public void doWork() {
-        System.out.println("Бульдозер починає роботу");
+        System.out.println("Bulldozer starts work");
     }
 
     public void stopWork() {
-        System.out.println("Бульдозер закінчує роботу");
+        System.out.println("Bulldozer finishes work");
     }
 }
