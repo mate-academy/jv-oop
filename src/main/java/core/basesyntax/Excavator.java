@@ -1,9 +1,11 @@
 package core.basesyntax;
+
 public class Excavator extends Machine {
-    public String doWork() {
-        return "Екскаватор починає роботу";
+    public void doWork() {
+        System.out.println("Екскаватор починає роботу");
     }
-    public String stopWork() {
-        return "Екскаватор закінчує роботу";
+
+    public void stopWork() {
+        System.out.println("Екскаватор закінчує роботу");
     }
 }

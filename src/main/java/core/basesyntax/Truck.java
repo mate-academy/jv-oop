@@ -1,9 +1,11 @@
 package core.basesyntax;
+
 public class Truck extends Machine {
-    public String doWork() {
-        return "Вантажівка починає роботу";
+    public void doWork() {
+        System.out.println("Вантажівка починає роботу");
     }
-    public String stopWork() {
-        return "Вантажівка закінчує роботу";
+
+    public void stopWork() {
+        System.out.println("Вантажівка закінчує роботу");
     }
 }
