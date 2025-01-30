@@ -5,7 +5,7 @@ public class MainApp {
         Machine[] machines = new Machine[] {
             new Truck(),
             new Bulldozer(),
-            new Exavator(),
+            new Excavator(),
         };
 
         for (Machine machine : machines) {
