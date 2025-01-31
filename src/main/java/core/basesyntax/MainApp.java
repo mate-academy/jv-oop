@@ -8,11 +8,10 @@ public class MainApp {
                 new Excavator(),
                 new Truck()
         };
-        for ( int i = 0; i < machine.length; i++ ) {
+        for (int i = 0; i < machine.length; i++) {
             machine[i].doWork();
             machine[i].stopWork();
         }
-
 
     }
 
