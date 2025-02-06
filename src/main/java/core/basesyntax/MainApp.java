@@ -2,14 +2,12 @@ package core.basesyntax;
 
 public class MainApp {
     public static void main(String[] args) {
-        Machine[] machines = {new Truck(), new Bulldozer(), new Excavator()};
+        Lottery lottery = new Lottery();
 
-        for (Machine machine : machines) {
-            machine.doWork();
-        }
-
-        for (Machine machine : machines) {
-            machine.stopWork();
+        for (int i = 0; i < 3; i++) {
+            Ball ball = lottery.getRandomBall();
+            System.out.println(ball);
         }
     }
 }
+
