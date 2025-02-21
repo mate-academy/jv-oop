@@ -1,5 +1,8 @@
 package core.basesyntax;
 
 public class MainApp {
- return "Hello, World!";
+    // test PR, no need to review
+
+    public String sayHello() {
+    return "Hello, World!";
 }
