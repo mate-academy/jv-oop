@@ -1,6 +1,8 @@
-/**
- * Клас, що представляє екскаватор.
- */
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
 package core.basesyntax;
 
 class Excavator extends Machine {
