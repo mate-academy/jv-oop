@@ -1,3 +1,6 @@
+/**
+ * Клас, що представляє екскаватор.
+ */
 package core.basesyntax;
 
 class Excavator extends Machine {

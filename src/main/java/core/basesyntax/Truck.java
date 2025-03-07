@@ -1,3 +1,6 @@
+/**
+ * Клас, що представляє вантажівку.
+ */
 package core.basesyntax;
 
 class Truck extends Machine {

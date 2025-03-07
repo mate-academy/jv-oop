@@ -1,3 +1,6 @@
+/**
+ * Клас, що представляє бульдозер.
+ */
 package core.basesyntax;
 
 class Bulldozer extends Machine {
