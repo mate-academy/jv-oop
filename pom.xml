@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>jv-oop</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging> <!-- Если это JAR проект, иначе измените на war, если веб-приложение -->
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
@@ -14,4 +15,40 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- Пример зависимости для тестирования -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Добавьте другие зависимости, если это необходимо -->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Плагин для компиляции -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+
+            <!-- Плагин для упаковки JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
+
+
+
