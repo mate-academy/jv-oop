@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Machine[] machines = {
-                new Truck(),
+                new  Truck(),
                 new Bulldozer(),
                 new Excavator()
         };
