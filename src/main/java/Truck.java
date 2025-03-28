@@ -1,11 +1,11 @@
 public class Truck extends Machine {
     @Override
     public void doWork() {
-        System.out.println("Truck started working");
+        System.out.println("The Truck has started working - it's hauling materials.");
     }
 
     @Override
     public void stopWork() {
-        System.out.println("Truck stopped working");
+        System.out.println("The Truck has stopped working - it's done hauling.");
     }
 }
