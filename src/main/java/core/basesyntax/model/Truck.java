@@ -8,6 +8,6 @@ public class Truck extends Machine {
 
     @Override
     public void stopWork() {
-        System.out.println("The Truck stoped working");
+        System.out.println("The Truck stopped working");
     }
 }
