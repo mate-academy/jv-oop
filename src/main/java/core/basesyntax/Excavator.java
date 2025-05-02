@@ -4,13 +4,13 @@ public class Excavator extends Machine {
     @Override
     public boolean doWork() {
         System.out.println("Excavator started his work");
-        return false;
+        return true;
     }
 
     @Override
     public boolean stopWork() {
-        System.out.println("Excavator stoped his work");
-        return false;
+        System.out.println("Excavator stopped his work");
+        return true;
     }
 
 }
