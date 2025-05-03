@@ -1,0 +1,15 @@
+package core.basesyntax;
+
+public class Truck extends Machine {
+
+    @Override
+    public void doWork() {
+        System.out.println("I'm truck and I started working");
+    }
+
+    @Override
+    public void stopWork() {
+        System.out.println("Truck finished working");
+    }
+}
+
