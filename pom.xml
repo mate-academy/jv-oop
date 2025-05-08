@@ -27,6 +27,7 @@
         </dependency>
     </dependencies>
     <build>
+        <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -47,10 +48,7 @@
                     <linkXRef>false</linkXRef>
                 </configuration>
             </plugin>
-        </plugins>
-        <pluginManagement>
-            <plugins>
-                <plugin>
+            <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
@@ -60,8 +58,7 @@
                         <encoding>${project.build.sourceEncoding}</encoding>
                     </configuration>
                 </plugin>
-            </plugins>
+        </plugins>
         </pluginManagement>
     </build>
 </project>
-
