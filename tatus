@@ -1,0 +1,143 @@
+[33mcommit 0c81ce0b461e8c939bd8a60137239a4e107d0b03[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mDevelop[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/Develop[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Mon Nov 13 13:02:43 2023 +0200
+
+    remove encoding config from checkstyle plugin
+
+[33mcommit 57f404cf9e15b11c12c81a0766317a7e4b5c4449[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Thu Oct 12 14:39:07 2023 +0300
+
+    update checklist.md reference (#1715)
+
+[33mcommit 60029bc4a0bd746e76da47cad2b7942614078d70[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Mon Sep 25 18:20:05 2023 +0300
+
+    change version to JDK 17 in pom.xml (#1675)
+
+[33mcommit ea616afcf6501b73aafc673ab4d28eeb844f9579[m
+Author: Mykyta Oleksin <32339836+nacenik@users.noreply.github.com>
+Date:   Fri May 12 10:15:08 2023 +0300
+
+    Update ci.yml to java 17
+
+[33mcommit 0dbf4f5600d918d6ab74af75a52982e13283fd37[m
+Author: Liliia Ponomarenko <96740815+liliia-ponomarenko@users.noreply.github.com>
+Date:   Thu Apr 27 13:12:37 2023 +0300
+
+    Create checklist.md
+
+[33mcommit 68b23a82742c97bf6f5e18135807f4a8ad155382[m
+Merge: 94f3d3c 2ee36c5
+Author: Dasha <maliuk.dasha@gmail.com>
+Date:   Tue Dec 27 11:15:17 2022 +0200
+
+    Merge pull request #1176 from mate-academy/change_class_name_in_readme
+
+[33mcommit 2ee36c5ad526f374b70410ed77babc1a5b3c66b6[m
+Author: Dasha <maliuk.dasha@gmail.com>
+Date:   Tue Dec 27 11:13:49 2022 +0200
+
+    changed class name in readme
+
+[33mcommit 94f3d3c715cd63c89ae671303b998a480436c7c4[m
+Author: Sofia Diakonova <36365171+Sofasmile@users.noreply.github.com>
+Date:   Tue Mar 29 08:19:20 2022 +0200
+
+    changed task description (#650)
+    
+    * changed task description
+    
+    * corrected style
+
+[33mcommit 17bec63f99675b384f8e34ca267723f32695db4d[m
+Author: resci <vlad.evdockimov.062@gmail.com>
+Date:   Tue Nov 23 08:36:08 2021 +0200
+
+    Update CI config
+
+[33mcommit 95eeb7c950750c9f0be14e3c8fd8bd9271827e4f[m
+Author: resci <vlad.evdockimov.062@gmail.com>
+Date:   Mon Nov 22 19:36:59 2021 +0200
+
+    Migrate from Travis to Github Actions
+
+[33mcommit e3a95855cfd1b18a054273423a3a95a3fe772d8f[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Wed Jun 16 07:34:24 2021 +0300
+
+    Update .travis.yml
+
+[33mcommit 93cce817c5474ceadd882e30885b11073ee53a55[m
+Merge: e803478 c8e194e
+Author: KseniiaMakarova <59459757+KseniiaMakarova@users.noreply.github.com>
+Date:   Mon Apr 5 09:51:30 2021 +0300
+
+    Merge pull request #257 from mate-academy/fix-spelling-mistake
+
+[33mcommit c8e194e146284510b48bc912537a1cb266e09d96[m
+Author: kseniia_makarova <kseniia.makarova.kyiv@gmail.com>
+Date:   Mon Apr 5 09:31:39 2021 +0300
+
+    fixed spelling mistake
+
+[33mcommit e803478aa06a87cdb4007740ed0aaf9e2b9807cd[m
+Author: Sofia Diakonova <36365171+Sofasmile@users.noreply.github.com>
+Date:   Fri Nov 27 14:19:31 2020 +0200
+
+    update travis (#141)
+    
+    * update travis
+    
+    * removed redundant version
+
+[33mcommit 0eb658145075ee2052233459d6813aa9a953a4d7[m
+Author: RomanDubovskyi <58385506+RomanDubovskyi@users.noreply.github.com>
+Date:   Wed Nov 11 10:45:46 2020 +0200
+
+    translated description to end, added link to checklist (#140)
+
+[33mcommit 1bd489b5653f690334a482786472f6c6df7d3ad4[m
+Author: RomanDubovskyi <58385506+RomanDubovskyi@users.noreply.github.com>
+Date:   Mon Aug 3 14:14:25 2020 +0300
+
+    Task description refactoring (#138)
+    
+    * Fixed mistype
+
+[33mcommit a185cec108fd820c90a6e7fd89823b75a3414c90[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Tue Jul 28 17:03:59 2020 +0300
+
+    Update README.md
+
+[33mcommit e08f50247c6f3897f7f7e1750e85af8890cc0e23[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Tue Jul 28 17:03:26 2020 +0300
+
+    Update README.md
+
+[33mcommit a98e3e858037a8308c5bcd412036d30150509d46[m
+Author: Sofia Diakonova <36365171+Sofasmile@users.noreply.github.com>
+Date:   Thu Mar 26 11:59:08 2020 +0200
+
+    Update pom.xml
+
+[33mcommit 514027b37552bc0dda1e74feae91fa62e3dee0dc[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Mon Oct 28 16:46:33 2019 +0200
+
+    Update pom.xml
+
+[33mcommit 0970691b6cf93d2b40aea908eb772a97465b3bd0[m
+Author: Bohdan Chupika <chupika.bohdan@ukr.net>
+Date:   Mon Oct 28 16:38:48 2019 +0200
+
+    added hw instructions
+
+[33mcommit c6c4d4450d0ba499b1ba4c881cf6181499df8ce7[m
+Author: Bohdan Chupika <boroda4436@users.noreply.github.com>
+Date:   Mon Oct 28 16:33:37 2019 +0200
+
+    Initial commit
