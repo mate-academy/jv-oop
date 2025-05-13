@@ -1,5 +1,7 @@
 package core.basesyntax;
+
 public class MainApp {
+    git
     public static void main(String[] args) {
         Machine[] machines = {
                 new Truck(),
