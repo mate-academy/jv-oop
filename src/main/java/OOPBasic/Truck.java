@@ -1,6 +1,6 @@
 package OOPBasic;
 
-class Truck extends Machine {
+public class Truck extends Machine {
     void doWork() {
         System.out.println("Truck started working!");
     }

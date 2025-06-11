@@ -1,6 +1,6 @@
 package OOPBasic;
 
-class Bulldozer extends Machine {
+public class Bulldozer extends Machine {
     void doWork() {
         System.out.println("Bulldozer started working!");
     }
