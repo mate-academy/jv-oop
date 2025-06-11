@@ -1,4 +1,4 @@
-package OOPBasic;
+package core.basesyntax;
 
 public class Bulldozer extends Machine {
     void doWork() {
