@@ -1,3 +1,7 @@
 .idea/*
 *.iml
+<<<<<<< HEAD
 target/*
+=======
+target/*
+>>>>>>> 8ff2cf5 (Initial commit with project files)
