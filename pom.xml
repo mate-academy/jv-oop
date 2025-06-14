@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<<<<<<< HEAD
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> 8ff2cf5 (Initial commit with project files)
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>mate-academy</groupId>
@@ -22,16 +27,28 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+<<<<<<< HEAD
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
+=======
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+>>>>>>> 8ff2cf5 (Initial commit with project files)
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
+<<<<<<< HEAD
                 <version>3.3.0</version>
+=======
+                <version>${maven.checkstyle.plugin.version}</version>
+>>>>>>> 8ff2cf5 (Initial commit with project files)
                 <executions>
                     <execution>
                         <phase>compile</phase>
@@ -47,6 +64,7 @@
                     <linkXRef>false</linkXRef>
                 </configuration>
             </plugin>
+<<<<<<< HEAD
         </plugins>
         <pluginManagement>
             <plugins>
@@ -65,3 +83,19 @@
     </build>
 </project>
 
+=======
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+>>>>>>> 8ff2cf5 (Initial commit with project files)
