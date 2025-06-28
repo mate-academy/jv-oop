@@ -1,15 +1,23 @@
 package core.basesyntax;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MainApp {
 
     public static void main(String[] args) {
 
-        Machine[] machines = {new Truck(),new Excavator(),new Bulldozer()};
+        Machine[] arrMachines = new Machine[3];
 
-        for (int i = 0; i < machines.length; i++) {
-            machines[i].doWork();
-            machines[i].stopWork();
+        {new Bulldozer(),new Excavator(),new Truck()};
+
+        for (Machine machine : arrMachines) {
+            machine.doWork();
+            machine.stopWork();
         }
+
+        System.out.println(Arrays.toString(arrMachines));
+
     }
 
 }
