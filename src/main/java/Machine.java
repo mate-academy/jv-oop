@@ -5,5 +5,6 @@ public  abstract class Machine {
 
 }
 
-        // tests
+// Final version after fixes
+
 
