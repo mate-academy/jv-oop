@@ -1,5 +1,4 @@
 package core.basesyntax;
-
 public class MainApp {
     public static void main(String[] args) {
         Machine[] machines = {
@@ -10,10 +9,8 @@ public class MainApp {
 
         for (Machine machine : machines) {
             machine.doWork();
-        }
-
-        for (Machine machine : machines) {
             machine.stopWork();
+
         }
     }
 }
