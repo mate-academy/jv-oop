@@ -6,11 +6,6 @@ public class MainApp {
 
         for (Machine machine : machines) {
             machine.doWork();
-        }
-
-        System.out.println("---All machines finished their tasks---");
-
-        for (Machine machine : machines) {
             machine.stopWork();
         }
     }
