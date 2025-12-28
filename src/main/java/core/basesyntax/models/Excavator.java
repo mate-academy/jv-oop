@@ -2,7 +2,7 @@ package core.basesyntax.models;
 
 public class Excavator extends Machine {
 
-    public Excavator() {}
+    public Excavator() { }
 
     @Override
     public void doWork() {
