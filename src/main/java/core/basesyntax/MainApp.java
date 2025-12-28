@@ -9,11 +9,11 @@ public class MainApp {
 
     public static void main(String[] args) {
 
-        Truck truck = new Truck();
+        Machine truck = new Truck();
 
-        Bulldozer bulldozer = new Bulldozer();
+        Machine bulldozer = new Bulldozer();
 
-        Excavator excavator = new Excavator();
+        Machine excavator = new Excavator();
 
         Machine[] machines = new Machine[]{ truck, bulldozer, excavator};
 
