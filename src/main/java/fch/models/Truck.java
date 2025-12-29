@@ -1,8 +1,10 @@
 package fch.models;
 
-public class Truck extends Machine{
+public class Truck extends Machine {
 
-    public Truck() {}
+    public Truck() {
+
+    }
 
     @Override
     public void doWork() {

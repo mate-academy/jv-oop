@@ -2,7 +2,9 @@ package fch.models;
 
 public class Bulldozer extends Machine {
 
-    public Bulldozer() {}
+    public Bulldozer() {
+
+    }
 
     @Override
     public void doWork() {

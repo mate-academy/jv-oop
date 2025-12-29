@@ -1,11 +1,8 @@
 package fch;
 
-import fch.models.Truck;
-import fch.models.Excavator;
-import fch.models.Bulldozer;
-import fch.models.Machine;
+import fch.models.*;
 
-public class MainApp {
+public class Main {
 
     public static void main(String[] args) {
 
