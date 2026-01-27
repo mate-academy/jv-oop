@@ -9,7 +9,7 @@ public class MainApp {
 
         Machine[] machines = new Machine[]{truck, bulldozer, excavator};
 
-        for(Machine machine : machines) {
+        for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
         }
