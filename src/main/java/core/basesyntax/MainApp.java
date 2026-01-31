@@ -1,11 +1,7 @@
 package core.basesyntax;
 
-import javax.crypto.Mac;
-
 public class MainApp {
     public static void main(String[] args) {
-
-
         Machine first = new Excavator();
         Machine second = new Truck();
         Machine third = new Bulldozer();
@@ -15,9 +11,5 @@ public class MainApp {
             comp.stopWork();
 
         }
-
     }
-
-
-
 }
