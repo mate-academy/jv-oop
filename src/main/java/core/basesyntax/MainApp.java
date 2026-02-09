@@ -1,9 +1,7 @@
 package core.basesyntax;
 
-import javax.crypto.Mac;
-
 public class MainApp {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Machine[] machines = new Machine[] {
                 new Truck("Truck"),
                 new Bulldozer("Bulldozer"),
