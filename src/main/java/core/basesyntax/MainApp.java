@@ -5,7 +5,6 @@ public class MainApp {
         Machine volvo = new Truck();
         Machine cat = new Excavator();
         Machine shantui = new Bulldozer();
-        Machine result = loop(new Machine[] {volvo, cat, shantui});
     }
 
     public static Machine loop(Machine[] vehicles) {
