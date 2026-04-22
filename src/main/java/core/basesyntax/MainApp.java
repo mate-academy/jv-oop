@@ -7,7 +7,6 @@ public class MainApp {
         for (Machine i : machines) {
             i.doWork();
             i.stopWork();
-            System.out.println("_____");
         }
     }
 }
