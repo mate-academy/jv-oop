@@ -1,7 +1,5 @@
 package core.basesyntax;
-
 public abstract class Machine {
-
     public Machine() {
     }
 
