@@ -3,6 +3,7 @@ package core.basesyntax;
 public class MainApp {
 
     public static void main(String[] args) {
-        System.out/printl("Hello world")
+
+        System.out.printl("Hello world");
     }
 }
